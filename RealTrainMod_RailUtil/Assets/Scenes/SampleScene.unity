@@ -1,0 +1,4858 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &519420028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 10
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &685424547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 685424551}
+  - component: {fileID: 685424550}
+  - component: {fileID: 685424549}
+  - component: {fileID: 685424548}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &685424548
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685424547}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &685424549
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685424547}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &685424550
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685424547}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &685424551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685424547}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 1, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1596892328}
+  - {fileID: 1426118665}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &869419166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 869419168}
+  - component: {fileID: 869419167}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &869419167
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869419166}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &869419168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869419166}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5198367, y: 0.34618863, z: -0.24240384, w: 0.742404}
+  m_LocalPosition: {x: 0, y: 100, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 70, y: 50, z: 0}
+--- !u!1 &1373460616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1373460620}
+  - component: {fileID: 1373460619}
+  - component: {fileID: 1373460618}
+  - component: {fileID: 1373460617}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1373460617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373460616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1373460618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373460616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1373460619
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373460616}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 519420031}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1373460620
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373460616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1426118664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1426118665}
+  - component: {fileID: 1426118668}
+  - component: {fileID: 1426118667}
+  - component: {fileID: 1426118666}
+  m_Layer: 0
+  m_Name: Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1426118665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426118664}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 685424551}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1426118666
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426118664}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1426118667
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426118664}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 26b270442561b70479883bcf62485254, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1426118668
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426118664}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1596892327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1596892328}
+  - component: {fileID: 1596892330}
+  - component: {fileID: 1596892329}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1596892328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596892327}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 685424551}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1596892329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596892327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726ec1f1d8991844490631a44dd465b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lr: {fileID: 1596892330}
+  sr: -500
+  sc: -500
+  rowCount: 1000
+  colCount: 1000
+  gridSize: 1
+  testBall: {fileID: 1426118664}
+--- !u!120 &1596892330
+LineRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596892327}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials: []
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: -500, y: 0.1, z: -500}
+  - {x: -500, y: 0.1, z: 500}
+  - {x: -499, y: 0.1, z: 500}
+  - {x: -499, y: 0.1, z: -500}
+  - {x: -498, y: 0.1, z: -500}
+  - {x: -498, y: 0.1, z: 500}
+  - {x: -497, y: 0.1, z: 500}
+  - {x: -497, y: 0.1, z: -500}
+  - {x: -496, y: 0.1, z: -500}
+  - {x: -496, y: 0.1, z: 500}
+  - {x: -495, y: 0.1, z: 500}
+  - {x: -495, y: 0.1, z: -500}
+  - {x: -494, y: 0.1, z: -500}
+  - {x: -494, y: 0.1, z: 500}
+  - {x: -493, y: 0.1, z: 500}
+  - {x: -493, y: 0.1, z: -500}
+  - {x: -492, y: 0.1, z: -500}
+  - {x: -492, y: 0.1, z: 500}
+  - {x: -491, y: 0.1, z: 500}
+  - {x: -491, y: 0.1, z: -500}
+  - {x: -490, y: 0.1, z: -500}
+  - {x: -490, y: 0.1, z: 500}
+  - {x: -489, y: 0.1, z: 500}
+  - {x: -489, y: 0.1, z: -500}
+  - {x: -488, y: 0.1, z: -500}
+  - {x: -488, y: 0.1, z: 500}
+  - {x: -487, y: 0.1, z: 500}
+  - {x: -487, y: 0.1, z: -500}
+  - {x: -486, y: 0.1, z: -500}
+  - {x: -486, y: 0.1, z: 500}
+  - {x: -485, y: 0.1, z: 500}
+  - {x: -485, y: 0.1, z: -500}
+  - {x: -484, y: 0.1, z: -500}
+  - {x: -484, y: 0.1, z: 500}
+  - {x: -483, y: 0.1, z: 500}
+  - {x: -483, y: 0.1, z: -500}
+  - {x: -482, y: 0.1, z: -500}
+  - {x: -482, y: 0.1, z: 500}
+  - {x: -481, y: 0.1, z: 500}
+  - {x: -481, y: 0.1, z: -500}
+  - {x: -480, y: 0.1, z: -500}
+  - {x: -480, y: 0.1, z: 500}
+  - {x: -479, y: 0.1, z: 500}
+  - {x: -479, y: 0.1, z: -500}
+  - {x: -478, y: 0.1, z: -500}
+  - {x: -478, y: 0.1, z: 500}
+  - {x: -477, y: 0.1, z: 500}
+  - {x: -477, y: 0.1, z: -500}
+  - {x: -476, y: 0.1, z: -500}
+  - {x: -476, y: 0.1, z: 500}
+  - {x: -475, y: 0.1, z: 500}
+  - {x: -475, y: 0.1, z: -500}
+  - {x: -474, y: 0.1, z: -500}
+  - {x: -474, y: 0.1, z: 500}
+  - {x: -473, y: 0.1, z: 500}
+  - {x: -473, y: 0.1, z: -500}
+  - {x: -472, y: 0.1, z: -500}
+  - {x: -472, y: 0.1, z: 500}
+  - {x: -471, y: 0.1, z: 500}
+  - {x: -471, y: 0.1, z: -500}
+  - {x: -470, y: 0.1, z: -500}
+  - {x: -470, y: 0.1, z: 500}
+  - {x: -469, y: 0.1, z: 500}
+  - {x: -469, y: 0.1, z: -500}
+  - {x: -468, y: 0.1, z: -500}
+  - {x: -468, y: 0.1, z: 500}
+  - {x: -467, y: 0.1, z: 500}
+  - {x: -467, y: 0.1, z: -500}
+  - {x: -466, y: 0.1, z: -500}
+  - {x: -466, y: 0.1, z: 500}
+  - {x: -465, y: 0.1, z: 500}
+  - {x: -465, y: 0.1, z: -500}
+  - {x: -464, y: 0.1, z: -500}
+  - {x: -464, y: 0.1, z: 500}
+  - {x: -463, y: 0.1, z: 500}
+  - {x: -463, y: 0.1, z: -500}
+  - {x: -462, y: 0.1, z: -500}
+  - {x: -462, y: 0.1, z: 500}
+  - {x: -461, y: 0.1, z: 500}
+  - {x: -461, y: 0.1, z: -500}
+  - {x: -460, y: 0.1, z: -500}
+  - {x: -460, y: 0.1, z: 500}
+  - {x: -459, y: 0.1, z: 500}
+  - {x: -459, y: 0.1, z: -500}
+  - {x: -458, y: 0.1, z: -500}
+  - {x: -458, y: 0.1, z: 500}
+  - {x: -457, y: 0.1, z: 500}
+  - {x: -457, y: 0.1, z: -500}
+  - {x: -456, y: 0.1, z: -500}
+  - {x: -456, y: 0.1, z: 500}
+  - {x: -455, y: 0.1, z: 500}
+  - {x: -455, y: 0.1, z: -500}
+  - {x: -454, y: 0.1, z: -500}
+  - {x: -454, y: 0.1, z: 500}
+  - {x: -453, y: 0.1, z: 500}
+  - {x: -453, y: 0.1, z: -500}
+  - {x: -452, y: 0.1, z: -500}
+  - {x: -452, y: 0.1, z: 500}
+  - {x: -451, y: 0.1, z: 500}
+  - {x: -451, y: 0.1, z: -500}
+  - {x: -450, y: 0.1, z: -500}
+  - {x: -450, y: 0.1, z: 500}
+  - {x: -449, y: 0.1, z: 500}
+  - {x: -449, y: 0.1, z: -500}
+  - {x: -448, y: 0.1, z: -500}
+  - {x: -448, y: 0.1, z: 500}
+  - {x: -447, y: 0.1, z: 500}
+  - {x: -447, y: 0.1, z: -500}
+  - {x: -446, y: 0.1, z: -500}
+  - {x: -446, y: 0.1, z: 500}
+  - {x: -445, y: 0.1, z: 500}
+  - {x: -445, y: 0.1, z: -500}
+  - {x: -444, y: 0.1, z: -500}
+  - {x: -444, y: 0.1, z: 500}
+  - {x: -443, y: 0.1, z: 500}
+  - {x: -443, y: 0.1, z: -500}
+  - {x: -442, y: 0.1, z: -500}
+  - {x: -442, y: 0.1, z: 500}
+  - {x: -441, y: 0.1, z: 500}
+  - {x: -441, y: 0.1, z: -500}
+  - {x: -440, y: 0.1, z: -500}
+  - {x: -440, y: 0.1, z: 500}
+  - {x: -439, y: 0.1, z: 500}
+  - {x: -439, y: 0.1, z: -500}
+  - {x: -438, y: 0.1, z: -500}
+  - {x: -438, y: 0.1, z: 500}
+  - {x: -437, y: 0.1, z: 500}
+  - {x: -437, y: 0.1, z: -500}
+  - {x: -436, y: 0.1, z: -500}
+  - {x: -436, y: 0.1, z: 500}
+  - {x: -435, y: 0.1, z: 500}
+  - {x: -435, y: 0.1, z: -500}
+  - {x: -434, y: 0.1, z: -500}
+  - {x: -434, y: 0.1, z: 500}
+  - {x: -433, y: 0.1, z: 500}
+  - {x: -433, y: 0.1, z: -500}
+  - {x: -432, y: 0.1, z: -500}
+  - {x: -432, y: 0.1, z: 500}
+  - {x: -431, y: 0.1, z: 500}
+  - {x: -431, y: 0.1, z: -500}
+  - {x: -430, y: 0.1, z: -500}
+  - {x: -430, y: 0.1, z: 500}
+  - {x: -429, y: 0.1, z: 500}
+  - {x: -429, y: 0.1, z: -500}
+  - {x: -428, y: 0.1, z: -500}
+  - {x: -428, y: 0.1, z: 500}
+  - {x: -427, y: 0.1, z: 500}
+  - {x: -427, y: 0.1, z: -500}
+  - {x: -426, y: 0.1, z: -500}
+  - {x: -426, y: 0.1, z: 500}
+  - {x: -425, y: 0.1, z: 500}
+  - {x: -425, y: 0.1, z: -500}
+  - {x: -424, y: 0.1, z: -500}
+  - {x: -424, y: 0.1, z: 500}
+  - {x: -423, y: 0.1, z: 500}
+  - {x: -423, y: 0.1, z: -500}
+  - {x: -422, y: 0.1, z: -500}
+  - {x: -422, y: 0.1, z: 500}
+  - {x: -421, y: 0.1, z: 500}
+  - {x: -421, y: 0.1, z: -500}
+  - {x: -420, y: 0.1, z: -500}
+  - {x: -420, y: 0.1, z: 500}
+  - {x: -419, y: 0.1, z: 500}
+  - {x: -419, y: 0.1, z: -500}
+  - {x: -418, y: 0.1, z: -500}
+  - {x: -418, y: 0.1, z: 500}
+  - {x: -417, y: 0.1, z: 500}
+  - {x: -417, y: 0.1, z: -500}
+  - {x: -416, y: 0.1, z: -500}
+  - {x: -416, y: 0.1, z: 500}
+  - {x: -415, y: 0.1, z: 500}
+  - {x: -415, y: 0.1, z: -500}
+  - {x: -414, y: 0.1, z: -500}
+  - {x: -414, y: 0.1, z: 500}
+  - {x: -413, y: 0.1, z: 500}
+  - {x: -413, y: 0.1, z: -500}
+  - {x: -412, y: 0.1, z: -500}
+  - {x: -412, y: 0.1, z: 500}
+  - {x: -411, y: 0.1, z: 500}
+  - {x: -411, y: 0.1, z: -500}
+  - {x: -410, y: 0.1, z: -500}
+  - {x: -410, y: 0.1, z: 500}
+  - {x: -409, y: 0.1, z: 500}
+  - {x: -409, y: 0.1, z: -500}
+  - {x: -408, y: 0.1, z: -500}
+  - {x: -408, y: 0.1, z: 500}
+  - {x: -407, y: 0.1, z: 500}
+  - {x: -407, y: 0.1, z: -500}
+  - {x: -406, y: 0.1, z: -500}
+  - {x: -406, y: 0.1, z: 500}
+  - {x: -405, y: 0.1, z: 500}
+  - {x: -405, y: 0.1, z: -500}
+  - {x: -404, y: 0.1, z: -500}
+  - {x: -404, y: 0.1, z: 500}
+  - {x: -403, y: 0.1, z: 500}
+  - {x: -403, y: 0.1, z: -500}
+  - {x: -402, y: 0.1, z: -500}
+  - {x: -402, y: 0.1, z: 500}
+  - {x: -401, y: 0.1, z: 500}
+  - {x: -401, y: 0.1, z: -500}
+  - {x: -400, y: 0.1, z: -500}
+  - {x: -400, y: 0.1, z: 500}
+  - {x: -399, y: 0.1, z: 500}
+  - {x: -399, y: 0.1, z: -500}
+  - {x: -398, y: 0.1, z: -500}
+  - {x: -398, y: 0.1, z: 500}
+  - {x: -397, y: 0.1, z: 500}
+  - {x: -397, y: 0.1, z: -500}
+  - {x: -396, y: 0.1, z: -500}
+  - {x: -396, y: 0.1, z: 500}
+  - {x: -395, y: 0.1, z: 500}
+  - {x: -395, y: 0.1, z: -500}
+  - {x: -394, y: 0.1, z: -500}
+  - {x: -394, y: 0.1, z: 500}
+  - {x: -393, y: 0.1, z: 500}
+  - {x: -393, y: 0.1, z: -500}
+  - {x: -392, y: 0.1, z: -500}
+  - {x: -392, y: 0.1, z: 500}
+  - {x: -391, y: 0.1, z: 500}
+  - {x: -391, y: 0.1, z: -500}
+  - {x: -390, y: 0.1, z: -500}
+  - {x: -390, y: 0.1, z: 500}
+  - {x: -389, y: 0.1, z: 500}
+  - {x: -389, y: 0.1, z: -500}
+  - {x: -388, y: 0.1, z: -500}
+  - {x: -388, y: 0.1, z: 500}
+  - {x: -387, y: 0.1, z: 500}
+  - {x: -387, y: 0.1, z: -500}
+  - {x: -386, y: 0.1, z: -500}
+  - {x: -386, y: 0.1, z: 500}
+  - {x: -385, y: 0.1, z: 500}
+  - {x: -385, y: 0.1, z: -500}
+  - {x: -384, y: 0.1, z: -500}
+  - {x: -384, y: 0.1, z: 500}
+  - {x: -383, y: 0.1, z: 500}
+  - {x: -383, y: 0.1, z: -500}
+  - {x: -382, y: 0.1, z: -500}
+  - {x: -382, y: 0.1, z: 500}
+  - {x: -381, y: 0.1, z: 500}
+  - {x: -381, y: 0.1, z: -500}
+  - {x: -380, y: 0.1, z: -500}
+  - {x: -380, y: 0.1, z: 500}
+  - {x: -379, y: 0.1, z: 500}
+  - {x: -379, y: 0.1, z: -500}
+  - {x: -378, y: 0.1, z: -500}
+  - {x: -378, y: 0.1, z: 500}
+  - {x: -377, y: 0.1, z: 500}
+  - {x: -377, y: 0.1, z: -500}
+  - {x: -376, y: 0.1, z: -500}
+  - {x: -376, y: 0.1, z: 500}
+  - {x: -375, y: 0.1, z: 500}
+  - {x: -375, y: 0.1, z: -500}
+  - {x: -374, y: 0.1, z: -500}
+  - {x: -374, y: 0.1, z: 500}
+  - {x: -373, y: 0.1, z: 500}
+  - {x: -373, y: 0.1, z: -500}
+  - {x: -372, y: 0.1, z: -500}
+  - {x: -372, y: 0.1, z: 500}
+  - {x: -371, y: 0.1, z: 500}
+  - {x: -371, y: 0.1, z: -500}
+  - {x: -370, y: 0.1, z: -500}
+  - {x: -370, y: 0.1, z: 500}
+  - {x: -369, y: 0.1, z: 500}
+  - {x: -369, y: 0.1, z: -500}
+  - {x: -368, y: 0.1, z: -500}
+  - {x: -368, y: 0.1, z: 500}
+  - {x: -367, y: 0.1, z: 500}
+  - {x: -367, y: 0.1, z: -500}
+  - {x: -366, y: 0.1, z: -500}
+  - {x: -366, y: 0.1, z: 500}
+  - {x: -365, y: 0.1, z: 500}
+  - {x: -365, y: 0.1, z: -500}
+  - {x: -364, y: 0.1, z: -500}
+  - {x: -364, y: 0.1, z: 500}
+  - {x: -363, y: 0.1, z: 500}
+  - {x: -363, y: 0.1, z: -500}
+  - {x: -362, y: 0.1, z: -500}
+  - {x: -362, y: 0.1, z: 500}
+  - {x: -361, y: 0.1, z: 500}
+  - {x: -361, y: 0.1, z: -500}
+  - {x: -360, y: 0.1, z: -500}
+  - {x: -360, y: 0.1, z: 500}
+  - {x: -359, y: 0.1, z: 500}
+  - {x: -359, y: 0.1, z: -500}
+  - {x: -358, y: 0.1, z: -500}
+  - {x: -358, y: 0.1, z: 500}
+  - {x: -357, y: 0.1, z: 500}
+  - {x: -357, y: 0.1, z: -500}
+  - {x: -356, y: 0.1, z: -500}
+  - {x: -356, y: 0.1, z: 500}
+  - {x: -355, y: 0.1, z: 500}
+  - {x: -355, y: 0.1, z: -500}
+  - {x: -354, y: 0.1, z: -500}
+  - {x: -354, y: 0.1, z: 500}
+  - {x: -353, y: 0.1, z: 500}
+  - {x: -353, y: 0.1, z: -500}
+  - {x: -352, y: 0.1, z: -500}
+  - {x: -352, y: 0.1, z: 500}
+  - {x: -351, y: 0.1, z: 500}
+  - {x: -351, y: 0.1, z: -500}
+  - {x: -350, y: 0.1, z: -500}
+  - {x: -350, y: 0.1, z: 500}
+  - {x: -349, y: 0.1, z: 500}
+  - {x: -349, y: 0.1, z: -500}
+  - {x: -348, y: 0.1, z: -500}
+  - {x: -348, y: 0.1, z: 500}
+  - {x: -347, y: 0.1, z: 500}
+  - {x: -347, y: 0.1, z: -500}
+  - {x: -346, y: 0.1, z: -500}
+  - {x: -346, y: 0.1, z: 500}
+  - {x: -345, y: 0.1, z: 500}
+  - {x: -345, y: 0.1, z: -500}
+  - {x: -344, y: 0.1, z: -500}
+  - {x: -344, y: 0.1, z: 500}
+  - {x: -343, y: 0.1, z: 500}
+  - {x: -343, y: 0.1, z: -500}
+  - {x: -342, y: 0.1, z: -500}
+  - {x: -342, y: 0.1, z: 500}
+  - {x: -341, y: 0.1, z: 500}
+  - {x: -341, y: 0.1, z: -500}
+  - {x: -340, y: 0.1, z: -500}
+  - {x: -340, y: 0.1, z: 500}
+  - {x: -339, y: 0.1, z: 500}
+  - {x: -339, y: 0.1, z: -500}
+  - {x: -338, y: 0.1, z: -500}
+  - {x: -338, y: 0.1, z: 500}
+  - {x: -337, y: 0.1, z: 500}
+  - {x: -337, y: 0.1, z: -500}
+  - {x: -336, y: 0.1, z: -500}
+  - {x: -336, y: 0.1, z: 500}
+  - {x: -335, y: 0.1, z: 500}
+  - {x: -335, y: 0.1, z: -500}
+  - {x: -334, y: 0.1, z: -500}
+  - {x: -334, y: 0.1, z: 500}
+  - {x: -333, y: 0.1, z: 500}
+  - {x: -333, y: 0.1, z: -500}
+  - {x: -332, y: 0.1, z: -500}
+  - {x: -332, y: 0.1, z: 500}
+  - {x: -331, y: 0.1, z: 500}
+  - {x: -331, y: 0.1, z: -500}
+  - {x: -330, y: 0.1, z: -500}
+  - {x: -330, y: 0.1, z: 500}
+  - {x: -329, y: 0.1, z: 500}
+  - {x: -329, y: 0.1, z: -500}
+  - {x: -328, y: 0.1, z: -500}
+  - {x: -328, y: 0.1, z: 500}
+  - {x: -327, y: 0.1, z: 500}
+  - {x: -327, y: 0.1, z: -500}
+  - {x: -326, y: 0.1, z: -500}
+  - {x: -326, y: 0.1, z: 500}
+  - {x: -325, y: 0.1, z: 500}
+  - {x: -325, y: 0.1, z: -500}
+  - {x: -324, y: 0.1, z: -500}
+  - {x: -324, y: 0.1, z: 500}
+  - {x: -323, y: 0.1, z: 500}
+  - {x: -323, y: 0.1, z: -500}
+  - {x: -322, y: 0.1, z: -500}
+  - {x: -322, y: 0.1, z: 500}
+  - {x: -321, y: 0.1, z: 500}
+  - {x: -321, y: 0.1, z: -500}
+  - {x: -320, y: 0.1, z: -500}
+  - {x: -320, y: 0.1, z: 500}
+  - {x: -319, y: 0.1, z: 500}
+  - {x: -319, y: 0.1, z: -500}
+  - {x: -318, y: 0.1, z: -500}
+  - {x: -318, y: 0.1, z: 500}
+  - {x: -317, y: 0.1, z: 500}
+  - {x: -317, y: 0.1, z: -500}
+  - {x: -316, y: 0.1, z: -500}
+  - {x: -316, y: 0.1, z: 500}
+  - {x: -315, y: 0.1, z: 500}
+  - {x: -315, y: 0.1, z: -500}
+  - {x: -314, y: 0.1, z: -500}
+  - {x: -314, y: 0.1, z: 500}
+  - {x: -313, y: 0.1, z: 500}
+  - {x: -313, y: 0.1, z: -500}
+  - {x: -312, y: 0.1, z: -500}
+  - {x: -312, y: 0.1, z: 500}
+  - {x: -311, y: 0.1, z: 500}
+  - {x: -311, y: 0.1, z: -500}
+  - {x: -310, y: 0.1, z: -500}
+  - {x: -310, y: 0.1, z: 500}
+  - {x: -309, y: 0.1, z: 500}
+  - {x: -309, y: 0.1, z: -500}
+  - {x: -308, y: 0.1, z: -500}
+  - {x: -308, y: 0.1, z: 500}
+  - {x: -307, y: 0.1, z: 500}
+  - {x: -307, y: 0.1, z: -500}
+  - {x: -306, y: 0.1, z: -500}
+  - {x: -306, y: 0.1, z: 500}
+  - {x: -305, y: 0.1, z: 500}
+  - {x: -305, y: 0.1, z: -500}
+  - {x: -304, y: 0.1, z: -500}
+  - {x: -304, y: 0.1, z: 500}
+  - {x: -303, y: 0.1, z: 500}
+  - {x: -303, y: 0.1, z: -500}
+  - {x: -302, y: 0.1, z: -500}
+  - {x: -302, y: 0.1, z: 500}
+  - {x: -301, y: 0.1, z: 500}
+  - {x: -301, y: 0.1, z: -500}
+  - {x: -300, y: 0.1, z: -500}
+  - {x: -300, y: 0.1, z: 500}
+  - {x: -299, y: 0.1, z: 500}
+  - {x: -299, y: 0.1, z: -500}
+  - {x: -298, y: 0.1, z: -500}
+  - {x: -298, y: 0.1, z: 500}
+  - {x: -297, y: 0.1, z: 500}
+  - {x: -297, y: 0.1, z: -500}
+  - {x: -296, y: 0.1, z: -500}
+  - {x: -296, y: 0.1, z: 500}
+  - {x: -295, y: 0.1, z: 500}
+  - {x: -295, y: 0.1, z: -500}
+  - {x: -294, y: 0.1, z: -500}
+  - {x: -294, y: 0.1, z: 500}
+  - {x: -293, y: 0.1, z: 500}
+  - {x: -293, y: 0.1, z: -500}
+  - {x: -292, y: 0.1, z: -500}
+  - {x: -292, y: 0.1, z: 500}
+  - {x: -291, y: 0.1, z: 500}
+  - {x: -291, y: 0.1, z: -500}
+  - {x: -290, y: 0.1, z: -500}
+  - {x: -290, y: 0.1, z: 500}
+  - {x: -289, y: 0.1, z: 500}
+  - {x: -289, y: 0.1, z: -500}
+  - {x: -288, y: 0.1, z: -500}
+  - {x: -288, y: 0.1, z: 500}
+  - {x: -287, y: 0.1, z: 500}
+  - {x: -287, y: 0.1, z: -500}
+  - {x: -286, y: 0.1, z: -500}
+  - {x: -286, y: 0.1, z: 500}
+  - {x: -285, y: 0.1, z: 500}
+  - {x: -285, y: 0.1, z: -500}
+  - {x: -284, y: 0.1, z: -500}
+  - {x: -284, y: 0.1, z: 500}
+  - {x: -283, y: 0.1, z: 500}
+  - {x: -283, y: 0.1, z: -500}
+  - {x: -282, y: 0.1, z: -500}
+  - {x: -282, y: 0.1, z: 500}
+  - {x: -281, y: 0.1, z: 500}
+  - {x: -281, y: 0.1, z: -500}
+  - {x: -280, y: 0.1, z: -500}
+  - {x: -280, y: 0.1, z: 500}
+  - {x: -279, y: 0.1, z: 500}
+  - {x: -279, y: 0.1, z: -500}
+  - {x: -278, y: 0.1, z: -500}
+  - {x: -278, y: 0.1, z: 500}
+  - {x: -277, y: 0.1, z: 500}
+  - {x: -277, y: 0.1, z: -500}
+  - {x: -276, y: 0.1, z: -500}
+  - {x: -276, y: 0.1, z: 500}
+  - {x: -275, y: 0.1, z: 500}
+  - {x: -275, y: 0.1, z: -500}
+  - {x: -274, y: 0.1, z: -500}
+  - {x: -274, y: 0.1, z: 500}
+  - {x: -273, y: 0.1, z: 500}
+  - {x: -273, y: 0.1, z: -500}
+  - {x: -272, y: 0.1, z: -500}
+  - {x: -272, y: 0.1, z: 500}
+  - {x: -271, y: 0.1, z: 500}
+  - {x: -271, y: 0.1, z: -500}
+  - {x: -270, y: 0.1, z: -500}
+  - {x: -270, y: 0.1, z: 500}
+  - {x: -269, y: 0.1, z: 500}
+  - {x: -269, y: 0.1, z: -500}
+  - {x: -268, y: 0.1, z: -500}
+  - {x: -268, y: 0.1, z: 500}
+  - {x: -267, y: 0.1, z: 500}
+  - {x: -267, y: 0.1, z: -500}
+  - {x: -266, y: 0.1, z: -500}
+  - {x: -266, y: 0.1, z: 500}
+  - {x: -265, y: 0.1, z: 500}
+  - {x: -265, y: 0.1, z: -500}
+  - {x: -264, y: 0.1, z: -500}
+  - {x: -264, y: 0.1, z: 500}
+  - {x: -263, y: 0.1, z: 500}
+  - {x: -263, y: 0.1, z: -500}
+  - {x: -262, y: 0.1, z: -500}
+  - {x: -262, y: 0.1, z: 500}
+  - {x: -261, y: 0.1, z: 500}
+  - {x: -261, y: 0.1, z: -500}
+  - {x: -260, y: 0.1, z: -500}
+  - {x: -260, y: 0.1, z: 500}
+  - {x: -259, y: 0.1, z: 500}
+  - {x: -259, y: 0.1, z: -500}
+  - {x: -258, y: 0.1, z: -500}
+  - {x: -258, y: 0.1, z: 500}
+  - {x: -257, y: 0.1, z: 500}
+  - {x: -257, y: 0.1, z: -500}
+  - {x: -256, y: 0.1, z: -500}
+  - {x: -256, y: 0.1, z: 500}
+  - {x: -255, y: 0.1, z: 500}
+  - {x: -255, y: 0.1, z: -500}
+  - {x: -254, y: 0.1, z: -500}
+  - {x: -254, y: 0.1, z: 500}
+  - {x: -253, y: 0.1, z: 500}
+  - {x: -253, y: 0.1, z: -500}
+  - {x: -252, y: 0.1, z: -500}
+  - {x: -252, y: 0.1, z: 500}
+  - {x: -251, y: 0.1, z: 500}
+  - {x: -251, y: 0.1, z: -500}
+  - {x: -250, y: 0.1, z: -500}
+  - {x: -250, y: 0.1, z: 500}
+  - {x: -249, y: 0.1, z: 500}
+  - {x: -249, y: 0.1, z: -500}
+  - {x: -248, y: 0.1, z: -500}
+  - {x: -248, y: 0.1, z: 500}
+  - {x: -247, y: 0.1, z: 500}
+  - {x: -247, y: 0.1, z: -500}
+  - {x: -246, y: 0.1, z: -500}
+  - {x: -246, y: 0.1, z: 500}
+  - {x: -245, y: 0.1, z: 500}
+  - {x: -245, y: 0.1, z: -500}
+  - {x: -244, y: 0.1, z: -500}
+  - {x: -244, y: 0.1, z: 500}
+  - {x: -243, y: 0.1, z: 500}
+  - {x: -243, y: 0.1, z: -500}
+  - {x: -242, y: 0.1, z: -500}
+  - {x: -242, y: 0.1, z: 500}
+  - {x: -241, y: 0.1, z: 500}
+  - {x: -241, y: 0.1, z: -500}
+  - {x: -240, y: 0.1, z: -500}
+  - {x: -240, y: 0.1, z: 500}
+  - {x: -239, y: 0.1, z: 500}
+  - {x: -239, y: 0.1, z: -500}
+  - {x: -238, y: 0.1, z: -500}
+  - {x: -238, y: 0.1, z: 500}
+  - {x: -237, y: 0.1, z: 500}
+  - {x: -237, y: 0.1, z: -500}
+  - {x: -236, y: 0.1, z: -500}
+  - {x: -236, y: 0.1, z: 500}
+  - {x: -235, y: 0.1, z: 500}
+  - {x: -235, y: 0.1, z: -500}
+  - {x: -234, y: 0.1, z: -500}
+  - {x: -234, y: 0.1, z: 500}
+  - {x: -233, y: 0.1, z: 500}
+  - {x: -233, y: 0.1, z: -500}
+  - {x: -232, y: 0.1, z: -500}
+  - {x: -232, y: 0.1, z: 500}
+  - {x: -231, y: 0.1, z: 500}
+  - {x: -231, y: 0.1, z: -500}
+  - {x: -230, y: 0.1, z: -500}
+  - {x: -230, y: 0.1, z: 500}
+  - {x: -229, y: 0.1, z: 500}
+  - {x: -229, y: 0.1, z: -500}
+  - {x: -228, y: 0.1, z: -500}
+  - {x: -228, y: 0.1, z: 500}
+  - {x: -227, y: 0.1, z: 500}
+  - {x: -227, y: 0.1, z: -500}
+  - {x: -226, y: 0.1, z: -500}
+  - {x: -226, y: 0.1, z: 500}
+  - {x: -225, y: 0.1, z: 500}
+  - {x: -225, y: 0.1, z: -500}
+  - {x: -224, y: 0.1, z: -500}
+  - {x: -224, y: 0.1, z: 500}
+  - {x: -223, y: 0.1, z: 500}
+  - {x: -223, y: 0.1, z: -500}
+  - {x: -222, y: 0.1, z: -500}
+  - {x: -222, y: 0.1, z: 500}
+  - {x: -221, y: 0.1, z: 500}
+  - {x: -221, y: 0.1, z: -500}
+  - {x: -220, y: 0.1, z: -500}
+  - {x: -220, y: 0.1, z: 500}
+  - {x: -219, y: 0.1, z: 500}
+  - {x: -219, y: 0.1, z: -500}
+  - {x: -218, y: 0.1, z: -500}
+  - {x: -218, y: 0.1, z: 500}
+  - {x: -217, y: 0.1, z: 500}
+  - {x: -217, y: 0.1, z: -500}
+  - {x: -216, y: 0.1, z: -500}
+  - {x: -216, y: 0.1, z: 500}
+  - {x: -215, y: 0.1, z: 500}
+  - {x: -215, y: 0.1, z: -500}
+  - {x: -214, y: 0.1, z: -500}
+  - {x: -214, y: 0.1, z: 500}
+  - {x: -213, y: 0.1, z: 500}
+  - {x: -213, y: 0.1, z: -500}
+  - {x: -212, y: 0.1, z: -500}
+  - {x: -212, y: 0.1, z: 500}
+  - {x: -211, y: 0.1, z: 500}
+  - {x: -211, y: 0.1, z: -500}
+  - {x: -210, y: 0.1, z: -500}
+  - {x: -210, y: 0.1, z: 500}
+  - {x: -209, y: 0.1, z: 500}
+  - {x: -209, y: 0.1, z: -500}
+  - {x: -208, y: 0.1, z: -500}
+  - {x: -208, y: 0.1, z: 500}
+  - {x: -207, y: 0.1, z: 500}
+  - {x: -207, y: 0.1, z: -500}
+  - {x: -206, y: 0.1, z: -500}
+  - {x: -206, y: 0.1, z: 500}
+  - {x: -205, y: 0.1, z: 500}
+  - {x: -205, y: 0.1, z: -500}
+  - {x: -204, y: 0.1, z: -500}
+  - {x: -204, y: 0.1, z: 500}
+  - {x: -203, y: 0.1, z: 500}
+  - {x: -203, y: 0.1, z: -500}
+  - {x: -202, y: 0.1, z: -500}
+  - {x: -202, y: 0.1, z: 500}
+  - {x: -201, y: 0.1, z: 500}
+  - {x: -201, y: 0.1, z: -500}
+  - {x: -200, y: 0.1, z: -500}
+  - {x: -200, y: 0.1, z: 500}
+  - {x: -199, y: 0.1, z: 500}
+  - {x: -199, y: 0.1, z: -500}
+  - {x: -198, y: 0.1, z: -500}
+  - {x: -198, y: 0.1, z: 500}
+  - {x: -197, y: 0.1, z: 500}
+  - {x: -197, y: 0.1, z: -500}
+  - {x: -196, y: 0.1, z: -500}
+  - {x: -196, y: 0.1, z: 500}
+  - {x: -195, y: 0.1, z: 500}
+  - {x: -195, y: 0.1, z: -500}
+  - {x: -194, y: 0.1, z: -500}
+  - {x: -194, y: 0.1, z: 500}
+  - {x: -193, y: 0.1, z: 500}
+  - {x: -193, y: 0.1, z: -500}
+  - {x: -192, y: 0.1, z: -500}
+  - {x: -192, y: 0.1, z: 500}
+  - {x: -191, y: 0.1, z: 500}
+  - {x: -191, y: 0.1, z: -500}
+  - {x: -190, y: 0.1, z: -500}
+  - {x: -190, y: 0.1, z: 500}
+  - {x: -189, y: 0.1, z: 500}
+  - {x: -189, y: 0.1, z: -500}
+  - {x: -188, y: 0.1, z: -500}
+  - {x: -188, y: 0.1, z: 500}
+  - {x: -187, y: 0.1, z: 500}
+  - {x: -187, y: 0.1, z: -500}
+  - {x: -186, y: 0.1, z: -500}
+  - {x: -186, y: 0.1, z: 500}
+  - {x: -185, y: 0.1, z: 500}
+  - {x: -185, y: 0.1, z: -500}
+  - {x: -184, y: 0.1, z: -500}
+  - {x: -184, y: 0.1, z: 500}
+  - {x: -183, y: 0.1, z: 500}
+  - {x: -183, y: 0.1, z: -500}
+  - {x: -182, y: 0.1, z: -500}
+  - {x: -182, y: 0.1, z: 500}
+  - {x: -181, y: 0.1, z: 500}
+  - {x: -181, y: 0.1, z: -500}
+  - {x: -180, y: 0.1, z: -500}
+  - {x: -180, y: 0.1, z: 500}
+  - {x: -179, y: 0.1, z: 500}
+  - {x: -179, y: 0.1, z: -500}
+  - {x: -178, y: 0.1, z: -500}
+  - {x: -178, y: 0.1, z: 500}
+  - {x: -177, y: 0.1, z: 500}
+  - {x: -177, y: 0.1, z: -500}
+  - {x: -176, y: 0.1, z: -500}
+  - {x: -176, y: 0.1, z: 500}
+  - {x: -175, y: 0.1, z: 500}
+  - {x: -175, y: 0.1, z: -500}
+  - {x: -174, y: 0.1, z: -500}
+  - {x: -174, y: 0.1, z: 500}
+  - {x: -173, y: 0.1, z: 500}
+  - {x: -173, y: 0.1, z: -500}
+  - {x: -172, y: 0.1, z: -500}
+  - {x: -172, y: 0.1, z: 500}
+  - {x: -171, y: 0.1, z: 500}
+  - {x: -171, y: 0.1, z: -500}
+  - {x: -170, y: 0.1, z: -500}
+  - {x: -170, y: 0.1, z: 500}
+  - {x: -169, y: 0.1, z: 500}
+  - {x: -169, y: 0.1, z: -500}
+  - {x: -168, y: 0.1, z: -500}
+  - {x: -168, y: 0.1, z: 500}
+  - {x: -167, y: 0.1, z: 500}
+  - {x: -167, y: 0.1, z: -500}
+  - {x: -166, y: 0.1, z: -500}
+  - {x: -166, y: 0.1, z: 500}
+  - {x: -165, y: 0.1, z: 500}
+  - {x: -165, y: 0.1, z: -500}
+  - {x: -164, y: 0.1, z: -500}
+  - {x: -164, y: 0.1, z: 500}
+  - {x: -163, y: 0.1, z: 500}
+  - {x: -163, y: 0.1, z: -500}
+  - {x: -162, y: 0.1, z: -500}
+  - {x: -162, y: 0.1, z: 500}
+  - {x: -161, y: 0.1, z: 500}
+  - {x: -161, y: 0.1, z: -500}
+  - {x: -160, y: 0.1, z: -500}
+  - {x: -160, y: 0.1, z: 500}
+  - {x: -159, y: 0.1, z: 500}
+  - {x: -159, y: 0.1, z: -500}
+  - {x: -158, y: 0.1, z: -500}
+  - {x: -158, y: 0.1, z: 500}
+  - {x: -157, y: 0.1, z: 500}
+  - {x: -157, y: 0.1, z: -500}
+  - {x: -156, y: 0.1, z: -500}
+  - {x: -156, y: 0.1, z: 500}
+  - {x: -155, y: 0.1, z: 500}
+  - {x: -155, y: 0.1, z: -500}
+  - {x: -154, y: 0.1, z: -500}
+  - {x: -154, y: 0.1, z: 500}
+  - {x: -153, y: 0.1, z: 500}
+  - {x: -153, y: 0.1, z: -500}
+  - {x: -152, y: 0.1, z: -500}
+  - {x: -152, y: 0.1, z: 500}
+  - {x: -151, y: 0.1, z: 500}
+  - {x: -151, y: 0.1, z: -500}
+  - {x: -150, y: 0.1, z: -500}
+  - {x: -150, y: 0.1, z: 500}
+  - {x: -149, y: 0.1, z: 500}
+  - {x: -149, y: 0.1, z: -500}
+  - {x: -148, y: 0.1, z: -500}
+  - {x: -148, y: 0.1, z: 500}
+  - {x: -147, y: 0.1, z: 500}
+  - {x: -147, y: 0.1, z: -500}
+  - {x: -146, y: 0.1, z: -500}
+  - {x: -146, y: 0.1, z: 500}
+  - {x: -145, y: 0.1, z: 500}
+  - {x: -145, y: 0.1, z: -500}
+  - {x: -144, y: 0.1, z: -500}
+  - {x: -144, y: 0.1, z: 500}
+  - {x: -143, y: 0.1, z: 500}
+  - {x: -143, y: 0.1, z: -500}
+  - {x: -142, y: 0.1, z: -500}
+  - {x: -142, y: 0.1, z: 500}
+  - {x: -141, y: 0.1, z: 500}
+  - {x: -141, y: 0.1, z: -500}
+  - {x: -140, y: 0.1, z: -500}
+  - {x: -140, y: 0.1, z: 500}
+  - {x: -139, y: 0.1, z: 500}
+  - {x: -139, y: 0.1, z: -500}
+  - {x: -138, y: 0.1, z: -500}
+  - {x: -138, y: 0.1, z: 500}
+  - {x: -137, y: 0.1, z: 500}
+  - {x: -137, y: 0.1, z: -500}
+  - {x: -136, y: 0.1, z: -500}
+  - {x: -136, y: 0.1, z: 500}
+  - {x: -135, y: 0.1, z: 500}
+  - {x: -135, y: 0.1, z: -500}
+  - {x: -134, y: 0.1, z: -500}
+  - {x: -134, y: 0.1, z: 500}
+  - {x: -133, y: 0.1, z: 500}
+  - {x: -133, y: 0.1, z: -500}
+  - {x: -132, y: 0.1, z: -500}
+  - {x: -132, y: 0.1, z: 500}
+  - {x: -131, y: 0.1, z: 500}
+  - {x: -131, y: 0.1, z: -500}
+  - {x: -130, y: 0.1, z: -500}
+  - {x: -130, y: 0.1, z: 500}
+  - {x: -129, y: 0.1, z: 500}
+  - {x: -129, y: 0.1, z: -500}
+  - {x: -128, y: 0.1, z: -500}
+  - {x: -128, y: 0.1, z: 500}
+  - {x: -127, y: 0.1, z: 500}
+  - {x: -127, y: 0.1, z: -500}
+  - {x: -126, y: 0.1, z: -500}
+  - {x: -126, y: 0.1, z: 500}
+  - {x: -125, y: 0.1, z: 500}
+  - {x: -125, y: 0.1, z: -500}
+  - {x: -124, y: 0.1, z: -500}
+  - {x: -124, y: 0.1, z: 500}
+  - {x: -123, y: 0.1, z: 500}
+  - {x: -123, y: 0.1, z: -500}
+  - {x: -122, y: 0.1, z: -500}
+  - {x: -122, y: 0.1, z: 500}
+  - {x: -121, y: 0.1, z: 500}
+  - {x: -121, y: 0.1, z: -500}
+  - {x: -120, y: 0.1, z: -500}
+  - {x: -120, y: 0.1, z: 500}
+  - {x: -119, y: 0.1, z: 500}
+  - {x: -119, y: 0.1, z: -500}
+  - {x: -118, y: 0.1, z: -500}
+  - {x: -118, y: 0.1, z: 500}
+  - {x: -117, y: 0.1, z: 500}
+  - {x: -117, y: 0.1, z: -500}
+  - {x: -116, y: 0.1, z: -500}
+  - {x: -116, y: 0.1, z: 500}
+  - {x: -115, y: 0.1, z: 500}
+  - {x: -115, y: 0.1, z: -500}
+  - {x: -114, y: 0.1, z: -500}
+  - {x: -114, y: 0.1, z: 500}
+  - {x: -113, y: 0.1, z: 500}
+  - {x: -113, y: 0.1, z: -500}
+  - {x: -112, y: 0.1, z: -500}
+  - {x: -112, y: 0.1, z: 500}
+  - {x: -111, y: 0.1, z: 500}
+  - {x: -111, y: 0.1, z: -500}
+  - {x: -110, y: 0.1, z: -500}
+  - {x: -110, y: 0.1, z: 500}
+  - {x: -109, y: 0.1, z: 500}
+  - {x: -109, y: 0.1, z: -500}
+  - {x: -108, y: 0.1, z: -500}
+  - {x: -108, y: 0.1, z: 500}
+  - {x: -107, y: 0.1, z: 500}
+  - {x: -107, y: 0.1, z: -500}
+  - {x: -106, y: 0.1, z: -500}
+  - {x: -106, y: 0.1, z: 500}
+  - {x: -105, y: 0.1, z: 500}
+  - {x: -105, y: 0.1, z: -500}
+  - {x: -104, y: 0.1, z: -500}
+  - {x: -104, y: 0.1, z: 500}
+  - {x: -103, y: 0.1, z: 500}
+  - {x: -103, y: 0.1, z: -500}
+  - {x: -102, y: 0.1, z: -500}
+  - {x: -102, y: 0.1, z: 500}
+  - {x: -101, y: 0.1, z: 500}
+  - {x: -101, y: 0.1, z: -500}
+  - {x: -100, y: 0.1, z: -500}
+  - {x: -100, y: 0.1, z: 500}
+  - {x: -99, y: 0.1, z: 500}
+  - {x: -99, y: 0.1, z: -500}
+  - {x: -98, y: 0.1, z: -500}
+  - {x: -98, y: 0.1, z: 500}
+  - {x: -97, y: 0.1, z: 500}
+  - {x: -97, y: 0.1, z: -500}
+  - {x: -96, y: 0.1, z: -500}
+  - {x: -96, y: 0.1, z: 500}
+  - {x: -95, y: 0.1, z: 500}
+  - {x: -95, y: 0.1, z: -500}
+  - {x: -94, y: 0.1, z: -500}
+  - {x: -94, y: 0.1, z: 500}
+  - {x: -93, y: 0.1, z: 500}
+  - {x: -93, y: 0.1, z: -500}
+  - {x: -92, y: 0.1, z: -500}
+  - {x: -92, y: 0.1, z: 500}
+  - {x: -91, y: 0.1, z: 500}
+  - {x: -91, y: 0.1, z: -500}
+  - {x: -90, y: 0.1, z: -500}
+  - {x: -90, y: 0.1, z: 500}
+  - {x: -89, y: 0.1, z: 500}
+  - {x: -89, y: 0.1, z: -500}
+  - {x: -88, y: 0.1, z: -500}
+  - {x: -88, y: 0.1, z: 500}
+  - {x: -87, y: 0.1, z: 500}
+  - {x: -87, y: 0.1, z: -500}
+  - {x: -86, y: 0.1, z: -500}
+  - {x: -86, y: 0.1, z: 500}
+  - {x: -85, y: 0.1, z: 500}
+  - {x: -85, y: 0.1, z: -500}
+  - {x: -84, y: 0.1, z: -500}
+  - {x: -84, y: 0.1, z: 500}
+  - {x: -83, y: 0.1, z: 500}
+  - {x: -83, y: 0.1, z: -500}
+  - {x: -82, y: 0.1, z: -500}
+  - {x: -82, y: 0.1, z: 500}
+  - {x: -81, y: 0.1, z: 500}
+  - {x: -81, y: 0.1, z: -500}
+  - {x: -80, y: 0.1, z: -500}
+  - {x: -80, y: 0.1, z: 500}
+  - {x: -79, y: 0.1, z: 500}
+  - {x: -79, y: 0.1, z: -500}
+  - {x: -78, y: 0.1, z: -500}
+  - {x: -78, y: 0.1, z: 500}
+  - {x: -77, y: 0.1, z: 500}
+  - {x: -77, y: 0.1, z: -500}
+  - {x: -76, y: 0.1, z: -500}
+  - {x: -76, y: 0.1, z: 500}
+  - {x: -75, y: 0.1, z: 500}
+  - {x: -75, y: 0.1, z: -500}
+  - {x: -74, y: 0.1, z: -500}
+  - {x: -74, y: 0.1, z: 500}
+  - {x: -73, y: 0.1, z: 500}
+  - {x: -73, y: 0.1, z: -500}
+  - {x: -72, y: 0.1, z: -500}
+  - {x: -72, y: 0.1, z: 500}
+  - {x: -71, y: 0.1, z: 500}
+  - {x: -71, y: 0.1, z: -500}
+  - {x: -70, y: 0.1, z: -500}
+  - {x: -70, y: 0.1, z: 500}
+  - {x: -69, y: 0.1, z: 500}
+  - {x: -69, y: 0.1, z: -500}
+  - {x: -68, y: 0.1, z: -500}
+  - {x: -68, y: 0.1, z: 500}
+  - {x: -67, y: 0.1, z: 500}
+  - {x: -67, y: 0.1, z: -500}
+  - {x: -66, y: 0.1, z: -500}
+  - {x: -66, y: 0.1, z: 500}
+  - {x: -65, y: 0.1, z: 500}
+  - {x: -65, y: 0.1, z: -500}
+  - {x: -64, y: 0.1, z: -500}
+  - {x: -64, y: 0.1, z: 500}
+  - {x: -63, y: 0.1, z: 500}
+  - {x: -63, y: 0.1, z: -500}
+  - {x: -62, y: 0.1, z: -500}
+  - {x: -62, y: 0.1, z: 500}
+  - {x: -61, y: 0.1, z: 500}
+  - {x: -61, y: 0.1, z: -500}
+  - {x: -60, y: 0.1, z: -500}
+  - {x: -60, y: 0.1, z: 500}
+  - {x: -59, y: 0.1, z: 500}
+  - {x: -59, y: 0.1, z: -500}
+  - {x: -58, y: 0.1, z: -500}
+  - {x: -58, y: 0.1, z: 500}
+  - {x: -57, y: 0.1, z: 500}
+  - {x: -57, y: 0.1, z: -500}
+  - {x: -56, y: 0.1, z: -500}
+  - {x: -56, y: 0.1, z: 500}
+  - {x: -55, y: 0.1, z: 500}
+  - {x: -55, y: 0.1, z: -500}
+  - {x: -54, y: 0.1, z: -500}
+  - {x: -54, y: 0.1, z: 500}
+  - {x: -53, y: 0.1, z: 500}
+  - {x: -53, y: 0.1, z: -500}
+  - {x: -52, y: 0.1, z: -500}
+  - {x: -52, y: 0.1, z: 500}
+  - {x: -51, y: 0.1, z: 500}
+  - {x: -51, y: 0.1, z: -500}
+  - {x: -50, y: 0.1, z: -500}
+  - {x: -50, y: 0.1, z: 500}
+  - {x: -49, y: 0.1, z: 500}
+  - {x: -49, y: 0.1, z: -500}
+  - {x: -48, y: 0.1, z: -500}
+  - {x: -48, y: 0.1, z: 500}
+  - {x: -47, y: 0.1, z: 500}
+  - {x: -47, y: 0.1, z: -500}
+  - {x: -46, y: 0.1, z: -500}
+  - {x: -46, y: 0.1, z: 500}
+  - {x: -45, y: 0.1, z: 500}
+  - {x: -45, y: 0.1, z: -500}
+  - {x: -44, y: 0.1, z: -500}
+  - {x: -44, y: 0.1, z: 500}
+  - {x: -43, y: 0.1, z: 500}
+  - {x: -43, y: 0.1, z: -500}
+  - {x: -42, y: 0.1, z: -500}
+  - {x: -42, y: 0.1, z: 500}
+  - {x: -41, y: 0.1, z: 500}
+  - {x: -41, y: 0.1, z: -500}
+  - {x: -40, y: 0.1, z: -500}
+  - {x: -40, y: 0.1, z: 500}
+  - {x: -39, y: 0.1, z: 500}
+  - {x: -39, y: 0.1, z: -500}
+  - {x: -38, y: 0.1, z: -500}
+  - {x: -38, y: 0.1, z: 500}
+  - {x: -37, y: 0.1, z: 500}
+  - {x: -37, y: 0.1, z: -500}
+  - {x: -36, y: 0.1, z: -500}
+  - {x: -36, y: 0.1, z: 500}
+  - {x: -35, y: 0.1, z: 500}
+  - {x: -35, y: 0.1, z: -500}
+  - {x: -34, y: 0.1, z: -500}
+  - {x: -34, y: 0.1, z: 500}
+  - {x: -33, y: 0.1, z: 500}
+  - {x: -33, y: 0.1, z: -500}
+  - {x: -32, y: 0.1, z: -500}
+  - {x: -32, y: 0.1, z: 500}
+  - {x: -31, y: 0.1, z: 500}
+  - {x: -31, y: 0.1, z: -500}
+  - {x: -30, y: 0.1, z: -500}
+  - {x: -30, y: 0.1, z: 500}
+  - {x: -29, y: 0.1, z: 500}
+  - {x: -29, y: 0.1, z: -500}
+  - {x: -28, y: 0.1, z: -500}
+  - {x: -28, y: 0.1, z: 500}
+  - {x: -27, y: 0.1, z: 500}
+  - {x: -27, y: 0.1, z: -500}
+  - {x: -26, y: 0.1, z: -500}
+  - {x: -26, y: 0.1, z: 500}
+  - {x: -25, y: 0.1, z: 500}
+  - {x: -25, y: 0.1, z: -500}
+  - {x: -24, y: 0.1, z: -500}
+  - {x: -24, y: 0.1, z: 500}
+  - {x: -23, y: 0.1, z: 500}
+  - {x: -23, y: 0.1, z: -500}
+  - {x: -22, y: 0.1, z: -500}
+  - {x: -22, y: 0.1, z: 500}
+  - {x: -21, y: 0.1, z: 500}
+  - {x: -21, y: 0.1, z: -500}
+  - {x: -20, y: 0.1, z: -500}
+  - {x: -20, y: 0.1, z: 500}
+  - {x: -19, y: 0.1, z: 500}
+  - {x: -19, y: 0.1, z: -500}
+  - {x: -18, y: 0.1, z: -500}
+  - {x: -18, y: 0.1, z: 500}
+  - {x: -17, y: 0.1, z: 500}
+  - {x: -17, y: 0.1, z: -500}
+  - {x: -16, y: 0.1, z: -500}
+  - {x: -16, y: 0.1, z: 500}
+  - {x: -15, y: 0.1, z: 500}
+  - {x: -15, y: 0.1, z: -500}
+  - {x: -14, y: 0.1, z: -500}
+  - {x: -14, y: 0.1, z: 500}
+  - {x: -13, y: 0.1, z: 500}
+  - {x: -13, y: 0.1, z: -500}
+  - {x: -12, y: 0.1, z: -500}
+  - {x: -12, y: 0.1, z: 500}
+  - {x: -11, y: 0.1, z: 500}
+  - {x: -11, y: 0.1, z: -500}
+  - {x: -10, y: 0.1, z: -500}
+  - {x: -10, y: 0.1, z: 500}
+  - {x: -9, y: 0.1, z: 500}
+  - {x: -9, y: 0.1, z: -500}
+  - {x: -8, y: 0.1, z: -500}
+  - {x: -8, y: 0.1, z: 500}
+  - {x: -7, y: 0.1, z: 500}
+  - {x: -7, y: 0.1, z: -500}
+  - {x: -6, y: 0.1, z: -500}
+  - {x: -6, y: 0.1, z: 500}
+  - {x: -5, y: 0.1, z: 500}
+  - {x: -5, y: 0.1, z: -500}
+  - {x: -4, y: 0.1, z: -500}
+  - {x: -4, y: 0.1, z: 500}
+  - {x: -3, y: 0.1, z: 500}
+  - {x: -3, y: 0.1, z: -500}
+  - {x: -2, y: 0.1, z: -500}
+  - {x: -2, y: 0.1, z: 500}
+  - {x: -1, y: 0.1, z: 500}
+  - {x: -1, y: 0.1, z: -500}
+  - {x: 0, y: 0.1, z: -500}
+  - {x: 0, y: 0.1, z: 500}
+  - {x: 1, y: 0.1, z: 500}
+  - {x: 1, y: 0.1, z: -500}
+  - {x: 2, y: 0.1, z: -500}
+  - {x: 2, y: 0.1, z: 500}
+  - {x: 3, y: 0.1, z: 500}
+  - {x: 3, y: 0.1, z: -500}
+  - {x: 4, y: 0.1, z: -500}
+  - {x: 4, y: 0.1, z: 500}
+  - {x: 5, y: 0.1, z: 500}
+  - {x: 5, y: 0.1, z: -500}
+  - {x: 6, y: 0.1, z: -500}
+  - {x: 6, y: 0.1, z: 500}
+  - {x: 7, y: 0.1, z: 500}
+  - {x: 7, y: 0.1, z: -500}
+  - {x: 8, y: 0.1, z: -500}
+  - {x: 8, y: 0.1, z: 500}
+  - {x: 9, y: 0.1, z: 500}
+  - {x: 9, y: 0.1, z: -500}
+  - {x: 10, y: 0.1, z: -500}
+  - {x: 10, y: 0.1, z: 500}
+  - {x: 11, y: 0.1, z: 500}
+  - {x: 11, y: 0.1, z: -500}
+  - {x: 12, y: 0.1, z: -500}
+  - {x: 12, y: 0.1, z: 500}
+  - {x: 13, y: 0.1, z: 500}
+  - {x: 13, y: 0.1, z: -500}
+  - {x: 14, y: 0.1, z: -500}
+  - {x: 14, y: 0.1, z: 500}
+  - {x: 15, y: 0.1, z: 500}
+  - {x: 15, y: 0.1, z: -500}
+  - {x: 16, y: 0.1, z: -500}
+  - {x: 16, y: 0.1, z: 500}
+  - {x: 17, y: 0.1, z: 500}
+  - {x: 17, y: 0.1, z: -500}
+  - {x: 18, y: 0.1, z: -500}
+  - {x: 18, y: 0.1, z: 500}
+  - {x: 19, y: 0.1, z: 500}
+  - {x: 19, y: 0.1, z: -500}
+  - {x: 20, y: 0.1, z: -500}
+  - {x: 20, y: 0.1, z: 500}
+  - {x: 21, y: 0.1, z: 500}
+  - {x: 21, y: 0.1, z: -500}
+  - {x: 22, y: 0.1, z: -500}
+  - {x: 22, y: 0.1, z: 500}
+  - {x: 23, y: 0.1, z: 500}
+  - {x: 23, y: 0.1, z: -500}
+  - {x: 24, y: 0.1, z: -500}
+  - {x: 24, y: 0.1, z: 500}
+  - {x: 25, y: 0.1, z: 500}
+  - {x: 25, y: 0.1, z: -500}
+  - {x: 26, y: 0.1, z: -500}
+  - {x: 26, y: 0.1, z: 500}
+  - {x: 27, y: 0.1, z: 500}
+  - {x: 27, y: 0.1, z: -500}
+  - {x: 28, y: 0.1, z: -500}
+  - {x: 28, y: 0.1, z: 500}
+  - {x: 29, y: 0.1, z: 500}
+  - {x: 29, y: 0.1, z: -500}
+  - {x: 30, y: 0.1, z: -500}
+  - {x: 30, y: 0.1, z: 500}
+  - {x: 31, y: 0.1, z: 500}
+  - {x: 31, y: 0.1, z: -500}
+  - {x: 32, y: 0.1, z: -500}
+  - {x: 32, y: 0.1, z: 500}
+  - {x: 33, y: 0.1, z: 500}
+  - {x: 33, y: 0.1, z: -500}
+  - {x: 34, y: 0.1, z: -500}
+  - {x: 34, y: 0.1, z: 500}
+  - {x: 35, y: 0.1, z: 500}
+  - {x: 35, y: 0.1, z: -500}
+  - {x: 36, y: 0.1, z: -500}
+  - {x: 36, y: 0.1, z: 500}
+  - {x: 37, y: 0.1, z: 500}
+  - {x: 37, y: 0.1, z: -500}
+  - {x: 38, y: 0.1, z: -500}
+  - {x: 38, y: 0.1, z: 500}
+  - {x: 39, y: 0.1, z: 500}
+  - {x: 39, y: 0.1, z: -500}
+  - {x: 40, y: 0.1, z: -500}
+  - {x: 40, y: 0.1, z: 500}
+  - {x: 41, y: 0.1, z: 500}
+  - {x: 41, y: 0.1, z: -500}
+  - {x: 42, y: 0.1, z: -500}
+  - {x: 42, y: 0.1, z: 500}
+  - {x: 43, y: 0.1, z: 500}
+  - {x: 43, y: 0.1, z: -500}
+  - {x: 44, y: 0.1, z: -500}
+  - {x: 44, y: 0.1, z: 500}
+  - {x: 45, y: 0.1, z: 500}
+  - {x: 45, y: 0.1, z: -500}
+  - {x: 46, y: 0.1, z: -500}
+  - {x: 46, y: 0.1, z: 500}
+  - {x: 47, y: 0.1, z: 500}
+  - {x: 47, y: 0.1, z: -500}
+  - {x: 48, y: 0.1, z: -500}
+  - {x: 48, y: 0.1, z: 500}
+  - {x: 49, y: 0.1, z: 500}
+  - {x: 49, y: 0.1, z: -500}
+  - {x: 50, y: 0.1, z: -500}
+  - {x: 50, y: 0.1, z: 500}
+  - {x: 51, y: 0.1, z: 500}
+  - {x: 51, y: 0.1, z: -500}
+  - {x: 52, y: 0.1, z: -500}
+  - {x: 52, y: 0.1, z: 500}
+  - {x: 53, y: 0.1, z: 500}
+  - {x: 53, y: 0.1, z: -500}
+  - {x: 54, y: 0.1, z: -500}
+  - {x: 54, y: 0.1, z: 500}
+  - {x: 55, y: 0.1, z: 500}
+  - {x: 55, y: 0.1, z: -500}
+  - {x: 56, y: 0.1, z: -500}
+  - {x: 56, y: 0.1, z: 500}
+  - {x: 57, y: 0.1, z: 500}
+  - {x: 57, y: 0.1, z: -500}
+  - {x: 58, y: 0.1, z: -500}
+  - {x: 58, y: 0.1, z: 500}
+  - {x: 59, y: 0.1, z: 500}
+  - {x: 59, y: 0.1, z: -500}
+  - {x: 60, y: 0.1, z: -500}
+  - {x: 60, y: 0.1, z: 500}
+  - {x: 61, y: 0.1, z: 500}
+  - {x: 61, y: 0.1, z: -500}
+  - {x: 62, y: 0.1, z: -500}
+  - {x: 62, y: 0.1, z: 500}
+  - {x: 63, y: 0.1, z: 500}
+  - {x: 63, y: 0.1, z: -500}
+  - {x: 64, y: 0.1, z: -500}
+  - {x: 64, y: 0.1, z: 500}
+  - {x: 65, y: 0.1, z: 500}
+  - {x: 65, y: 0.1, z: -500}
+  - {x: 66, y: 0.1, z: -500}
+  - {x: 66, y: 0.1, z: 500}
+  - {x: 67, y: 0.1, z: 500}
+  - {x: 67, y: 0.1, z: -500}
+  - {x: 68, y: 0.1, z: -500}
+  - {x: 68, y: 0.1, z: 500}
+  - {x: 69, y: 0.1, z: 500}
+  - {x: 69, y: 0.1, z: -500}
+  - {x: 70, y: 0.1, z: -500}
+  - {x: 70, y: 0.1, z: 500}
+  - {x: 71, y: 0.1, z: 500}
+  - {x: 71, y: 0.1, z: -500}
+  - {x: 72, y: 0.1, z: -500}
+  - {x: 72, y: 0.1, z: 500}
+  - {x: 73, y: 0.1, z: 500}
+  - {x: 73, y: 0.1, z: -500}
+  - {x: 74, y: 0.1, z: -500}
+  - {x: 74, y: 0.1, z: 500}
+  - {x: 75, y: 0.1, z: 500}
+  - {x: 75, y: 0.1, z: -500}
+  - {x: 76, y: 0.1, z: -500}
+  - {x: 76, y: 0.1, z: 500}
+  - {x: 77, y: 0.1, z: 500}
+  - {x: 77, y: 0.1, z: -500}
+  - {x: 78, y: 0.1, z: -500}
+  - {x: 78, y: 0.1, z: 500}
+  - {x: 79, y: 0.1, z: 500}
+  - {x: 79, y: 0.1, z: -500}
+  - {x: 80, y: 0.1, z: -500}
+  - {x: 80, y: 0.1, z: 500}
+  - {x: 81, y: 0.1, z: 500}
+  - {x: 81, y: 0.1, z: -500}
+  - {x: 82, y: 0.1, z: -500}
+  - {x: 82, y: 0.1, z: 500}
+  - {x: 83, y: 0.1, z: 500}
+  - {x: 83, y: 0.1, z: -500}
+  - {x: 84, y: 0.1, z: -500}
+  - {x: 84, y: 0.1, z: 500}
+  - {x: 85, y: 0.1, z: 500}
+  - {x: 85, y: 0.1, z: -500}
+  - {x: 86, y: 0.1, z: -500}
+  - {x: 86, y: 0.1, z: 500}
+  - {x: 87, y: 0.1, z: 500}
+  - {x: 87, y: 0.1, z: -500}
+  - {x: 88, y: 0.1, z: -500}
+  - {x: 88, y: 0.1, z: 500}
+  - {x: 89, y: 0.1, z: 500}
+  - {x: 89, y: 0.1, z: -500}
+  - {x: 90, y: 0.1, z: -500}
+  - {x: 90, y: 0.1, z: 500}
+  - {x: 91, y: 0.1, z: 500}
+  - {x: 91, y: 0.1, z: -500}
+  - {x: 92, y: 0.1, z: -500}
+  - {x: 92, y: 0.1, z: 500}
+  - {x: 93, y: 0.1, z: 500}
+  - {x: 93, y: 0.1, z: -500}
+  - {x: 94, y: 0.1, z: -500}
+  - {x: 94, y: 0.1, z: 500}
+  - {x: 95, y: 0.1, z: 500}
+  - {x: 95, y: 0.1, z: -500}
+  - {x: 96, y: 0.1, z: -500}
+  - {x: 96, y: 0.1, z: 500}
+  - {x: 97, y: 0.1, z: 500}
+  - {x: 97, y: 0.1, z: -500}
+  - {x: 98, y: 0.1, z: -500}
+  - {x: 98, y: 0.1, z: 500}
+  - {x: 99, y: 0.1, z: 500}
+  - {x: 99, y: 0.1, z: -500}
+  - {x: 100, y: 0.1, z: -500}
+  - {x: 100, y: 0.1, z: 500}
+  - {x: 101, y: 0.1, z: 500}
+  - {x: 101, y: 0.1, z: -500}
+  - {x: 102, y: 0.1, z: -500}
+  - {x: 102, y: 0.1, z: 500}
+  - {x: 103, y: 0.1, z: 500}
+  - {x: 103, y: 0.1, z: -500}
+  - {x: 104, y: 0.1, z: -500}
+  - {x: 104, y: 0.1, z: 500}
+  - {x: 105, y: 0.1, z: 500}
+  - {x: 105, y: 0.1, z: -500}
+  - {x: 106, y: 0.1, z: -500}
+  - {x: 106, y: 0.1, z: 500}
+  - {x: 107, y: 0.1, z: 500}
+  - {x: 107, y: 0.1, z: -500}
+  - {x: 108, y: 0.1, z: -500}
+  - {x: 108, y: 0.1, z: 500}
+  - {x: 109, y: 0.1, z: 500}
+  - {x: 109, y: 0.1, z: -500}
+  - {x: 110, y: 0.1, z: -500}
+  - {x: 110, y: 0.1, z: 500}
+  - {x: 111, y: 0.1, z: 500}
+  - {x: 111, y: 0.1, z: -500}
+  - {x: 112, y: 0.1, z: -500}
+  - {x: 112, y: 0.1, z: 500}
+  - {x: 113, y: 0.1, z: 500}
+  - {x: 113, y: 0.1, z: -500}
+  - {x: 114, y: 0.1, z: -500}
+  - {x: 114, y: 0.1, z: 500}
+  - {x: 115, y: 0.1, z: 500}
+  - {x: 115, y: 0.1, z: -500}
+  - {x: 116, y: 0.1, z: -500}
+  - {x: 116, y: 0.1, z: 500}
+  - {x: 117, y: 0.1, z: 500}
+  - {x: 117, y: 0.1, z: -500}
+  - {x: 118, y: 0.1, z: -500}
+  - {x: 118, y: 0.1, z: 500}
+  - {x: 119, y: 0.1, z: 500}
+  - {x: 119, y: 0.1, z: -500}
+  - {x: 120, y: 0.1, z: -500}
+  - {x: 120, y: 0.1, z: 500}
+  - {x: 121, y: 0.1, z: 500}
+  - {x: 121, y: 0.1, z: -500}
+  - {x: 122, y: 0.1, z: -500}
+  - {x: 122, y: 0.1, z: 500}
+  - {x: 123, y: 0.1, z: 500}
+  - {x: 123, y: 0.1, z: -500}
+  - {x: 124, y: 0.1, z: -500}
+  - {x: 124, y: 0.1, z: 500}
+  - {x: 125, y: 0.1, z: 500}
+  - {x: 125, y: 0.1, z: -500}
+  - {x: 126, y: 0.1, z: -500}
+  - {x: 126, y: 0.1, z: 500}
+  - {x: 127, y: 0.1, z: 500}
+  - {x: 127, y: 0.1, z: -500}
+  - {x: 128, y: 0.1, z: -500}
+  - {x: 128, y: 0.1, z: 500}
+  - {x: 129, y: 0.1, z: 500}
+  - {x: 129, y: 0.1, z: -500}
+  - {x: 130, y: 0.1, z: -500}
+  - {x: 130, y: 0.1, z: 500}
+  - {x: 131, y: 0.1, z: 500}
+  - {x: 131, y: 0.1, z: -500}
+  - {x: 132, y: 0.1, z: -500}
+  - {x: 132, y: 0.1, z: 500}
+  - {x: 133, y: 0.1, z: 500}
+  - {x: 133, y: 0.1, z: -500}
+  - {x: 134, y: 0.1, z: -500}
+  - {x: 134, y: 0.1, z: 500}
+  - {x: 135, y: 0.1, z: 500}
+  - {x: 135, y: 0.1, z: -500}
+  - {x: 136, y: 0.1, z: -500}
+  - {x: 136, y: 0.1, z: 500}
+  - {x: 137, y: 0.1, z: 500}
+  - {x: 137, y: 0.1, z: -500}
+  - {x: 138, y: 0.1, z: -500}
+  - {x: 138, y: 0.1, z: 500}
+  - {x: 139, y: 0.1, z: 500}
+  - {x: 139, y: 0.1, z: -500}
+  - {x: 140, y: 0.1, z: -500}
+  - {x: 140, y: 0.1, z: 500}
+  - {x: 141, y: 0.1, z: 500}
+  - {x: 141, y: 0.1, z: -500}
+  - {x: 142, y: 0.1, z: -500}
+  - {x: 142, y: 0.1, z: 500}
+  - {x: 143, y: 0.1, z: 500}
+  - {x: 143, y: 0.1, z: -500}
+  - {x: 144, y: 0.1, z: -500}
+  - {x: 144, y: 0.1, z: 500}
+  - {x: 145, y: 0.1, z: 500}
+  - {x: 145, y: 0.1, z: -500}
+  - {x: 146, y: 0.1, z: -500}
+  - {x: 146, y: 0.1, z: 500}
+  - {x: 147, y: 0.1, z: 500}
+  - {x: 147, y: 0.1, z: -500}
+  - {x: 148, y: 0.1, z: -500}
+  - {x: 148, y: 0.1, z: 500}
+  - {x: 149, y: 0.1, z: 500}
+  - {x: 149, y: 0.1, z: -500}
+  - {x: 150, y: 0.1, z: -500}
+  - {x: 150, y: 0.1, z: 500}
+  - {x: 151, y: 0.1, z: 500}
+  - {x: 151, y: 0.1, z: -500}
+  - {x: 152, y: 0.1, z: -500}
+  - {x: 152, y: 0.1, z: 500}
+  - {x: 153, y: 0.1, z: 500}
+  - {x: 153, y: 0.1, z: -500}
+  - {x: 154, y: 0.1, z: -500}
+  - {x: 154, y: 0.1, z: 500}
+  - {x: 155, y: 0.1, z: 500}
+  - {x: 155, y: 0.1, z: -500}
+  - {x: 156, y: 0.1, z: -500}
+  - {x: 156, y: 0.1, z: 500}
+  - {x: 157, y: 0.1, z: 500}
+  - {x: 157, y: 0.1, z: -500}
+  - {x: 158, y: 0.1, z: -500}
+  - {x: 158, y: 0.1, z: 500}
+  - {x: 159, y: 0.1, z: 500}
+  - {x: 159, y: 0.1, z: -500}
+  - {x: 160, y: 0.1, z: -500}
+  - {x: 160, y: 0.1, z: 500}
+  - {x: 161, y: 0.1, z: 500}
+  - {x: 161, y: 0.1, z: -500}
+  - {x: 162, y: 0.1, z: -500}
+  - {x: 162, y: 0.1, z: 500}
+  - {x: 163, y: 0.1, z: 500}
+  - {x: 163, y: 0.1, z: -500}
+  - {x: 164, y: 0.1, z: -500}
+  - {x: 164, y: 0.1, z: 500}
+  - {x: 165, y: 0.1, z: 500}
+  - {x: 165, y: 0.1, z: -500}
+  - {x: 166, y: 0.1, z: -500}
+  - {x: 166, y: 0.1, z: 500}
+  - {x: 167, y: 0.1, z: 500}
+  - {x: 167, y: 0.1, z: -500}
+  - {x: 168, y: 0.1, z: -500}
+  - {x: 168, y: 0.1, z: 500}
+  - {x: 169, y: 0.1, z: 500}
+  - {x: 169, y: 0.1, z: -500}
+  - {x: 170, y: 0.1, z: -500}
+  - {x: 170, y: 0.1, z: 500}
+  - {x: 171, y: 0.1, z: 500}
+  - {x: 171, y: 0.1, z: -500}
+  - {x: 172, y: 0.1, z: -500}
+  - {x: 172, y: 0.1, z: 500}
+  - {x: 173, y: 0.1, z: 500}
+  - {x: 173, y: 0.1, z: -500}
+  - {x: 174, y: 0.1, z: -500}
+  - {x: 174, y: 0.1, z: 500}
+  - {x: 175, y: 0.1, z: 500}
+  - {x: 175, y: 0.1, z: -500}
+  - {x: 176, y: 0.1, z: -500}
+  - {x: 176, y: 0.1, z: 500}
+  - {x: 177, y: 0.1, z: 500}
+  - {x: 177, y: 0.1, z: -500}
+  - {x: 178, y: 0.1, z: -500}
+  - {x: 178, y: 0.1, z: 500}
+  - {x: 179, y: 0.1, z: 500}
+  - {x: 179, y: 0.1, z: -500}
+  - {x: 180, y: 0.1, z: -500}
+  - {x: 180, y: 0.1, z: 500}
+  - {x: 181, y: 0.1, z: 500}
+  - {x: 181, y: 0.1, z: -500}
+  - {x: 182, y: 0.1, z: -500}
+  - {x: 182, y: 0.1, z: 500}
+  - {x: 183, y: 0.1, z: 500}
+  - {x: 183, y: 0.1, z: -500}
+  - {x: 184, y: 0.1, z: -500}
+  - {x: 184, y: 0.1, z: 500}
+  - {x: 185, y: 0.1, z: 500}
+  - {x: 185, y: 0.1, z: -500}
+  - {x: 186, y: 0.1, z: -500}
+  - {x: 186, y: 0.1, z: 500}
+  - {x: 187, y: 0.1, z: 500}
+  - {x: 187, y: 0.1, z: -500}
+  - {x: 188, y: 0.1, z: -500}
+  - {x: 188, y: 0.1, z: 500}
+  - {x: 189, y: 0.1, z: 500}
+  - {x: 189, y: 0.1, z: -500}
+  - {x: 190, y: 0.1, z: -500}
+  - {x: 190, y: 0.1, z: 500}
+  - {x: 191, y: 0.1, z: 500}
+  - {x: 191, y: 0.1, z: -500}
+  - {x: 192, y: 0.1, z: -500}
+  - {x: 192, y: 0.1, z: 500}
+  - {x: 193, y: 0.1, z: 500}
+  - {x: 193, y: 0.1, z: -500}
+  - {x: 194, y: 0.1, z: -500}
+  - {x: 194, y: 0.1, z: 500}
+  - {x: 195, y: 0.1, z: 500}
+  - {x: 195, y: 0.1, z: -500}
+  - {x: 196, y: 0.1, z: -500}
+  - {x: 196, y: 0.1, z: 500}
+  - {x: 197, y: 0.1, z: 500}
+  - {x: 197, y: 0.1, z: -500}
+  - {x: 198, y: 0.1, z: -500}
+  - {x: 198, y: 0.1, z: 500}
+  - {x: 199, y: 0.1, z: 500}
+  - {x: 199, y: 0.1, z: -500}
+  - {x: 200, y: 0.1, z: -500}
+  - {x: 200, y: 0.1, z: 500}
+  - {x: 201, y: 0.1, z: 500}
+  - {x: 201, y: 0.1, z: -500}
+  - {x: 202, y: 0.1, z: -500}
+  - {x: 202, y: 0.1, z: 500}
+  - {x: 203, y: 0.1, z: 500}
+  - {x: 203, y: 0.1, z: -500}
+  - {x: 204, y: 0.1, z: -500}
+  - {x: 204, y: 0.1, z: 500}
+  - {x: 205, y: 0.1, z: 500}
+  - {x: 205, y: 0.1, z: -500}
+  - {x: 206, y: 0.1, z: -500}
+  - {x: 206, y: 0.1, z: 500}
+  - {x: 207, y: 0.1, z: 500}
+  - {x: 207, y: 0.1, z: -500}
+  - {x: 208, y: 0.1, z: -500}
+  - {x: 208, y: 0.1, z: 500}
+  - {x: 209, y: 0.1, z: 500}
+  - {x: 209, y: 0.1, z: -500}
+  - {x: 210, y: 0.1, z: -500}
+  - {x: 210, y: 0.1, z: 500}
+  - {x: 211, y: 0.1, z: 500}
+  - {x: 211, y: 0.1, z: -500}
+  - {x: 212, y: 0.1, z: -500}
+  - {x: 212, y: 0.1, z: 500}
+  - {x: 213, y: 0.1, z: 500}
+  - {x: 213, y: 0.1, z: -500}
+  - {x: 214, y: 0.1, z: -500}
+  - {x: 214, y: 0.1, z: 500}
+  - {x: 215, y: 0.1, z: 500}
+  - {x: 215, y: 0.1, z: -500}
+  - {x: 216, y: 0.1, z: -500}
+  - {x: 216, y: 0.1, z: 500}
+  - {x: 217, y: 0.1, z: 500}
+  - {x: 217, y: 0.1, z: -500}
+  - {x: 218, y: 0.1, z: -500}
+  - {x: 218, y: 0.1, z: 500}
+  - {x: 219, y: 0.1, z: 500}
+  - {x: 219, y: 0.1, z: -500}
+  - {x: 220, y: 0.1, z: -500}
+  - {x: 220, y: 0.1, z: 500}
+  - {x: 221, y: 0.1, z: 500}
+  - {x: 221, y: 0.1, z: -500}
+  - {x: 222, y: 0.1, z: -500}
+  - {x: 222, y: 0.1, z: 500}
+  - {x: 223, y: 0.1, z: 500}
+  - {x: 223, y: 0.1, z: -500}
+  - {x: 224, y: 0.1, z: -500}
+  - {x: 224, y: 0.1, z: 500}
+  - {x: 225, y: 0.1, z: 500}
+  - {x: 225, y: 0.1, z: -500}
+  - {x: 226, y: 0.1, z: -500}
+  - {x: 226, y: 0.1, z: 500}
+  - {x: 227, y: 0.1, z: 500}
+  - {x: 227, y: 0.1, z: -500}
+  - {x: 228, y: 0.1, z: -500}
+  - {x: 228, y: 0.1, z: 500}
+  - {x: 229, y: 0.1, z: 500}
+  - {x: 229, y: 0.1, z: -500}
+  - {x: 230, y: 0.1, z: -500}
+  - {x: 230, y: 0.1, z: 500}
+  - {x: 231, y: 0.1, z: 500}
+  - {x: 231, y: 0.1, z: -500}
+  - {x: 232, y: 0.1, z: -500}
+  - {x: 232, y: 0.1, z: 500}
+  - {x: 233, y: 0.1, z: 500}
+  - {x: 233, y: 0.1, z: -500}
+  - {x: 234, y: 0.1, z: -500}
+  - {x: 234, y: 0.1, z: 500}
+  - {x: 235, y: 0.1, z: 500}
+  - {x: 235, y: 0.1, z: -500}
+  - {x: 236, y: 0.1, z: -500}
+  - {x: 236, y: 0.1, z: 500}
+  - {x: 237, y: 0.1, z: 500}
+  - {x: 237, y: 0.1, z: -500}
+  - {x: 238, y: 0.1, z: -500}
+  - {x: 238, y: 0.1, z: 500}
+  - {x: 239, y: 0.1, z: 500}
+  - {x: 239, y: 0.1, z: -500}
+  - {x: 240, y: 0.1, z: -500}
+  - {x: 240, y: 0.1, z: 500}
+  - {x: 241, y: 0.1, z: 500}
+  - {x: 241, y: 0.1, z: -500}
+  - {x: 242, y: 0.1, z: -500}
+  - {x: 242, y: 0.1, z: 500}
+  - {x: 243, y: 0.1, z: 500}
+  - {x: 243, y: 0.1, z: -500}
+  - {x: 244, y: 0.1, z: -500}
+  - {x: 244, y: 0.1, z: 500}
+  - {x: 245, y: 0.1, z: 500}
+  - {x: 245, y: 0.1, z: -500}
+  - {x: 246, y: 0.1, z: -500}
+  - {x: 246, y: 0.1, z: 500}
+  - {x: 247, y: 0.1, z: 500}
+  - {x: 247, y: 0.1, z: -500}
+  - {x: 248, y: 0.1, z: -500}
+  - {x: 248, y: 0.1, z: 500}
+  - {x: 249, y: 0.1, z: 500}
+  - {x: 249, y: 0.1, z: -500}
+  - {x: 250, y: 0.1, z: -500}
+  - {x: 250, y: 0.1, z: 500}
+  - {x: 251, y: 0.1, z: 500}
+  - {x: 251, y: 0.1, z: -500}
+  - {x: 252, y: 0.1, z: -500}
+  - {x: 252, y: 0.1, z: 500}
+  - {x: 253, y: 0.1, z: 500}
+  - {x: 253, y: 0.1, z: -500}
+  - {x: 254, y: 0.1, z: -500}
+  - {x: 254, y: 0.1, z: 500}
+  - {x: 255, y: 0.1, z: 500}
+  - {x: 255, y: 0.1, z: -500}
+  - {x: 256, y: 0.1, z: -500}
+  - {x: 256, y: 0.1, z: 500}
+  - {x: 257, y: 0.1, z: 500}
+  - {x: 257, y: 0.1, z: -500}
+  - {x: 258, y: 0.1, z: -500}
+  - {x: 258, y: 0.1, z: 500}
+  - {x: 259, y: 0.1, z: 500}
+  - {x: 259, y: 0.1, z: -500}
+  - {x: 260, y: 0.1, z: -500}
+  - {x: 260, y: 0.1, z: 500}
+  - {x: 261, y: 0.1, z: 500}
+  - {x: 261, y: 0.1, z: -500}
+  - {x: 262, y: 0.1, z: -500}
+  - {x: 262, y: 0.1, z: 500}
+  - {x: 263, y: 0.1, z: 500}
+  - {x: 263, y: 0.1, z: -500}
+  - {x: 264, y: 0.1, z: -500}
+  - {x: 264, y: 0.1, z: 500}
+  - {x: 265, y: 0.1, z: 500}
+  - {x: 265, y: 0.1, z: -500}
+  - {x: 266, y: 0.1, z: -500}
+  - {x: 266, y: 0.1, z: 500}
+  - {x: 267, y: 0.1, z: 500}
+  - {x: 267, y: 0.1, z: -500}
+  - {x: 268, y: 0.1, z: -500}
+  - {x: 268, y: 0.1, z: 500}
+  - {x: 269, y: 0.1, z: 500}
+  - {x: 269, y: 0.1, z: -500}
+  - {x: 270, y: 0.1, z: -500}
+  - {x: 270, y: 0.1, z: 500}
+  - {x: 271, y: 0.1, z: 500}
+  - {x: 271, y: 0.1, z: -500}
+  - {x: 272, y: 0.1, z: -500}
+  - {x: 272, y: 0.1, z: 500}
+  - {x: 273, y: 0.1, z: 500}
+  - {x: 273, y: 0.1, z: -500}
+  - {x: 274, y: 0.1, z: -500}
+  - {x: 274, y: 0.1, z: 500}
+  - {x: 275, y: 0.1, z: 500}
+  - {x: 275, y: 0.1, z: -500}
+  - {x: 276, y: 0.1, z: -500}
+  - {x: 276, y: 0.1, z: 500}
+  - {x: 277, y: 0.1, z: 500}
+  - {x: 277, y: 0.1, z: -500}
+  - {x: 278, y: 0.1, z: -500}
+  - {x: 278, y: 0.1, z: 500}
+  - {x: 279, y: 0.1, z: 500}
+  - {x: 279, y: 0.1, z: -500}
+  - {x: 280, y: 0.1, z: -500}
+  - {x: 280, y: 0.1, z: 500}
+  - {x: 281, y: 0.1, z: 500}
+  - {x: 281, y: 0.1, z: -500}
+  - {x: 282, y: 0.1, z: -500}
+  - {x: 282, y: 0.1, z: 500}
+  - {x: 283, y: 0.1, z: 500}
+  - {x: 283, y: 0.1, z: -500}
+  - {x: 284, y: 0.1, z: -500}
+  - {x: 284, y: 0.1, z: 500}
+  - {x: 285, y: 0.1, z: 500}
+  - {x: 285, y: 0.1, z: -500}
+  - {x: 286, y: 0.1, z: -500}
+  - {x: 286, y: 0.1, z: 500}
+  - {x: 287, y: 0.1, z: 500}
+  - {x: 287, y: 0.1, z: -500}
+  - {x: 288, y: 0.1, z: -500}
+  - {x: 288, y: 0.1, z: 500}
+  - {x: 289, y: 0.1, z: 500}
+  - {x: 289, y: 0.1, z: -500}
+  - {x: 290, y: 0.1, z: -500}
+  - {x: 290, y: 0.1, z: 500}
+  - {x: 291, y: 0.1, z: 500}
+  - {x: 291, y: 0.1, z: -500}
+  - {x: 292, y: 0.1, z: -500}
+  - {x: 292, y: 0.1, z: 500}
+  - {x: 293, y: 0.1, z: 500}
+  - {x: 293, y: 0.1, z: -500}
+  - {x: 294, y: 0.1, z: -500}
+  - {x: 294, y: 0.1, z: 500}
+  - {x: 295, y: 0.1, z: 500}
+  - {x: 295, y: 0.1, z: -500}
+  - {x: 296, y: 0.1, z: -500}
+  - {x: 296, y: 0.1, z: 500}
+  - {x: 297, y: 0.1, z: 500}
+  - {x: 297, y: 0.1, z: -500}
+  - {x: 298, y: 0.1, z: -500}
+  - {x: 298, y: 0.1, z: 500}
+  - {x: 299, y: 0.1, z: 500}
+  - {x: 299, y: 0.1, z: -500}
+  - {x: 300, y: 0.1, z: -500}
+  - {x: 300, y: 0.1, z: 500}
+  - {x: 301, y: 0.1, z: 500}
+  - {x: 301, y: 0.1, z: -500}
+  - {x: 302, y: 0.1, z: -500}
+  - {x: 302, y: 0.1, z: 500}
+  - {x: 303, y: 0.1, z: 500}
+  - {x: 303, y: 0.1, z: -500}
+  - {x: 304, y: 0.1, z: -500}
+  - {x: 304, y: 0.1, z: 500}
+  - {x: 305, y: 0.1, z: 500}
+  - {x: 305, y: 0.1, z: -500}
+  - {x: 306, y: 0.1, z: -500}
+  - {x: 306, y: 0.1, z: 500}
+  - {x: 307, y: 0.1, z: 500}
+  - {x: 307, y: 0.1, z: -500}
+  - {x: 308, y: 0.1, z: -500}
+  - {x: 308, y: 0.1, z: 500}
+  - {x: 309, y: 0.1, z: 500}
+  - {x: 309, y: 0.1, z: -500}
+  - {x: 310, y: 0.1, z: -500}
+  - {x: 310, y: 0.1, z: 500}
+  - {x: 311, y: 0.1, z: 500}
+  - {x: 311, y: 0.1, z: -500}
+  - {x: 312, y: 0.1, z: -500}
+  - {x: 312, y: 0.1, z: 500}
+  - {x: 313, y: 0.1, z: 500}
+  - {x: 313, y: 0.1, z: -500}
+  - {x: 314, y: 0.1, z: -500}
+  - {x: 314, y: 0.1, z: 500}
+  - {x: 315, y: 0.1, z: 500}
+  - {x: 315, y: 0.1, z: -500}
+  - {x: 316, y: 0.1, z: -500}
+  - {x: 316, y: 0.1, z: 500}
+  - {x: 317, y: 0.1, z: 500}
+  - {x: 317, y: 0.1, z: -500}
+  - {x: 318, y: 0.1, z: -500}
+  - {x: 318, y: 0.1, z: 500}
+  - {x: 319, y: 0.1, z: 500}
+  - {x: 319, y: 0.1, z: -500}
+  - {x: 320, y: 0.1, z: -500}
+  - {x: 320, y: 0.1, z: 500}
+  - {x: 321, y: 0.1, z: 500}
+  - {x: 321, y: 0.1, z: -500}
+  - {x: 322, y: 0.1, z: -500}
+  - {x: 322, y: 0.1, z: 500}
+  - {x: 323, y: 0.1, z: 500}
+  - {x: 323, y: 0.1, z: -500}
+  - {x: 324, y: 0.1, z: -500}
+  - {x: 324, y: 0.1, z: 500}
+  - {x: 325, y: 0.1, z: 500}
+  - {x: 325, y: 0.1, z: -500}
+  - {x: 326, y: 0.1, z: -500}
+  - {x: 326, y: 0.1, z: 500}
+  - {x: 327, y: 0.1, z: 500}
+  - {x: 327, y: 0.1, z: -500}
+  - {x: 328, y: 0.1, z: -500}
+  - {x: 328, y: 0.1, z: 500}
+  - {x: 329, y: 0.1, z: 500}
+  - {x: 329, y: 0.1, z: -500}
+  - {x: 330, y: 0.1, z: -500}
+  - {x: 330, y: 0.1, z: 500}
+  - {x: 331, y: 0.1, z: 500}
+  - {x: 331, y: 0.1, z: -500}
+  - {x: 332, y: 0.1, z: -500}
+  - {x: 332, y: 0.1, z: 500}
+  - {x: 333, y: 0.1, z: 500}
+  - {x: 333, y: 0.1, z: -500}
+  - {x: 334, y: 0.1, z: -500}
+  - {x: 334, y: 0.1, z: 500}
+  - {x: 335, y: 0.1, z: 500}
+  - {x: 335, y: 0.1, z: -500}
+  - {x: 336, y: 0.1, z: -500}
+  - {x: 336, y: 0.1, z: 500}
+  - {x: 337, y: 0.1, z: 500}
+  - {x: 337, y: 0.1, z: -500}
+  - {x: 338, y: 0.1, z: -500}
+  - {x: 338, y: 0.1, z: 500}
+  - {x: 339, y: 0.1, z: 500}
+  - {x: 339, y: 0.1, z: -500}
+  - {x: 340, y: 0.1, z: -500}
+  - {x: 340, y: 0.1, z: 500}
+  - {x: 341, y: 0.1, z: 500}
+  - {x: 341, y: 0.1, z: -500}
+  - {x: 342, y: 0.1, z: -500}
+  - {x: 342, y: 0.1, z: 500}
+  - {x: 343, y: 0.1, z: 500}
+  - {x: 343, y: 0.1, z: -500}
+  - {x: 344, y: 0.1, z: -500}
+  - {x: 344, y: 0.1, z: 500}
+  - {x: 345, y: 0.1, z: 500}
+  - {x: 345, y: 0.1, z: -500}
+  - {x: 346, y: 0.1, z: -500}
+  - {x: 346, y: 0.1, z: 500}
+  - {x: 347, y: 0.1, z: 500}
+  - {x: 347, y: 0.1, z: -500}
+  - {x: 348, y: 0.1, z: -500}
+  - {x: 348, y: 0.1, z: 500}
+  - {x: 349, y: 0.1, z: 500}
+  - {x: 349, y: 0.1, z: -500}
+  - {x: 350, y: 0.1, z: -500}
+  - {x: 350, y: 0.1, z: 500}
+  - {x: 351, y: 0.1, z: 500}
+  - {x: 351, y: 0.1, z: -500}
+  - {x: 352, y: 0.1, z: -500}
+  - {x: 352, y: 0.1, z: 500}
+  - {x: 353, y: 0.1, z: 500}
+  - {x: 353, y: 0.1, z: -500}
+  - {x: 354, y: 0.1, z: -500}
+  - {x: 354, y: 0.1, z: 500}
+  - {x: 355, y: 0.1, z: 500}
+  - {x: 355, y: 0.1, z: -500}
+  - {x: 356, y: 0.1, z: -500}
+  - {x: 356, y: 0.1, z: 500}
+  - {x: 357, y: 0.1, z: 500}
+  - {x: 357, y: 0.1, z: -500}
+  - {x: 358, y: 0.1, z: -500}
+  - {x: 358, y: 0.1, z: 500}
+  - {x: 359, y: 0.1, z: 500}
+  - {x: 359, y: 0.1, z: -500}
+  - {x: 360, y: 0.1, z: -500}
+  - {x: 360, y: 0.1, z: 500}
+  - {x: 361, y: 0.1, z: 500}
+  - {x: 361, y: 0.1, z: -500}
+  - {x: 362, y: 0.1, z: -500}
+  - {x: 362, y: 0.1, z: 500}
+  - {x: 363, y: 0.1, z: 500}
+  - {x: 363, y: 0.1, z: -500}
+  - {x: 364, y: 0.1, z: -500}
+  - {x: 364, y: 0.1, z: 500}
+  - {x: 365, y: 0.1, z: 500}
+  - {x: 365, y: 0.1, z: -500}
+  - {x: 366, y: 0.1, z: -500}
+  - {x: 366, y: 0.1, z: 500}
+  - {x: 367, y: 0.1, z: 500}
+  - {x: 367, y: 0.1, z: -500}
+  - {x: 368, y: 0.1, z: -500}
+  - {x: 368, y: 0.1, z: 500}
+  - {x: 369, y: 0.1, z: 500}
+  - {x: 369, y: 0.1, z: -500}
+  - {x: 370, y: 0.1, z: -500}
+  - {x: 370, y: 0.1, z: 500}
+  - {x: 371, y: 0.1, z: 500}
+  - {x: 371, y: 0.1, z: -500}
+  - {x: 372, y: 0.1, z: -500}
+  - {x: 372, y: 0.1, z: 500}
+  - {x: 373, y: 0.1, z: 500}
+  - {x: 373, y: 0.1, z: -500}
+  - {x: 374, y: 0.1, z: -500}
+  - {x: 374, y: 0.1, z: 500}
+  - {x: 375, y: 0.1, z: 500}
+  - {x: 375, y: 0.1, z: -500}
+  - {x: 376, y: 0.1, z: -500}
+  - {x: 376, y: 0.1, z: 500}
+  - {x: 377, y: 0.1, z: 500}
+  - {x: 377, y: 0.1, z: -500}
+  - {x: 378, y: 0.1, z: -500}
+  - {x: 378, y: 0.1, z: 500}
+  - {x: 379, y: 0.1, z: 500}
+  - {x: 379, y: 0.1, z: -500}
+  - {x: 380, y: 0.1, z: -500}
+  - {x: 380, y: 0.1, z: 500}
+  - {x: 381, y: 0.1, z: 500}
+  - {x: 381, y: 0.1, z: -500}
+  - {x: 382, y: 0.1, z: -500}
+  - {x: 382, y: 0.1, z: 500}
+  - {x: 383, y: 0.1, z: 500}
+  - {x: 383, y: 0.1, z: -500}
+  - {x: 384, y: 0.1, z: -500}
+  - {x: 384, y: 0.1, z: 500}
+  - {x: 385, y: 0.1, z: 500}
+  - {x: 385, y: 0.1, z: -500}
+  - {x: 386, y: 0.1, z: -500}
+  - {x: 386, y: 0.1, z: 500}
+  - {x: 387, y: 0.1, z: 500}
+  - {x: 387, y: 0.1, z: -500}
+  - {x: 388, y: 0.1, z: -500}
+  - {x: 388, y: 0.1, z: 500}
+  - {x: 389, y: 0.1, z: 500}
+  - {x: 389, y: 0.1, z: -500}
+  - {x: 390, y: 0.1, z: -500}
+  - {x: 390, y: 0.1, z: 500}
+  - {x: 391, y: 0.1, z: 500}
+  - {x: 391, y: 0.1, z: -500}
+  - {x: 392, y: 0.1, z: -500}
+  - {x: 392, y: 0.1, z: 500}
+  - {x: 393, y: 0.1, z: 500}
+  - {x: 393, y: 0.1, z: -500}
+  - {x: 394, y: 0.1, z: -500}
+  - {x: 394, y: 0.1, z: 500}
+  - {x: 395, y: 0.1, z: 500}
+  - {x: 395, y: 0.1, z: -500}
+  - {x: 396, y: 0.1, z: -500}
+  - {x: 396, y: 0.1, z: 500}
+  - {x: 397, y: 0.1, z: 500}
+  - {x: 397, y: 0.1, z: -500}
+  - {x: 398, y: 0.1, z: -500}
+  - {x: 398, y: 0.1, z: 500}
+  - {x: 399, y: 0.1, z: 500}
+  - {x: 399, y: 0.1, z: -500}
+  - {x: 400, y: 0.1, z: -500}
+  - {x: 400, y: 0.1, z: 500}
+  - {x: 401, y: 0.1, z: 500}
+  - {x: 401, y: 0.1, z: -500}
+  - {x: 402, y: 0.1, z: -500}
+  - {x: 402, y: 0.1, z: 500}
+  - {x: 403, y: 0.1, z: 500}
+  - {x: 403, y: 0.1, z: -500}
+  - {x: 404, y: 0.1, z: -500}
+  - {x: 404, y: 0.1, z: 500}
+  - {x: 405, y: 0.1, z: 500}
+  - {x: 405, y: 0.1, z: -500}
+  - {x: 406, y: 0.1, z: -500}
+  - {x: 406, y: 0.1, z: 500}
+  - {x: 407, y: 0.1, z: 500}
+  - {x: 407, y: 0.1, z: -500}
+  - {x: 408, y: 0.1, z: -500}
+  - {x: 408, y: 0.1, z: 500}
+  - {x: 409, y: 0.1, z: 500}
+  - {x: 409, y: 0.1, z: -500}
+  - {x: 410, y: 0.1, z: -500}
+  - {x: 410, y: 0.1, z: 500}
+  - {x: 411, y: 0.1, z: 500}
+  - {x: 411, y: 0.1, z: -500}
+  - {x: 412, y: 0.1, z: -500}
+  - {x: 412, y: 0.1, z: 500}
+  - {x: 413, y: 0.1, z: 500}
+  - {x: 413, y: 0.1, z: -500}
+  - {x: 414, y: 0.1, z: -500}
+  - {x: 414, y: 0.1, z: 500}
+  - {x: 415, y: 0.1, z: 500}
+  - {x: 415, y: 0.1, z: -500}
+  - {x: 416, y: 0.1, z: -500}
+  - {x: 416, y: 0.1, z: 500}
+  - {x: 417, y: 0.1, z: 500}
+  - {x: 417, y: 0.1, z: -500}
+  - {x: 418, y: 0.1, z: -500}
+  - {x: 418, y: 0.1, z: 500}
+  - {x: 419, y: 0.1, z: 500}
+  - {x: 419, y: 0.1, z: -500}
+  - {x: 420, y: 0.1, z: -500}
+  - {x: 420, y: 0.1, z: 500}
+  - {x: 421, y: 0.1, z: 500}
+  - {x: 421, y: 0.1, z: -500}
+  - {x: 422, y: 0.1, z: -500}
+  - {x: 422, y: 0.1, z: 500}
+  - {x: 423, y: 0.1, z: 500}
+  - {x: 423, y: 0.1, z: -500}
+  - {x: 424, y: 0.1, z: -500}
+  - {x: 424, y: 0.1, z: 500}
+  - {x: 425, y: 0.1, z: 500}
+  - {x: 425, y: 0.1, z: -500}
+  - {x: 426, y: 0.1, z: -500}
+  - {x: 426, y: 0.1, z: 500}
+  - {x: 427, y: 0.1, z: 500}
+  - {x: 427, y: 0.1, z: -500}
+  - {x: 428, y: 0.1, z: -500}
+  - {x: 428, y: 0.1, z: 500}
+  - {x: 429, y: 0.1, z: 500}
+  - {x: 429, y: 0.1, z: -500}
+  - {x: 430, y: 0.1, z: -500}
+  - {x: 430, y: 0.1, z: 500}
+  - {x: 431, y: 0.1, z: 500}
+  - {x: 431, y: 0.1, z: -500}
+  - {x: 432, y: 0.1, z: -500}
+  - {x: 432, y: 0.1, z: 500}
+  - {x: 433, y: 0.1, z: 500}
+  - {x: 433, y: 0.1, z: -500}
+  - {x: 434, y: 0.1, z: -500}
+  - {x: 434, y: 0.1, z: 500}
+  - {x: 435, y: 0.1, z: 500}
+  - {x: 435, y: 0.1, z: -500}
+  - {x: 436, y: 0.1, z: -500}
+  - {x: 436, y: 0.1, z: 500}
+  - {x: 437, y: 0.1, z: 500}
+  - {x: 437, y: 0.1, z: -500}
+  - {x: 438, y: 0.1, z: -500}
+  - {x: 438, y: 0.1, z: 500}
+  - {x: 439, y: 0.1, z: 500}
+  - {x: 439, y: 0.1, z: -500}
+  - {x: 440, y: 0.1, z: -500}
+  - {x: 440, y: 0.1, z: 500}
+  - {x: 441, y: 0.1, z: 500}
+  - {x: 441, y: 0.1, z: -500}
+  - {x: 442, y: 0.1, z: -500}
+  - {x: 442, y: 0.1, z: 500}
+  - {x: 443, y: 0.1, z: 500}
+  - {x: 443, y: 0.1, z: -500}
+  - {x: 444, y: 0.1, z: -500}
+  - {x: 444, y: 0.1, z: 500}
+  - {x: 445, y: 0.1, z: 500}
+  - {x: 445, y: 0.1, z: -500}
+  - {x: 446, y: 0.1, z: -500}
+  - {x: 446, y: 0.1, z: 500}
+  - {x: 447, y: 0.1, z: 500}
+  - {x: 447, y: 0.1, z: -500}
+  - {x: 448, y: 0.1, z: -500}
+  - {x: 448, y: 0.1, z: 500}
+  - {x: 449, y: 0.1, z: 500}
+  - {x: 449, y: 0.1, z: -500}
+  - {x: 450, y: 0.1, z: -500}
+  - {x: 450, y: 0.1, z: 500}
+  - {x: 451, y: 0.1, z: 500}
+  - {x: 451, y: 0.1, z: -500}
+  - {x: 452, y: 0.1, z: -500}
+  - {x: 452, y: 0.1, z: 500}
+  - {x: 453, y: 0.1, z: 500}
+  - {x: 453, y: 0.1, z: -500}
+  - {x: 454, y: 0.1, z: -500}
+  - {x: 454, y: 0.1, z: 500}
+  - {x: 455, y: 0.1, z: 500}
+  - {x: 455, y: 0.1, z: -500}
+  - {x: 456, y: 0.1, z: -500}
+  - {x: 456, y: 0.1, z: 500}
+  - {x: 457, y: 0.1, z: 500}
+  - {x: 457, y: 0.1, z: -500}
+  - {x: 458, y: 0.1, z: -500}
+  - {x: 458, y: 0.1, z: 500}
+  - {x: 459, y: 0.1, z: 500}
+  - {x: 459, y: 0.1, z: -500}
+  - {x: 460, y: 0.1, z: -500}
+  - {x: 460, y: 0.1, z: 500}
+  - {x: 461, y: 0.1, z: 500}
+  - {x: 461, y: 0.1, z: -500}
+  - {x: 462, y: 0.1, z: -500}
+  - {x: 462, y: 0.1, z: 500}
+  - {x: 463, y: 0.1, z: 500}
+  - {x: 463, y: 0.1, z: -500}
+  - {x: 464, y: 0.1, z: -500}
+  - {x: 464, y: 0.1, z: 500}
+  - {x: 465, y: 0.1, z: 500}
+  - {x: 465, y: 0.1, z: -500}
+  - {x: 466, y: 0.1, z: -500}
+  - {x: 466, y: 0.1, z: 500}
+  - {x: 467, y: 0.1, z: 500}
+  - {x: 467, y: 0.1, z: -500}
+  - {x: 468, y: 0.1, z: -500}
+  - {x: 468, y: 0.1, z: 500}
+  - {x: 469, y: 0.1, z: 500}
+  - {x: 469, y: 0.1, z: -500}
+  - {x: 470, y: 0.1, z: -500}
+  - {x: 470, y: 0.1, z: 500}
+  - {x: 471, y: 0.1, z: 500}
+  - {x: 471, y: 0.1, z: -500}
+  - {x: 472, y: 0.1, z: -500}
+  - {x: 472, y: 0.1, z: 500}
+  - {x: 473, y: 0.1, z: 500}
+  - {x: 473, y: 0.1, z: -500}
+  - {x: 474, y: 0.1, z: -500}
+  - {x: 474, y: 0.1, z: 500}
+  - {x: 475, y: 0.1, z: 500}
+  - {x: 475, y: 0.1, z: -500}
+  - {x: 476, y: 0.1, z: -500}
+  - {x: 476, y: 0.1, z: 500}
+  - {x: 477, y: 0.1, z: 500}
+  - {x: 477, y: 0.1, z: -500}
+  - {x: 478, y: 0.1, z: -500}
+  - {x: 478, y: 0.1, z: 500}
+  - {x: 479, y: 0.1, z: 500}
+  - {x: 479, y: 0.1, z: -500}
+  - {x: 480, y: 0.1, z: -500}
+  - {x: 480, y: 0.1, z: 500}
+  - {x: 481, y: 0.1, z: 500}
+  - {x: 481, y: 0.1, z: -500}
+  - {x: 482, y: 0.1, z: -500}
+  - {x: 482, y: 0.1, z: 500}
+  - {x: 483, y: 0.1, z: 500}
+  - {x: 483, y: 0.1, z: -500}
+  - {x: 484, y: 0.1, z: -500}
+  - {x: 484, y: 0.1, z: 500}
+  - {x: 485, y: 0.1, z: 500}
+  - {x: 485, y: 0.1, z: -500}
+  - {x: 486, y: 0.1, z: -500}
+  - {x: 486, y: 0.1, z: 500}
+  - {x: 487, y: 0.1, z: 500}
+  - {x: 487, y: 0.1, z: -500}
+  - {x: 488, y: 0.1, z: -500}
+  - {x: 488, y: 0.1, z: 500}
+  - {x: 489, y: 0.1, z: 500}
+  - {x: 489, y: 0.1, z: -500}
+  - {x: 490, y: 0.1, z: -500}
+  - {x: 490, y: 0.1, z: 500}
+  - {x: 491, y: 0.1, z: 500}
+  - {x: 491, y: 0.1, z: -500}
+  - {x: 492, y: 0.1, z: -500}
+  - {x: 492, y: 0.1, z: 500}
+  - {x: 493, y: 0.1, z: 500}
+  - {x: 493, y: 0.1, z: -500}
+  - {x: 494, y: 0.1, z: -500}
+  - {x: 494, y: 0.1, z: 500}
+  - {x: 495, y: 0.1, z: 500}
+  - {x: 495, y: 0.1, z: -500}
+  - {x: 496, y: 0.1, z: -500}
+  - {x: 496, y: 0.1, z: 500}
+  - {x: 497, y: 0.1, z: 500}
+  - {x: 497, y: 0.1, z: -500}
+  - {x: 498, y: 0.1, z: -500}
+  - {x: 498, y: 0.1, z: 500}
+  - {x: 499, y: 0.1, z: 500}
+  - {x: 499, y: 0.1, z: -500}
+  - {x: 500, y: 0.1, z: -500}
+  - {x: 500, y: 0.1, z: 500}
+  - {x: -500, y: 0.1, z: 500}
+  - {x: -500, y: 0.1, z: 499}
+  - {x: 500, y: 0.1, z: 499}
+  - {x: 500, y: 0.1, z: 498}
+  - {x: -500, y: 0.1, z: 498}
+  - {x: -500, y: 0.1, z: 497}
+  - {x: 500, y: 0.1, z: 497}
+  - {x: 500, y: 0.1, z: 496}
+  - {x: -500, y: 0.1, z: 496}
+  - {x: -500, y: 0.1, z: 495}
+  - {x: 500, y: 0.1, z: 495}
+  - {x: 500, y: 0.1, z: 494}
+  - {x: -500, y: 0.1, z: 494}
+  - {x: -500, y: 0.1, z: 493}
+  - {x: 500, y: 0.1, z: 493}
+  - {x: 500, y: 0.1, z: 492}
+  - {x: -500, y: 0.1, z: 492}
+  - {x: -500, y: 0.1, z: 491}
+  - {x: 500, y: 0.1, z: 491}
+  - {x: 500, y: 0.1, z: 490}
+  - {x: -500, y: 0.1, z: 490}
+  - {x: -500, y: 0.1, z: 489}
+  - {x: 500, y: 0.1, z: 489}
+  - {x: 500, y: 0.1, z: 488}
+  - {x: -500, y: 0.1, z: 488}
+  - {x: -500, y: 0.1, z: 487}
+  - {x: 500, y: 0.1, z: 487}
+  - {x: 500, y: 0.1, z: 486}
+  - {x: -500, y: 0.1, z: 486}
+  - {x: -500, y: 0.1, z: 485}
+  - {x: 500, y: 0.1, z: 485}
+  - {x: 500, y: 0.1, z: 484}
+  - {x: -500, y: 0.1, z: 484}
+  - {x: -500, y: 0.1, z: 483}
+  - {x: 500, y: 0.1, z: 483}
+  - {x: 500, y: 0.1, z: 482}
+  - {x: -500, y: 0.1, z: 482}
+  - {x: -500, y: 0.1, z: 481}
+  - {x: 500, y: 0.1, z: 481}
+  - {x: 500, y: 0.1, z: 480}
+  - {x: -500, y: 0.1, z: 480}
+  - {x: -500, y: 0.1, z: 479}
+  - {x: 500, y: 0.1, z: 479}
+  - {x: 500, y: 0.1, z: 478}
+  - {x: -500, y: 0.1, z: 478}
+  - {x: -500, y: 0.1, z: 477}
+  - {x: 500, y: 0.1, z: 477}
+  - {x: 500, y: 0.1, z: 476}
+  - {x: -500, y: 0.1, z: 476}
+  - {x: -500, y: 0.1, z: 475}
+  - {x: 500, y: 0.1, z: 475}
+  - {x: 500, y: 0.1, z: 474}
+  - {x: -500, y: 0.1, z: 474}
+  - {x: -500, y: 0.1, z: 473}
+  - {x: 500, y: 0.1, z: 473}
+  - {x: 500, y: 0.1, z: 472}
+  - {x: -500, y: 0.1, z: 472}
+  - {x: -500, y: 0.1, z: 471}
+  - {x: 500, y: 0.1, z: 471}
+  - {x: 500, y: 0.1, z: 470}
+  - {x: -500, y: 0.1, z: 470}
+  - {x: -500, y: 0.1, z: 469}
+  - {x: 500, y: 0.1, z: 469}
+  - {x: 500, y: 0.1, z: 468}
+  - {x: -500, y: 0.1, z: 468}
+  - {x: -500, y: 0.1, z: 467}
+  - {x: 500, y: 0.1, z: 467}
+  - {x: 500, y: 0.1, z: 466}
+  - {x: -500, y: 0.1, z: 466}
+  - {x: -500, y: 0.1, z: 465}
+  - {x: 500, y: 0.1, z: 465}
+  - {x: 500, y: 0.1, z: 464}
+  - {x: -500, y: 0.1, z: 464}
+  - {x: -500, y: 0.1, z: 463}
+  - {x: 500, y: 0.1, z: 463}
+  - {x: 500, y: 0.1, z: 462}
+  - {x: -500, y: 0.1, z: 462}
+  - {x: -500, y: 0.1, z: 461}
+  - {x: 500, y: 0.1, z: 461}
+  - {x: 500, y: 0.1, z: 460}
+  - {x: -500, y: 0.1, z: 460}
+  - {x: -500, y: 0.1, z: 459}
+  - {x: 500, y: 0.1, z: 459}
+  - {x: 500, y: 0.1, z: 458}
+  - {x: -500, y: 0.1, z: 458}
+  - {x: -500, y: 0.1, z: 457}
+  - {x: 500, y: 0.1, z: 457}
+  - {x: 500, y: 0.1, z: 456}
+  - {x: -500, y: 0.1, z: 456}
+  - {x: -500, y: 0.1, z: 455}
+  - {x: 500, y: 0.1, z: 455}
+  - {x: 500, y: 0.1, z: 454}
+  - {x: -500, y: 0.1, z: 454}
+  - {x: -500, y: 0.1, z: 453}
+  - {x: 500, y: 0.1, z: 453}
+  - {x: 500, y: 0.1, z: 452}
+  - {x: -500, y: 0.1, z: 452}
+  - {x: -500, y: 0.1, z: 451}
+  - {x: 500, y: 0.1, z: 451}
+  - {x: 500, y: 0.1, z: 450}
+  - {x: -500, y: 0.1, z: 450}
+  - {x: -500, y: 0.1, z: 449}
+  - {x: 500, y: 0.1, z: 449}
+  - {x: 500, y: 0.1, z: 448}
+  - {x: -500, y: 0.1, z: 448}
+  - {x: -500, y: 0.1, z: 447}
+  - {x: 500, y: 0.1, z: 447}
+  - {x: 500, y: 0.1, z: 446}
+  - {x: -500, y: 0.1, z: 446}
+  - {x: -500, y: 0.1, z: 445}
+  - {x: 500, y: 0.1, z: 445}
+  - {x: 500, y: 0.1, z: 444}
+  - {x: -500, y: 0.1, z: 444}
+  - {x: -500, y: 0.1, z: 443}
+  - {x: 500, y: 0.1, z: 443}
+  - {x: 500, y: 0.1, z: 442}
+  - {x: -500, y: 0.1, z: 442}
+  - {x: -500, y: 0.1, z: 441}
+  - {x: 500, y: 0.1, z: 441}
+  - {x: 500, y: 0.1, z: 440}
+  - {x: -500, y: 0.1, z: 440}
+  - {x: -500, y: 0.1, z: 439}
+  - {x: 500, y: 0.1, z: 439}
+  - {x: 500, y: 0.1, z: 438}
+  - {x: -500, y: 0.1, z: 438}
+  - {x: -500, y: 0.1, z: 437}
+  - {x: 500, y: 0.1, z: 437}
+  - {x: 500, y: 0.1, z: 436}
+  - {x: -500, y: 0.1, z: 436}
+  - {x: -500, y: 0.1, z: 435}
+  - {x: 500, y: 0.1, z: 435}
+  - {x: 500, y: 0.1, z: 434}
+  - {x: -500, y: 0.1, z: 434}
+  - {x: -500, y: 0.1, z: 433}
+  - {x: 500, y: 0.1, z: 433}
+  - {x: 500, y: 0.1, z: 432}
+  - {x: -500, y: 0.1, z: 432}
+  - {x: -500, y: 0.1, z: 431}
+  - {x: 500, y: 0.1, z: 431}
+  - {x: 500, y: 0.1, z: 430}
+  - {x: -500, y: 0.1, z: 430}
+  - {x: -500, y: 0.1, z: 429}
+  - {x: 500, y: 0.1, z: 429}
+  - {x: 500, y: 0.1, z: 428}
+  - {x: -500, y: 0.1, z: 428}
+  - {x: -500, y: 0.1, z: 427}
+  - {x: 500, y: 0.1, z: 427}
+  - {x: 500, y: 0.1, z: 426}
+  - {x: -500, y: 0.1, z: 426}
+  - {x: -500, y: 0.1, z: 425}
+  - {x: 500, y: 0.1, z: 425}
+  - {x: 500, y: 0.1, z: 424}
+  - {x: -500, y: 0.1, z: 424}
+  - {x: -500, y: 0.1, z: 423}
+  - {x: 500, y: 0.1, z: 423}
+  - {x: 500, y: 0.1, z: 422}
+  - {x: -500, y: 0.1, z: 422}
+  - {x: -500, y: 0.1, z: 421}
+  - {x: 500, y: 0.1, z: 421}
+  - {x: 500, y: 0.1, z: 420}
+  - {x: -500, y: 0.1, z: 420}
+  - {x: -500, y: 0.1, z: 419}
+  - {x: 500, y: 0.1, z: 419}
+  - {x: 500, y: 0.1, z: 418}
+  - {x: -500, y: 0.1, z: 418}
+  - {x: -500, y: 0.1, z: 417}
+  - {x: 500, y: 0.1, z: 417}
+  - {x: 500, y: 0.1, z: 416}
+  - {x: -500, y: 0.1, z: 416}
+  - {x: -500, y: 0.1, z: 415}
+  - {x: 500, y: 0.1, z: 415}
+  - {x: 500, y: 0.1, z: 414}
+  - {x: -500, y: 0.1, z: 414}
+  - {x: -500, y: 0.1, z: 413}
+  - {x: 500, y: 0.1, z: 413}
+  - {x: 500, y: 0.1, z: 412}
+  - {x: -500, y: 0.1, z: 412}
+  - {x: -500, y: 0.1, z: 411}
+  - {x: 500, y: 0.1, z: 411}
+  - {x: 500, y: 0.1, z: 410}
+  - {x: -500, y: 0.1, z: 410}
+  - {x: -500, y: 0.1, z: 409}
+  - {x: 500, y: 0.1, z: 409}
+  - {x: 500, y: 0.1, z: 408}
+  - {x: -500, y: 0.1, z: 408}
+  - {x: -500, y: 0.1, z: 407}
+  - {x: 500, y: 0.1, z: 407}
+  - {x: 500, y: 0.1, z: 406}
+  - {x: -500, y: 0.1, z: 406}
+  - {x: -500, y: 0.1, z: 405}
+  - {x: 500, y: 0.1, z: 405}
+  - {x: 500, y: 0.1, z: 404}
+  - {x: -500, y: 0.1, z: 404}
+  - {x: -500, y: 0.1, z: 403}
+  - {x: 500, y: 0.1, z: 403}
+  - {x: 500, y: 0.1, z: 402}
+  - {x: -500, y: 0.1, z: 402}
+  - {x: -500, y: 0.1, z: 401}
+  - {x: 500, y: 0.1, z: 401}
+  - {x: 500, y: 0.1, z: 400}
+  - {x: -500, y: 0.1, z: 400}
+  - {x: -500, y: 0.1, z: 399}
+  - {x: 500, y: 0.1, z: 399}
+  - {x: 500, y: 0.1, z: 398}
+  - {x: -500, y: 0.1, z: 398}
+  - {x: -500, y: 0.1, z: 397}
+  - {x: 500, y: 0.1, z: 397}
+  - {x: 500, y: 0.1, z: 396}
+  - {x: -500, y: 0.1, z: 396}
+  - {x: -500, y: 0.1, z: 395}
+  - {x: 500, y: 0.1, z: 395}
+  - {x: 500, y: 0.1, z: 394}
+  - {x: -500, y: 0.1, z: 394}
+  - {x: -500, y: 0.1, z: 393}
+  - {x: 500, y: 0.1, z: 393}
+  - {x: 500, y: 0.1, z: 392}
+  - {x: -500, y: 0.1, z: 392}
+  - {x: -500, y: 0.1, z: 391}
+  - {x: 500, y: 0.1, z: 391}
+  - {x: 500, y: 0.1, z: 390}
+  - {x: -500, y: 0.1, z: 390}
+  - {x: -500, y: 0.1, z: 389}
+  - {x: 500, y: 0.1, z: 389}
+  - {x: 500, y: 0.1, z: 388}
+  - {x: -500, y: 0.1, z: 388}
+  - {x: -500, y: 0.1, z: 387}
+  - {x: 500, y: 0.1, z: 387}
+  - {x: 500, y: 0.1, z: 386}
+  - {x: -500, y: 0.1, z: 386}
+  - {x: -500, y: 0.1, z: 385}
+  - {x: 500, y: 0.1, z: 385}
+  - {x: 500, y: 0.1, z: 384}
+  - {x: -500, y: 0.1, z: 384}
+  - {x: -500, y: 0.1, z: 383}
+  - {x: 500, y: 0.1, z: 383}
+  - {x: 500, y: 0.1, z: 382}
+  - {x: -500, y: 0.1, z: 382}
+  - {x: -500, y: 0.1, z: 381}
+  - {x: 500, y: 0.1, z: 381}
+  - {x: 500, y: 0.1, z: 380}
+  - {x: -500, y: 0.1, z: 380}
+  - {x: -500, y: 0.1, z: 379}
+  - {x: 500, y: 0.1, z: 379}
+  - {x: 500, y: 0.1, z: 378}
+  - {x: -500, y: 0.1, z: 378}
+  - {x: -500, y: 0.1, z: 377}
+  - {x: 500, y: 0.1, z: 377}
+  - {x: 500, y: 0.1, z: 376}
+  - {x: -500, y: 0.1, z: 376}
+  - {x: -500, y: 0.1, z: 375}
+  - {x: 500, y: 0.1, z: 375}
+  - {x: 500, y: 0.1, z: 374}
+  - {x: -500, y: 0.1, z: 374}
+  - {x: -500, y: 0.1, z: 373}
+  - {x: 500, y: 0.1, z: 373}
+  - {x: 500, y: 0.1, z: 372}
+  - {x: -500, y: 0.1, z: 372}
+  - {x: -500, y: 0.1, z: 371}
+  - {x: 500, y: 0.1, z: 371}
+  - {x: 500, y: 0.1, z: 370}
+  - {x: -500, y: 0.1, z: 370}
+  - {x: -500, y: 0.1, z: 369}
+  - {x: 500, y: 0.1, z: 369}
+  - {x: 500, y: 0.1, z: 368}
+  - {x: -500, y: 0.1, z: 368}
+  - {x: -500, y: 0.1, z: 367}
+  - {x: 500, y: 0.1, z: 367}
+  - {x: 500, y: 0.1, z: 366}
+  - {x: -500, y: 0.1, z: 366}
+  - {x: -500, y: 0.1, z: 365}
+  - {x: 500, y: 0.1, z: 365}
+  - {x: 500, y: 0.1, z: 364}
+  - {x: -500, y: 0.1, z: 364}
+  - {x: -500, y: 0.1, z: 363}
+  - {x: 500, y: 0.1, z: 363}
+  - {x: 500, y: 0.1, z: 362}
+  - {x: -500, y: 0.1, z: 362}
+  - {x: -500, y: 0.1, z: 361}
+  - {x: 500, y: 0.1, z: 361}
+  - {x: 500, y: 0.1, z: 360}
+  - {x: -500, y: 0.1, z: 360}
+  - {x: -500, y: 0.1, z: 359}
+  - {x: 500, y: 0.1, z: 359}
+  - {x: 500, y: 0.1, z: 358}
+  - {x: -500, y: 0.1, z: 358}
+  - {x: -500, y: 0.1, z: 357}
+  - {x: 500, y: 0.1, z: 357}
+  - {x: 500, y: 0.1, z: 356}
+  - {x: -500, y: 0.1, z: 356}
+  - {x: -500, y: 0.1, z: 355}
+  - {x: 500, y: 0.1, z: 355}
+  - {x: 500, y: 0.1, z: 354}
+  - {x: -500, y: 0.1, z: 354}
+  - {x: -500, y: 0.1, z: 353}
+  - {x: 500, y: 0.1, z: 353}
+  - {x: 500, y: 0.1, z: 352}
+  - {x: -500, y: 0.1, z: 352}
+  - {x: -500, y: 0.1, z: 351}
+  - {x: 500, y: 0.1, z: 351}
+  - {x: 500, y: 0.1, z: 350}
+  - {x: -500, y: 0.1, z: 350}
+  - {x: -500, y: 0.1, z: 349}
+  - {x: 500, y: 0.1, z: 349}
+  - {x: 500, y: 0.1, z: 348}
+  - {x: -500, y: 0.1, z: 348}
+  - {x: -500, y: 0.1, z: 347}
+  - {x: 500, y: 0.1, z: 347}
+  - {x: 500, y: 0.1, z: 346}
+  - {x: -500, y: 0.1, z: 346}
+  - {x: -500, y: 0.1, z: 345}
+  - {x: 500, y: 0.1, z: 345}
+  - {x: 500, y: 0.1, z: 344}
+  - {x: -500, y: 0.1, z: 344}
+  - {x: -500, y: 0.1, z: 343}
+  - {x: 500, y: 0.1, z: 343}
+  - {x: 500, y: 0.1, z: 342}
+  - {x: -500, y: 0.1, z: 342}
+  - {x: -500, y: 0.1, z: 341}
+  - {x: 500, y: 0.1, z: 341}
+  - {x: 500, y: 0.1, z: 340}
+  - {x: -500, y: 0.1, z: 340}
+  - {x: -500, y: 0.1, z: 339}
+  - {x: 500, y: 0.1, z: 339}
+  - {x: 500, y: 0.1, z: 338}
+  - {x: -500, y: 0.1, z: 338}
+  - {x: -500, y: 0.1, z: 337}
+  - {x: 500, y: 0.1, z: 337}
+  - {x: 500, y: 0.1, z: 336}
+  - {x: -500, y: 0.1, z: 336}
+  - {x: -500, y: 0.1, z: 335}
+  - {x: 500, y: 0.1, z: 335}
+  - {x: 500, y: 0.1, z: 334}
+  - {x: -500, y: 0.1, z: 334}
+  - {x: -500, y: 0.1, z: 333}
+  - {x: 500, y: 0.1, z: 333}
+  - {x: 500, y: 0.1, z: 332}
+  - {x: -500, y: 0.1, z: 332}
+  - {x: -500, y: 0.1, z: 331}
+  - {x: 500, y: 0.1, z: 331}
+  - {x: 500, y: 0.1, z: 330}
+  - {x: -500, y: 0.1, z: 330}
+  - {x: -500, y: 0.1, z: 329}
+  - {x: 500, y: 0.1, z: 329}
+  - {x: 500, y: 0.1, z: 328}
+  - {x: -500, y: 0.1, z: 328}
+  - {x: -500, y: 0.1, z: 327}
+  - {x: 500, y: 0.1, z: 327}
+  - {x: 500, y: 0.1, z: 326}
+  - {x: -500, y: 0.1, z: 326}
+  - {x: -500, y: 0.1, z: 325}
+  - {x: 500, y: 0.1, z: 325}
+  - {x: 500, y: 0.1, z: 324}
+  - {x: -500, y: 0.1, z: 324}
+  - {x: -500, y: 0.1, z: 323}
+  - {x: 500, y: 0.1, z: 323}
+  - {x: 500, y: 0.1, z: 322}
+  - {x: -500, y: 0.1, z: 322}
+  - {x: -500, y: 0.1, z: 321}
+  - {x: 500, y: 0.1, z: 321}
+  - {x: 500, y: 0.1, z: 320}
+  - {x: -500, y: 0.1, z: 320}
+  - {x: -500, y: 0.1, z: 319}
+  - {x: 500, y: 0.1, z: 319}
+  - {x: 500, y: 0.1, z: 318}
+  - {x: -500, y: 0.1, z: 318}
+  - {x: -500, y: 0.1, z: 317}
+  - {x: 500, y: 0.1, z: 317}
+  - {x: 500, y: 0.1, z: 316}
+  - {x: -500, y: 0.1, z: 316}
+  - {x: -500, y: 0.1, z: 315}
+  - {x: 500, y: 0.1, z: 315}
+  - {x: 500, y: 0.1, z: 314}
+  - {x: -500, y: 0.1, z: 314}
+  - {x: -500, y: 0.1, z: 313}
+  - {x: 500, y: 0.1, z: 313}
+  - {x: 500, y: 0.1, z: 312}
+  - {x: -500, y: 0.1, z: 312}
+  - {x: -500, y: 0.1, z: 311}
+  - {x: 500, y: 0.1, z: 311}
+  - {x: 500, y: 0.1, z: 310}
+  - {x: -500, y: 0.1, z: 310}
+  - {x: -500, y: 0.1, z: 309}
+  - {x: 500, y: 0.1, z: 309}
+  - {x: 500, y: 0.1, z: 308}
+  - {x: -500, y: 0.1, z: 308}
+  - {x: -500, y: 0.1, z: 307}
+  - {x: 500, y: 0.1, z: 307}
+  - {x: 500, y: 0.1, z: 306}
+  - {x: -500, y: 0.1, z: 306}
+  - {x: -500, y: 0.1, z: 305}
+  - {x: 500, y: 0.1, z: 305}
+  - {x: 500, y: 0.1, z: 304}
+  - {x: -500, y: 0.1, z: 304}
+  - {x: -500, y: 0.1, z: 303}
+  - {x: 500, y: 0.1, z: 303}
+  - {x: 500, y: 0.1, z: 302}
+  - {x: -500, y: 0.1, z: 302}
+  - {x: -500, y: 0.1, z: 301}
+  - {x: 500, y: 0.1, z: 301}
+  - {x: 500, y: 0.1, z: 300}
+  - {x: -500, y: 0.1, z: 300}
+  - {x: -500, y: 0.1, z: 299}
+  - {x: 500, y: 0.1, z: 299}
+  - {x: 500, y: 0.1, z: 298}
+  - {x: -500, y: 0.1, z: 298}
+  - {x: -500, y: 0.1, z: 297}
+  - {x: 500, y: 0.1, z: 297}
+  - {x: 500, y: 0.1, z: 296}
+  - {x: -500, y: 0.1, z: 296}
+  - {x: -500, y: 0.1, z: 295}
+  - {x: 500, y: 0.1, z: 295}
+  - {x: 500, y: 0.1, z: 294}
+  - {x: -500, y: 0.1, z: 294}
+  - {x: -500, y: 0.1, z: 293}
+  - {x: 500, y: 0.1, z: 293}
+  - {x: 500, y: 0.1, z: 292}
+  - {x: -500, y: 0.1, z: 292}
+  - {x: -500, y: 0.1, z: 291}
+  - {x: 500, y: 0.1, z: 291}
+  - {x: 500, y: 0.1, z: 290}
+  - {x: -500, y: 0.1, z: 290}
+  - {x: -500, y: 0.1, z: 289}
+  - {x: 500, y: 0.1, z: 289}
+  - {x: 500, y: 0.1, z: 288}
+  - {x: -500, y: 0.1, z: 288}
+  - {x: -500, y: 0.1, z: 287}
+  - {x: 500, y: 0.1, z: 287}
+  - {x: 500, y: 0.1, z: 286}
+  - {x: -500, y: 0.1, z: 286}
+  - {x: -500, y: 0.1, z: 285}
+  - {x: 500, y: 0.1, z: 285}
+  - {x: 500, y: 0.1, z: 284}
+  - {x: -500, y: 0.1, z: 284}
+  - {x: -500, y: 0.1, z: 283}
+  - {x: 500, y: 0.1, z: 283}
+  - {x: 500, y: 0.1, z: 282}
+  - {x: -500, y: 0.1, z: 282}
+  - {x: -500, y: 0.1, z: 281}
+  - {x: 500, y: 0.1, z: 281}
+  - {x: 500, y: 0.1, z: 280}
+  - {x: -500, y: 0.1, z: 280}
+  - {x: -500, y: 0.1, z: 279}
+  - {x: 500, y: 0.1, z: 279}
+  - {x: 500, y: 0.1, z: 278}
+  - {x: -500, y: 0.1, z: 278}
+  - {x: -500, y: 0.1, z: 277}
+  - {x: 500, y: 0.1, z: 277}
+  - {x: 500, y: 0.1, z: 276}
+  - {x: -500, y: 0.1, z: 276}
+  - {x: -500, y: 0.1, z: 275}
+  - {x: 500, y: 0.1, z: 275}
+  - {x: 500, y: 0.1, z: 274}
+  - {x: -500, y: 0.1, z: 274}
+  - {x: -500, y: 0.1, z: 273}
+  - {x: 500, y: 0.1, z: 273}
+  - {x: 500, y: 0.1, z: 272}
+  - {x: -500, y: 0.1, z: 272}
+  - {x: -500, y: 0.1, z: 271}
+  - {x: 500, y: 0.1, z: 271}
+  - {x: 500, y: 0.1, z: 270}
+  - {x: -500, y: 0.1, z: 270}
+  - {x: -500, y: 0.1, z: 269}
+  - {x: 500, y: 0.1, z: 269}
+  - {x: 500, y: 0.1, z: 268}
+  - {x: -500, y: 0.1, z: 268}
+  - {x: -500, y: 0.1, z: 267}
+  - {x: 500, y: 0.1, z: 267}
+  - {x: 500, y: 0.1, z: 266}
+  - {x: -500, y: 0.1, z: 266}
+  - {x: -500, y: 0.1, z: 265}
+  - {x: 500, y: 0.1, z: 265}
+  - {x: 500, y: 0.1, z: 264}
+  - {x: -500, y: 0.1, z: 264}
+  - {x: -500, y: 0.1, z: 263}
+  - {x: 500, y: 0.1, z: 263}
+  - {x: 500, y: 0.1, z: 262}
+  - {x: -500, y: 0.1, z: 262}
+  - {x: -500, y: 0.1, z: 261}
+  - {x: 500, y: 0.1, z: 261}
+  - {x: 500, y: 0.1, z: 260}
+  - {x: -500, y: 0.1, z: 260}
+  - {x: -500, y: 0.1, z: 259}
+  - {x: 500, y: 0.1, z: 259}
+  - {x: 500, y: 0.1, z: 258}
+  - {x: -500, y: 0.1, z: 258}
+  - {x: -500, y: 0.1, z: 257}
+  - {x: 500, y: 0.1, z: 257}
+  - {x: 500, y: 0.1, z: 256}
+  - {x: -500, y: 0.1, z: 256}
+  - {x: -500, y: 0.1, z: 255}
+  - {x: 500, y: 0.1, z: 255}
+  - {x: 500, y: 0.1, z: 254}
+  - {x: -500, y: 0.1, z: 254}
+  - {x: -500, y: 0.1, z: 253}
+  - {x: 500, y: 0.1, z: 253}
+  - {x: 500, y: 0.1, z: 252}
+  - {x: -500, y: 0.1, z: 252}
+  - {x: -500, y: 0.1, z: 251}
+  - {x: 500, y: 0.1, z: 251}
+  - {x: 500, y: 0.1, z: 250}
+  - {x: -500, y: 0.1, z: 250}
+  - {x: -500, y: 0.1, z: 249}
+  - {x: 500, y: 0.1, z: 249}
+  - {x: 500, y: 0.1, z: 248}
+  - {x: -500, y: 0.1, z: 248}
+  - {x: -500, y: 0.1, z: 247}
+  - {x: 500, y: 0.1, z: 247}
+  - {x: 500, y: 0.1, z: 246}
+  - {x: -500, y: 0.1, z: 246}
+  - {x: -500, y: 0.1, z: 245}
+  - {x: 500, y: 0.1, z: 245}
+  - {x: 500, y: 0.1, z: 244}
+  - {x: -500, y: 0.1, z: 244}
+  - {x: -500, y: 0.1, z: 243}
+  - {x: 500, y: 0.1, z: 243}
+  - {x: 500, y: 0.1, z: 242}
+  - {x: -500, y: 0.1, z: 242}
+  - {x: -500, y: 0.1, z: 241}
+  - {x: 500, y: 0.1, z: 241}
+  - {x: 500, y: 0.1, z: 240}
+  - {x: -500, y: 0.1, z: 240}
+  - {x: -500, y: 0.1, z: 239}
+  - {x: 500, y: 0.1, z: 239}
+  - {x: 500, y: 0.1, z: 238}
+  - {x: -500, y: 0.1, z: 238}
+  - {x: -500, y: 0.1, z: 237}
+  - {x: 500, y: 0.1, z: 237}
+  - {x: 500, y: 0.1, z: 236}
+  - {x: -500, y: 0.1, z: 236}
+  - {x: -500, y: 0.1, z: 235}
+  - {x: 500, y: 0.1, z: 235}
+  - {x: 500, y: 0.1, z: 234}
+  - {x: -500, y: 0.1, z: 234}
+  - {x: -500, y: 0.1, z: 233}
+  - {x: 500, y: 0.1, z: 233}
+  - {x: 500, y: 0.1, z: 232}
+  - {x: -500, y: 0.1, z: 232}
+  - {x: -500, y: 0.1, z: 231}
+  - {x: 500, y: 0.1, z: 231}
+  - {x: 500, y: 0.1, z: 230}
+  - {x: -500, y: 0.1, z: 230}
+  - {x: -500, y: 0.1, z: 229}
+  - {x: 500, y: 0.1, z: 229}
+  - {x: 500, y: 0.1, z: 228}
+  - {x: -500, y: 0.1, z: 228}
+  - {x: -500, y: 0.1, z: 227}
+  - {x: 500, y: 0.1, z: 227}
+  - {x: 500, y: 0.1, z: 226}
+  - {x: -500, y: 0.1, z: 226}
+  - {x: -500, y: 0.1, z: 225}
+  - {x: 500, y: 0.1, z: 225}
+  - {x: 500, y: 0.1, z: 224}
+  - {x: -500, y: 0.1, z: 224}
+  - {x: -500, y: 0.1, z: 223}
+  - {x: 500, y: 0.1, z: 223}
+  - {x: 500, y: 0.1, z: 222}
+  - {x: -500, y: 0.1, z: 222}
+  - {x: -500, y: 0.1, z: 221}
+  - {x: 500, y: 0.1, z: 221}
+  - {x: 500, y: 0.1, z: 220}
+  - {x: -500, y: 0.1, z: 220}
+  - {x: -500, y: 0.1, z: 219}
+  - {x: 500, y: 0.1, z: 219}
+  - {x: 500, y: 0.1, z: 218}
+  - {x: -500, y: 0.1, z: 218}
+  - {x: -500, y: 0.1, z: 217}
+  - {x: 500, y: 0.1, z: 217}
+  - {x: 500, y: 0.1, z: 216}
+  - {x: -500, y: 0.1, z: 216}
+  - {x: -500, y: 0.1, z: 215}
+  - {x: 500, y: 0.1, z: 215}
+  - {x: 500, y: 0.1, z: 214}
+  - {x: -500, y: 0.1, z: 214}
+  - {x: -500, y: 0.1, z: 213}
+  - {x: 500, y: 0.1, z: 213}
+  - {x: 500, y: 0.1, z: 212}
+  - {x: -500, y: 0.1, z: 212}
+  - {x: -500, y: 0.1, z: 211}
+  - {x: 500, y: 0.1, z: 211}
+  - {x: 500, y: 0.1, z: 210}
+  - {x: -500, y: 0.1, z: 210}
+  - {x: -500, y: 0.1, z: 209}
+  - {x: 500, y: 0.1, z: 209}
+  - {x: 500, y: 0.1, z: 208}
+  - {x: -500, y: 0.1, z: 208}
+  - {x: -500, y: 0.1, z: 207}
+  - {x: 500, y: 0.1, z: 207}
+  - {x: 500, y: 0.1, z: 206}
+  - {x: -500, y: 0.1, z: 206}
+  - {x: -500, y: 0.1, z: 205}
+  - {x: 500, y: 0.1, z: 205}
+  - {x: 500, y: 0.1, z: 204}
+  - {x: -500, y: 0.1, z: 204}
+  - {x: -500, y: 0.1, z: 203}
+  - {x: 500, y: 0.1, z: 203}
+  - {x: 500, y: 0.1, z: 202}
+  - {x: -500, y: 0.1, z: 202}
+  - {x: -500, y: 0.1, z: 201}
+  - {x: 500, y: 0.1, z: 201}
+  - {x: 500, y: 0.1, z: 200}
+  - {x: -500, y: 0.1, z: 200}
+  - {x: -500, y: 0.1, z: 199}
+  - {x: 500, y: 0.1, z: 199}
+  - {x: 500, y: 0.1, z: 198}
+  - {x: -500, y: 0.1, z: 198}
+  - {x: -500, y: 0.1, z: 197}
+  - {x: 500, y: 0.1, z: 197}
+  - {x: 500, y: 0.1, z: 196}
+  - {x: -500, y: 0.1, z: 196}
+  - {x: -500, y: 0.1, z: 195}
+  - {x: 500, y: 0.1, z: 195}
+  - {x: 500, y: 0.1, z: 194}
+  - {x: -500, y: 0.1, z: 194}
+  - {x: -500, y: 0.1, z: 193}
+  - {x: 500, y: 0.1, z: 193}
+  - {x: 500, y: 0.1, z: 192}
+  - {x: -500, y: 0.1, z: 192}
+  - {x: -500, y: 0.1, z: 191}
+  - {x: 500, y: 0.1, z: 191}
+  - {x: 500, y: 0.1, z: 190}
+  - {x: -500, y: 0.1, z: 190}
+  - {x: -500, y: 0.1, z: 189}
+  - {x: 500, y: 0.1, z: 189}
+  - {x: 500, y: 0.1, z: 188}
+  - {x: -500, y: 0.1, z: 188}
+  - {x: -500, y: 0.1, z: 187}
+  - {x: 500, y: 0.1, z: 187}
+  - {x: 500, y: 0.1, z: 186}
+  - {x: -500, y: 0.1, z: 186}
+  - {x: -500, y: 0.1, z: 185}
+  - {x: 500, y: 0.1, z: 185}
+  - {x: 500, y: 0.1, z: 184}
+  - {x: -500, y: 0.1, z: 184}
+  - {x: -500, y: 0.1, z: 183}
+  - {x: 500, y: 0.1, z: 183}
+  - {x: 500, y: 0.1, z: 182}
+  - {x: -500, y: 0.1, z: 182}
+  - {x: -500, y: 0.1, z: 181}
+  - {x: 500, y: 0.1, z: 181}
+  - {x: 500, y: 0.1, z: 180}
+  - {x: -500, y: 0.1, z: 180}
+  - {x: -500, y: 0.1, z: 179}
+  - {x: 500, y: 0.1, z: 179}
+  - {x: 500, y: 0.1, z: 178}
+  - {x: -500, y: 0.1, z: 178}
+  - {x: -500, y: 0.1, z: 177}
+  - {x: 500, y: 0.1, z: 177}
+  - {x: 500, y: 0.1, z: 176}
+  - {x: -500, y: 0.1, z: 176}
+  - {x: -500, y: 0.1, z: 175}
+  - {x: 500, y: 0.1, z: 175}
+  - {x: 500, y: 0.1, z: 174}
+  - {x: -500, y: 0.1, z: 174}
+  - {x: -500, y: 0.1, z: 173}
+  - {x: 500, y: 0.1, z: 173}
+  - {x: 500, y: 0.1, z: 172}
+  - {x: -500, y: 0.1, z: 172}
+  - {x: -500, y: 0.1, z: 171}
+  - {x: 500, y: 0.1, z: 171}
+  - {x: 500, y: 0.1, z: 170}
+  - {x: -500, y: 0.1, z: 170}
+  - {x: -500, y: 0.1, z: 169}
+  - {x: 500, y: 0.1, z: 169}
+  - {x: 500, y: 0.1, z: 168}
+  - {x: -500, y: 0.1, z: 168}
+  - {x: -500, y: 0.1, z: 167}
+  - {x: 500, y: 0.1, z: 167}
+  - {x: 500, y: 0.1, z: 166}
+  - {x: -500, y: 0.1, z: 166}
+  - {x: -500, y: 0.1, z: 165}
+  - {x: 500, y: 0.1, z: 165}
+  - {x: 500, y: 0.1, z: 164}
+  - {x: -500, y: 0.1, z: 164}
+  - {x: -500, y: 0.1, z: 163}
+  - {x: 500, y: 0.1, z: 163}
+  - {x: 500, y: 0.1, z: 162}
+  - {x: -500, y: 0.1, z: 162}
+  - {x: -500, y: 0.1, z: 161}
+  - {x: 500, y: 0.1, z: 161}
+  - {x: 500, y: 0.1, z: 160}
+  - {x: -500, y: 0.1, z: 160}
+  - {x: -500, y: 0.1, z: 159}
+  - {x: 500, y: 0.1, z: 159}
+  - {x: 500, y: 0.1, z: 158}
+  - {x: -500, y: 0.1, z: 158}
+  - {x: -500, y: 0.1, z: 157}
+  - {x: 500, y: 0.1, z: 157}
+  - {x: 500, y: 0.1, z: 156}
+  - {x: -500, y: 0.1, z: 156}
+  - {x: -500, y: 0.1, z: 155}
+  - {x: 500, y: 0.1, z: 155}
+  - {x: 500, y: 0.1, z: 154}
+  - {x: -500, y: 0.1, z: 154}
+  - {x: -500, y: 0.1, z: 153}
+  - {x: 500, y: 0.1, z: 153}
+  - {x: 500, y: 0.1, z: 152}
+  - {x: -500, y: 0.1, z: 152}
+  - {x: -500, y: 0.1, z: 151}
+  - {x: 500, y: 0.1, z: 151}
+  - {x: 500, y: 0.1, z: 150}
+  - {x: -500, y: 0.1, z: 150}
+  - {x: -500, y: 0.1, z: 149}
+  - {x: 500, y: 0.1, z: 149}
+  - {x: 500, y: 0.1, z: 148}
+  - {x: -500, y: 0.1, z: 148}
+  - {x: -500, y: 0.1, z: 147}
+  - {x: 500, y: 0.1, z: 147}
+  - {x: 500, y: 0.1, z: 146}
+  - {x: -500, y: 0.1, z: 146}
+  - {x: -500, y: 0.1, z: 145}
+  - {x: 500, y: 0.1, z: 145}
+  - {x: 500, y: 0.1, z: 144}
+  - {x: -500, y: 0.1, z: 144}
+  - {x: -500, y: 0.1, z: 143}
+  - {x: 500, y: 0.1, z: 143}
+  - {x: 500, y: 0.1, z: 142}
+  - {x: -500, y: 0.1, z: 142}
+  - {x: -500, y: 0.1, z: 141}
+  - {x: 500, y: 0.1, z: 141}
+  - {x: 500, y: 0.1, z: 140}
+  - {x: -500, y: 0.1, z: 140}
+  - {x: -500, y: 0.1, z: 139}
+  - {x: 500, y: 0.1, z: 139}
+  - {x: 500, y: 0.1, z: 138}
+  - {x: -500, y: 0.1, z: 138}
+  - {x: -500, y: 0.1, z: 137}
+  - {x: 500, y: 0.1, z: 137}
+  - {x: 500, y: 0.1, z: 136}
+  - {x: -500, y: 0.1, z: 136}
+  - {x: -500, y: 0.1, z: 135}
+  - {x: 500, y: 0.1, z: 135}
+  - {x: 500, y: 0.1, z: 134}
+  - {x: -500, y: 0.1, z: 134}
+  - {x: -500, y: 0.1, z: 133}
+  - {x: 500, y: 0.1, z: 133}
+  - {x: 500, y: 0.1, z: 132}
+  - {x: -500, y: 0.1, z: 132}
+  - {x: -500, y: 0.1, z: 131}
+  - {x: 500, y: 0.1, z: 131}
+  - {x: 500, y: 0.1, z: 130}
+  - {x: -500, y: 0.1, z: 130}
+  - {x: -500, y: 0.1, z: 129}
+  - {x: 500, y: 0.1, z: 129}
+  - {x: 500, y: 0.1, z: 128}
+  - {x: -500, y: 0.1, z: 128}
+  - {x: -500, y: 0.1, z: 127}
+  - {x: 500, y: 0.1, z: 127}
+  - {x: 500, y: 0.1, z: 126}
+  - {x: -500, y: 0.1, z: 126}
+  - {x: -500, y: 0.1, z: 125}
+  - {x: 500, y: 0.1, z: 125}
+  - {x: 500, y: 0.1, z: 124}
+  - {x: -500, y: 0.1, z: 124}
+  - {x: -500, y: 0.1, z: 123}
+  - {x: 500, y: 0.1, z: 123}
+  - {x: 500, y: 0.1, z: 122}
+  - {x: -500, y: 0.1, z: 122}
+  - {x: -500, y: 0.1, z: 121}
+  - {x: 500, y: 0.1, z: 121}
+  - {x: 500, y: 0.1, z: 120}
+  - {x: -500, y: 0.1, z: 120}
+  - {x: -500, y: 0.1, z: 119}
+  - {x: 500, y: 0.1, z: 119}
+  - {x: 500, y: 0.1, z: 118}
+  - {x: -500, y: 0.1, z: 118}
+  - {x: -500, y: 0.1, z: 117}
+  - {x: 500, y: 0.1, z: 117}
+  - {x: 500, y: 0.1, z: 116}
+  - {x: -500, y: 0.1, z: 116}
+  - {x: -500, y: 0.1, z: 115}
+  - {x: 500, y: 0.1, z: 115}
+  - {x: 500, y: 0.1, z: 114}
+  - {x: -500, y: 0.1, z: 114}
+  - {x: -500, y: 0.1, z: 113}
+  - {x: 500, y: 0.1, z: 113}
+  - {x: 500, y: 0.1, z: 112}
+  - {x: -500, y: 0.1, z: 112}
+  - {x: -500, y: 0.1, z: 111}
+  - {x: 500, y: 0.1, z: 111}
+  - {x: 500, y: 0.1, z: 110}
+  - {x: -500, y: 0.1, z: 110}
+  - {x: -500, y: 0.1, z: 109}
+  - {x: 500, y: 0.1, z: 109}
+  - {x: 500, y: 0.1, z: 108}
+  - {x: -500, y: 0.1, z: 108}
+  - {x: -500, y: 0.1, z: 107}
+  - {x: 500, y: 0.1, z: 107}
+  - {x: 500, y: 0.1, z: 106}
+  - {x: -500, y: 0.1, z: 106}
+  - {x: -500, y: 0.1, z: 105}
+  - {x: 500, y: 0.1, z: 105}
+  - {x: 500, y: 0.1, z: 104}
+  - {x: -500, y: 0.1, z: 104}
+  - {x: -500, y: 0.1, z: 103}
+  - {x: 500, y: 0.1, z: 103}
+  - {x: 500, y: 0.1, z: 102}
+  - {x: -500, y: 0.1, z: 102}
+  - {x: -500, y: 0.1, z: 101}
+  - {x: 500, y: 0.1, z: 101}
+  - {x: 500, y: 0.1, z: 100}
+  - {x: -500, y: 0.1, z: 100}
+  - {x: -500, y: 0.1, z: 99}
+  - {x: 500, y: 0.1, z: 99}
+  - {x: 500, y: 0.1, z: 98}
+  - {x: -500, y: 0.1, z: 98}
+  - {x: -500, y: 0.1, z: 97}
+  - {x: 500, y: 0.1, z: 97}
+  - {x: 500, y: 0.1, z: 96}
+  - {x: -500, y: 0.1, z: 96}
+  - {x: -500, y: 0.1, z: 95}
+  - {x: 500, y: 0.1, z: 95}
+  - {x: 500, y: 0.1, z: 94}
+  - {x: -500, y: 0.1, z: 94}
+  - {x: -500, y: 0.1, z: 93}
+  - {x: 500, y: 0.1, z: 93}
+  - {x: 500, y: 0.1, z: 92}
+  - {x: -500, y: 0.1, z: 92}
+  - {x: -500, y: 0.1, z: 91}
+  - {x: 500, y: 0.1, z: 91}
+  - {x: 500, y: 0.1, z: 90}
+  - {x: -500, y: 0.1, z: 90}
+  - {x: -500, y: 0.1, z: 89}
+  - {x: 500, y: 0.1, z: 89}
+  - {x: 500, y: 0.1, z: 88}
+  - {x: -500, y: 0.1, z: 88}
+  - {x: -500, y: 0.1, z: 87}
+  - {x: 500, y: 0.1, z: 87}
+  - {x: 500, y: 0.1, z: 86}
+  - {x: -500, y: 0.1, z: 86}
+  - {x: -500, y: 0.1, z: 85}
+  - {x: 500, y: 0.1, z: 85}
+  - {x: 500, y: 0.1, z: 84}
+  - {x: -500, y: 0.1, z: 84}
+  - {x: -500, y: 0.1, z: 83}
+  - {x: 500, y: 0.1, z: 83}
+  - {x: 500, y: 0.1, z: 82}
+  - {x: -500, y: 0.1, z: 82}
+  - {x: -500, y: 0.1, z: 81}
+  - {x: 500, y: 0.1, z: 81}
+  - {x: 500, y: 0.1, z: 80}
+  - {x: -500, y: 0.1, z: 80}
+  - {x: -500, y: 0.1, z: 79}
+  - {x: 500, y: 0.1, z: 79}
+  - {x: 500, y: 0.1, z: 78}
+  - {x: -500, y: 0.1, z: 78}
+  - {x: -500, y: 0.1, z: 77}
+  - {x: 500, y: 0.1, z: 77}
+  - {x: 500, y: 0.1, z: 76}
+  - {x: -500, y: 0.1, z: 76}
+  - {x: -500, y: 0.1, z: 75}
+  - {x: 500, y: 0.1, z: 75}
+  - {x: 500, y: 0.1, z: 74}
+  - {x: -500, y: 0.1, z: 74}
+  - {x: -500, y: 0.1, z: 73}
+  - {x: 500, y: 0.1, z: 73}
+  - {x: 500, y: 0.1, z: 72}
+  - {x: -500, y: 0.1, z: 72}
+  - {x: -500, y: 0.1, z: 71}
+  - {x: 500, y: 0.1, z: 71}
+  - {x: 500, y: 0.1, z: 70}
+  - {x: -500, y: 0.1, z: 70}
+  - {x: -500, y: 0.1, z: 69}
+  - {x: 500, y: 0.1, z: 69}
+  - {x: 500, y: 0.1, z: 68}
+  - {x: -500, y: 0.1, z: 68}
+  - {x: -500, y: 0.1, z: 67}
+  - {x: 500, y: 0.1, z: 67}
+  - {x: 500, y: 0.1, z: 66}
+  - {x: -500, y: 0.1, z: 66}
+  - {x: -500, y: 0.1, z: 65}
+  - {x: 500, y: 0.1, z: 65}
+  - {x: 500, y: 0.1, z: 64}
+  - {x: -500, y: 0.1, z: 64}
+  - {x: -500, y: 0.1, z: 63}
+  - {x: 500, y: 0.1, z: 63}
+  - {x: 500, y: 0.1, z: 62}
+  - {x: -500, y: 0.1, z: 62}
+  - {x: -500, y: 0.1, z: 61}
+  - {x: 500, y: 0.1, z: 61}
+  - {x: 500, y: 0.1, z: 60}
+  - {x: -500, y: 0.1, z: 60}
+  - {x: -500, y: 0.1, z: 59}
+  - {x: 500, y: 0.1, z: 59}
+  - {x: 500, y: 0.1, z: 58}
+  - {x: -500, y: 0.1, z: 58}
+  - {x: -500, y: 0.1, z: 57}
+  - {x: 500, y: 0.1, z: 57}
+  - {x: 500, y: 0.1, z: 56}
+  - {x: -500, y: 0.1, z: 56}
+  - {x: -500, y: 0.1, z: 55}
+  - {x: 500, y: 0.1, z: 55}
+  - {x: 500, y: 0.1, z: 54}
+  - {x: -500, y: 0.1, z: 54}
+  - {x: -500, y: 0.1, z: 53}
+  - {x: 500, y: 0.1, z: 53}
+  - {x: 500, y: 0.1, z: 52}
+  - {x: -500, y: 0.1, z: 52}
+  - {x: -500, y: 0.1, z: 51}
+  - {x: 500, y: 0.1, z: 51}
+  - {x: 500, y: 0.1, z: 50}
+  - {x: -500, y: 0.1, z: 50}
+  - {x: -500, y: 0.1, z: 49}
+  - {x: 500, y: 0.1, z: 49}
+  - {x: 500, y: 0.1, z: 48}
+  - {x: -500, y: 0.1, z: 48}
+  - {x: -500, y: 0.1, z: 47}
+  - {x: 500, y: 0.1, z: 47}
+  - {x: 500, y: 0.1, z: 46}
+  - {x: -500, y: 0.1, z: 46}
+  - {x: -500, y: 0.1, z: 45}
+  - {x: 500, y: 0.1, z: 45}
+  - {x: 500, y: 0.1, z: 44}
+  - {x: -500, y: 0.1, z: 44}
+  - {x: -500, y: 0.1, z: 43}
+  - {x: 500, y: 0.1, z: 43}
+  - {x: 500, y: 0.1, z: 42}
+  - {x: -500, y: 0.1, z: 42}
+  - {x: -500, y: 0.1, z: 41}
+  - {x: 500, y: 0.1, z: 41}
+  - {x: 500, y: 0.1, z: 40}
+  - {x: -500, y: 0.1, z: 40}
+  - {x: -500, y: 0.1, z: 39}
+  - {x: 500, y: 0.1, z: 39}
+  - {x: 500, y: 0.1, z: 38}
+  - {x: -500, y: 0.1, z: 38}
+  - {x: -500, y: 0.1, z: 37}
+  - {x: 500, y: 0.1, z: 37}
+  - {x: 500, y: 0.1, z: 36}
+  - {x: -500, y: 0.1, z: 36}
+  - {x: -500, y: 0.1, z: 35}
+  - {x: 500, y: 0.1, z: 35}
+  - {x: 500, y: 0.1, z: 34}
+  - {x: -500, y: 0.1, z: 34}
+  - {x: -500, y: 0.1, z: 33}
+  - {x: 500, y: 0.1, z: 33}
+  - {x: 500, y: 0.1, z: 32}
+  - {x: -500, y: 0.1, z: 32}
+  - {x: -500, y: 0.1, z: 31}
+  - {x: 500, y: 0.1, z: 31}
+  - {x: 500, y: 0.1, z: 30}
+  - {x: -500, y: 0.1, z: 30}
+  - {x: -500, y: 0.1, z: 29}
+  - {x: 500, y: 0.1, z: 29}
+  - {x: 500, y: 0.1, z: 28}
+  - {x: -500, y: 0.1, z: 28}
+  - {x: -500, y: 0.1, z: 27}
+  - {x: 500, y: 0.1, z: 27}
+  - {x: 500, y: 0.1, z: 26}
+  - {x: -500, y: 0.1, z: 26}
+  - {x: -500, y: 0.1, z: 25}
+  - {x: 500, y: 0.1, z: 25}
+  - {x: 500, y: 0.1, z: 24}
+  - {x: -500, y: 0.1, z: 24}
+  - {x: -500, y: 0.1, z: 23}
+  - {x: 500, y: 0.1, z: 23}
+  - {x: 500, y: 0.1, z: 22}
+  - {x: -500, y: 0.1, z: 22}
+  - {x: -500, y: 0.1, z: 21}
+  - {x: 500, y: 0.1, z: 21}
+  - {x: 500, y: 0.1, z: 20}
+  - {x: -500, y: 0.1, z: 20}
+  - {x: -500, y: 0.1, z: 19}
+  - {x: 500, y: 0.1, z: 19}
+  - {x: 500, y: 0.1, z: 18}
+  - {x: -500, y: 0.1, z: 18}
+  - {x: -500, y: 0.1, z: 17}
+  - {x: 500, y: 0.1, z: 17}
+  - {x: 500, y: 0.1, z: 16}
+  - {x: -500, y: 0.1, z: 16}
+  - {x: -500, y: 0.1, z: 15}
+  - {x: 500, y: 0.1, z: 15}
+  - {x: 500, y: 0.1, z: 14}
+  - {x: -500, y: 0.1, z: 14}
+  - {x: -500, y: 0.1, z: 13}
+  - {x: 500, y: 0.1, z: 13}
+  - {x: 500, y: 0.1, z: 12}
+  - {x: -500, y: 0.1, z: 12}
+  - {x: -500, y: 0.1, z: 11}
+  - {x: 500, y: 0.1, z: 11}
+  - {x: 500, y: 0.1, z: 10}
+  - {x: -500, y: 0.1, z: 10}
+  - {x: -500, y: 0.1, z: 9}
+  - {x: 500, y: 0.1, z: 9}
+  - {x: 500, y: 0.1, z: 8}
+  - {x: -500, y: 0.1, z: 8}
+  - {x: -500, y: 0.1, z: 7}
+  - {x: 500, y: 0.1, z: 7}
+  - {x: 500, y: 0.1, z: 6}
+  - {x: -500, y: 0.1, z: 6}
+  - {x: -500, y: 0.1, z: 5}
+  - {x: 500, y: 0.1, z: 5}
+  - {x: 500, y: 0.1, z: 4}
+  - {x: -500, y: 0.1, z: 4}
+  - {x: -500, y: 0.1, z: 3}
+  - {x: 500, y: 0.1, z: 3}
+  - {x: 500, y: 0.1, z: 2}
+  - {x: -500, y: 0.1, z: 2}
+  - {x: -500, y: 0.1, z: 1}
+  - {x: 500, y: 0.1, z: 1}
+  - {x: 500, y: 0.1, z: 0}
+  - {x: -500, y: 0.1, z: 0}
+  - {x: -500, y: 0.1, z: -1}
+  - {x: 500, y: 0.1, z: -1}
+  - {x: 500, y: 0.1, z: -2}
+  - {x: -500, y: 0.1, z: -2}
+  - {x: -500, y: 0.1, z: -3}
+  - {x: 500, y: 0.1, z: -3}
+  - {x: 500, y: 0.1, z: -4}
+  - {x: -500, y: 0.1, z: -4}
+  - {x: -500, y: 0.1, z: -5}
+  - {x: 500, y: 0.1, z: -5}
+  - {x: 500, y: 0.1, z: -6}
+  - {x: -500, y: 0.1, z: -6}
+  - {x: -500, y: 0.1, z: -7}
+  - {x: 500, y: 0.1, z: -7}
+  - {x: 500, y: 0.1, z: -8}
+  - {x: -500, y: 0.1, z: -8}
+  - {x: -500, y: 0.1, z: -9}
+  - {x: 500, y: 0.1, z: -9}
+  - {x: 500, y: 0.1, z: -10}
+  - {x: -500, y: 0.1, z: -10}
+  - {x: -500, y: 0.1, z: -11}
+  - {x: 500, y: 0.1, z: -11}
+  - {x: 500, y: 0.1, z: -12}
+  - {x: -500, y: 0.1, z: -12}
+  - {x: -500, y: 0.1, z: -13}
+  - {x: 500, y: 0.1, z: -13}
+  - {x: 500, y: 0.1, z: -14}
+  - {x: -500, y: 0.1, z: -14}
+  - {x: -500, y: 0.1, z: -15}
+  - {x: 500, y: 0.1, z: -15}
+  - {x: 500, y: 0.1, z: -16}
+  - {x: -500, y: 0.1, z: -16}
+  - {x: -500, y: 0.1, z: -17}
+  - {x: 500, y: 0.1, z: -17}
+  - {x: 500, y: 0.1, z: -18}
+  - {x: -500, y: 0.1, z: -18}
+  - {x: -500, y: 0.1, z: -19}
+  - {x: 500, y: 0.1, z: -19}
+  - {x: 500, y: 0.1, z: -20}
+  - {x: -500, y: 0.1, z: -20}
+  - {x: -500, y: 0.1, z: -21}
+  - {x: 500, y: 0.1, z: -21}
+  - {x: 500, y: 0.1, z: -22}
+  - {x: -500, y: 0.1, z: -22}
+  - {x: -500, y: 0.1, z: -23}
+  - {x: 500, y: 0.1, z: -23}
+  - {x: 500, y: 0.1, z: -24}
+  - {x: -500, y: 0.1, z: -24}
+  - {x: -500, y: 0.1, z: -25}
+  - {x: 500, y: 0.1, z: -25}
+  - {x: 500, y: 0.1, z: -26}
+  - {x: -500, y: 0.1, z: -26}
+  - {x: -500, y: 0.1, z: -27}
+  - {x: 500, y: 0.1, z: -27}
+  - {x: 500, y: 0.1, z: -28}
+  - {x: -500, y: 0.1, z: -28}
+  - {x: -500, y: 0.1, z: -29}
+  - {x: 500, y: 0.1, z: -29}
+  - {x: 500, y: 0.1, z: -30}
+  - {x: -500, y: 0.1, z: -30}
+  - {x: -500, y: 0.1, z: -31}
+  - {x: 500, y: 0.1, z: -31}
+  - {x: 500, y: 0.1, z: -32}
+  - {x: -500, y: 0.1, z: -32}
+  - {x: -500, y: 0.1, z: -33}
+  - {x: 500, y: 0.1, z: -33}
+  - {x: 500, y: 0.1, z: -34}
+  - {x: -500, y: 0.1, z: -34}
+  - {x: -500, y: 0.1, z: -35}
+  - {x: 500, y: 0.1, z: -35}
+  - {x: 500, y: 0.1, z: -36}
+  - {x: -500, y: 0.1, z: -36}
+  - {x: -500, y: 0.1, z: -37}
+  - {x: 500, y: 0.1, z: -37}
+  - {x: 500, y: 0.1, z: -38}
+  - {x: -500, y: 0.1, z: -38}
+  - {x: -500, y: 0.1, z: -39}
+  - {x: 500, y: 0.1, z: -39}
+  - {x: 500, y: 0.1, z: -40}
+  - {x: -500, y: 0.1, z: -40}
+  - {x: -500, y: 0.1, z: -41}
+  - {x: 500, y: 0.1, z: -41}
+  - {x: 500, y: 0.1, z: -42}
+  - {x: -500, y: 0.1, z: -42}
+  - {x: -500, y: 0.1, z: -43}
+  - {x: 500, y: 0.1, z: -43}
+  - {x: 500, y: 0.1, z: -44}
+  - {x: -500, y: 0.1, z: -44}
+  - {x: -500, y: 0.1, z: -45}
+  - {x: 500, y: 0.1, z: -45}
+  - {x: 500, y: 0.1, z: -46}
+  - {x: -500, y: 0.1, z: -46}
+  - {x: -500, y: 0.1, z: -47}
+  - {x: 500, y: 0.1, z: -47}
+  - {x: 500, y: 0.1, z: -48}
+  - {x: -500, y: 0.1, z: -48}
+  - {x: -500, y: 0.1, z: -49}
+  - {x: 500, y: 0.1, z: -49}
+  - {x: 500, y: 0.1, z: -50}
+  - {x: -500, y: 0.1, z: -50}
+  - {x: -500, y: 0.1, z: -51}
+  - {x: 500, y: 0.1, z: -51}
+  - {x: 500, y: 0.1, z: -52}
+  - {x: -500, y: 0.1, z: -52}
+  - {x: -500, y: 0.1, z: -53}
+  - {x: 500, y: 0.1, z: -53}
+  - {x: 500, y: 0.1, z: -54}
+  - {x: -500, y: 0.1, z: -54}
+  - {x: -500, y: 0.1, z: -55}
+  - {x: 500, y: 0.1, z: -55}
+  - {x: 500, y: 0.1, z: -56}
+  - {x: -500, y: 0.1, z: -56}
+  - {x: -500, y: 0.1, z: -57}
+  - {x: 500, y: 0.1, z: -57}
+  - {x: 500, y: 0.1, z: -58}
+  - {x: -500, y: 0.1, z: -58}
+  - {x: -500, y: 0.1, z: -59}
+  - {x: 500, y: 0.1, z: -59}
+  - {x: 500, y: 0.1, z: -60}
+  - {x: -500, y: 0.1, z: -60}
+  - {x: -500, y: 0.1, z: -61}
+  - {x: 500, y: 0.1, z: -61}
+  - {x: 500, y: 0.1, z: -62}
+  - {x: -500, y: 0.1, z: -62}
+  - {x: -500, y: 0.1, z: -63}
+  - {x: 500, y: 0.1, z: -63}
+  - {x: 500, y: 0.1, z: -64}
+  - {x: -500, y: 0.1, z: -64}
+  - {x: -500, y: 0.1, z: -65}
+  - {x: 500, y: 0.1, z: -65}
+  - {x: 500, y: 0.1, z: -66}
+  - {x: -500, y: 0.1, z: -66}
+  - {x: -500, y: 0.1, z: -67}
+  - {x: 500, y: 0.1, z: -67}
+  - {x: 500, y: 0.1, z: -68}
+  - {x: -500, y: 0.1, z: -68}
+  - {x: -500, y: 0.1, z: -69}
+  - {x: 500, y: 0.1, z: -69}
+  - {x: 500, y: 0.1, z: -70}
+  - {x: -500, y: 0.1, z: -70}
+  - {x: -500, y: 0.1, z: -71}
+  - {x: 500, y: 0.1, z: -71}
+  - {x: 500, y: 0.1, z: -72}
+  - {x: -500, y: 0.1, z: -72}
+  - {x: -500, y: 0.1, z: -73}
+  - {x: 500, y: 0.1, z: -73}
+  - {x: 500, y: 0.1, z: -74}
+  - {x: -500, y: 0.1, z: -74}
+  - {x: -500, y: 0.1, z: -75}
+  - {x: 500, y: 0.1, z: -75}
+  - {x: 500, y: 0.1, z: -76}
+  - {x: -500, y: 0.1, z: -76}
+  - {x: -500, y: 0.1, z: -77}
+  - {x: 500, y: 0.1, z: -77}
+  - {x: 500, y: 0.1, z: -78}
+  - {x: -500, y: 0.1, z: -78}
+  - {x: -500, y: 0.1, z: -79}
+  - {x: 500, y: 0.1, z: -79}
+  - {x: 500, y: 0.1, z: -80}
+  - {x: -500, y: 0.1, z: -80}
+  - {x: -500, y: 0.1, z: -81}
+  - {x: 500, y: 0.1, z: -81}
+  - {x: 500, y: 0.1, z: -82}
+  - {x: -500, y: 0.1, z: -82}
+  - {x: -500, y: 0.1, z: -83}
+  - {x: 500, y: 0.1, z: -83}
+  - {x: 500, y: 0.1, z: -84}
+  - {x: -500, y: 0.1, z: -84}
+  - {x: -500, y: 0.1, z: -85}
+  - {x: 500, y: 0.1, z: -85}
+  - {x: 500, y: 0.1, z: -86}
+  - {x: -500, y: 0.1, z: -86}
+  - {x: -500, y: 0.1, z: -87}
+  - {x: 500, y: 0.1, z: -87}
+  - {x: 500, y: 0.1, z: -88}
+  - {x: -500, y: 0.1, z: -88}
+  - {x: -500, y: 0.1, z: -89}
+  - {x: 500, y: 0.1, z: -89}
+  - {x: 500, y: 0.1, z: -90}
+  - {x: -500, y: 0.1, z: -90}
+  - {x: -500, y: 0.1, z: -91}
+  - {x: 500, y: 0.1, z: -91}
+  - {x: 500, y: 0.1, z: -92}
+  - {x: -500, y: 0.1, z: -92}
+  - {x: -500, y: 0.1, z: -93}
+  - {x: 500, y: 0.1, z: -93}
+  - {x: 500, y: 0.1, z: -94}
+  - {x: -500, y: 0.1, z: -94}
+  - {x: -500, y: 0.1, z: -95}
+  - {x: 500, y: 0.1, z: -95}
+  - {x: 500, y: 0.1, z: -96}
+  - {x: -500, y: 0.1, z: -96}
+  - {x: -500, y: 0.1, z: -97}
+  - {x: 500, y: 0.1, z: -97}
+  - {x: 500, y: 0.1, z: -98}
+  - {x: -500, y: 0.1, z: -98}
+  - {x: -500, y: 0.1, z: -99}
+  - {x: 500, y: 0.1, z: -99}
+  - {x: 500, y: 0.1, z: -100}
+  - {x: -500, y: 0.1, z: -100}
+  - {x: -500, y: 0.1, z: -101}
+  - {x: 500, y: 0.1, z: -101}
+  - {x: 500, y: 0.1, z: -102}
+  - {x: -500, y: 0.1, z: -102}
+  - {x: -500, y: 0.1, z: -103}
+  - {x: 500, y: 0.1, z: -103}
+  - {x: 500, y: 0.1, z: -104}
+  - {x: -500, y: 0.1, z: -104}
+  - {x: -500, y: 0.1, z: -105}
+  - {x: 500, y: 0.1, z: -105}
+  - {x: 500, y: 0.1, z: -106}
+  - {x: -500, y: 0.1, z: -106}
+  - {x: -500, y: 0.1, z: -107}
+  - {x: 500, y: 0.1, z: -107}
+  - {x: 500, y: 0.1, z: -108}
+  - {x: -500, y: 0.1, z: -108}
+  - {x: -500, y: 0.1, z: -109}
+  - {x: 500, y: 0.1, z: -109}
+  - {x: 500, y: 0.1, z: -110}
+  - {x: -500, y: 0.1, z: -110}
+  - {x: -500, y: 0.1, z: -111}
+  - {x: 500, y: 0.1, z: -111}
+  - {x: 500, y: 0.1, z: -112}
+  - {x: -500, y: 0.1, z: -112}
+  - {x: -500, y: 0.1, z: -113}
+  - {x: 500, y: 0.1, z: -113}
+  - {x: 500, y: 0.1, z: -114}
+  - {x: -500, y: 0.1, z: -114}
+  - {x: -500, y: 0.1, z: -115}
+  - {x: 500, y: 0.1, z: -115}
+  - {x: 500, y: 0.1, z: -116}
+  - {x: -500, y: 0.1, z: -116}
+  - {x: -500, y: 0.1, z: -117}
+  - {x: 500, y: 0.1, z: -117}
+  - {x: 500, y: 0.1, z: -118}
+  - {x: -500, y: 0.1, z: -118}
+  - {x: -500, y: 0.1, z: -119}
+  - {x: 500, y: 0.1, z: -119}
+  - {x: 500, y: 0.1, z: -120}
+  - {x: -500, y: 0.1, z: -120}
+  - {x: -500, y: 0.1, z: -121}
+  - {x: 500, y: 0.1, z: -121}
+  - {x: 500, y: 0.1, z: -122}
+  - {x: -500, y: 0.1, z: -122}
+  - {x: -500, y: 0.1, z: -123}
+  - {x: 500, y: 0.1, z: -123}
+  - {x: 500, y: 0.1, z: -124}
+  - {x: -500, y: 0.1, z: -124}
+  - {x: -500, y: 0.1, z: -125}
+  - {x: 500, y: 0.1, z: -125}
+  - {x: 500, y: 0.1, z: -126}
+  - {x: -500, y: 0.1, z: -126}
+  - {x: -500, y: 0.1, z: -127}
+  - {x: 500, y: 0.1, z: -127}
+  - {x: 500, y: 0.1, z: -128}
+  - {x: -500, y: 0.1, z: -128}
+  - {x: -500, y: 0.1, z: -129}
+  - {x: 500, y: 0.1, z: -129}
+  - {x: 500, y: 0.1, z: -130}
+  - {x: -500, y: 0.1, z: -130}
+  - {x: -500, y: 0.1, z: -131}
+  - {x: 500, y: 0.1, z: -131}
+  - {x: 500, y: 0.1, z: -132}
+  - {x: -500, y: 0.1, z: -132}
+  - {x: -500, y: 0.1, z: -133}
+  - {x: 500, y: 0.1, z: -133}
+  - {x: 500, y: 0.1, z: -134}
+  - {x: -500, y: 0.1, z: -134}
+  - {x: -500, y: 0.1, z: -135}
+  - {x: 500, y: 0.1, z: -135}
+  - {x: 500, y: 0.1, z: -136}
+  - {x: -500, y: 0.1, z: -136}
+  - {x: -500, y: 0.1, z: -137}
+  - {x: 500, y: 0.1, z: -137}
+  - {x: 500, y: 0.1, z: -138}
+  - {x: -500, y: 0.1, z: -138}
+  - {x: -500, y: 0.1, z: -139}
+  - {x: 500, y: 0.1, z: -139}
+  - {x: 500, y: 0.1, z: -140}
+  - {x: -500, y: 0.1, z: -140}
+  - {x: -500, y: 0.1, z: -141}
+  - {x: 500, y: 0.1, z: -141}
+  - {x: 500, y: 0.1, z: -142}
+  - {x: -500, y: 0.1, z: -142}
+  - {x: -500, y: 0.1, z: -143}
+  - {x: 500, y: 0.1, z: -143}
+  - {x: 500, y: 0.1, z: -144}
+  - {x: -500, y: 0.1, z: -144}
+  - {x: -500, y: 0.1, z: -145}
+  - {x: 500, y: 0.1, z: -145}
+  - {x: 500, y: 0.1, z: -146}
+  - {x: -500, y: 0.1, z: -146}
+  - {x: -500, y: 0.1, z: -147}
+  - {x: 500, y: 0.1, z: -147}
+  - {x: 500, y: 0.1, z: -148}
+  - {x: -500, y: 0.1, z: -148}
+  - {x: -500, y: 0.1, z: -149}
+  - {x: 500, y: 0.1, z: -149}
+  - {x: 500, y: 0.1, z: -150}
+  - {x: -500, y: 0.1, z: -150}
+  - {x: -500, y: 0.1, z: -151}
+  - {x: 500, y: 0.1, z: -151}
+  - {x: 500, y: 0.1, z: -152}
+  - {x: -500, y: 0.1, z: -152}
+  - {x: -500, y: 0.1, z: -153}
+  - {x: 500, y: 0.1, z: -153}
+  - {x: 500, y: 0.1, z: -154}
+  - {x: -500, y: 0.1, z: -154}
+  - {x: -500, y: 0.1, z: -155}
+  - {x: 500, y: 0.1, z: -155}
+  - {x: 500, y: 0.1, z: -156}
+  - {x: -500, y: 0.1, z: -156}
+  - {x: -500, y: 0.1, z: -157}
+  - {x: 500, y: 0.1, z: -157}
+  - {x: 500, y: 0.1, z: -158}
+  - {x: -500, y: 0.1, z: -158}
+  - {x: -500, y: 0.1, z: -159}
+  - {x: 500, y: 0.1, z: -159}
+  - {x: 500, y: 0.1, z: -160}
+  - {x: -500, y: 0.1, z: -160}
+  - {x: -500, y: 0.1, z: -161}
+  - {x: 500, y: 0.1, z: -161}
+  - {x: 500, y: 0.1, z: -162}
+  - {x: -500, y: 0.1, z: -162}
+  - {x: -500, y: 0.1, z: -163}
+  - {x: 500, y: 0.1, z: -163}
+  - {x: 500, y: 0.1, z: -164}
+  - {x: -500, y: 0.1, z: -164}
+  - {x: -500, y: 0.1, z: -165}
+  - {x: 500, y: 0.1, z: -165}
+  - {x: 500, y: 0.1, z: -166}
+  - {x: -500, y: 0.1, z: -166}
+  - {x: -500, y: 0.1, z: -167}
+  - {x: 500, y: 0.1, z: -167}
+  - {x: 500, y: 0.1, z: -168}
+  - {x: -500, y: 0.1, z: -168}
+  - {x: -500, y: 0.1, z: -169}
+  - {x: 500, y: 0.1, z: -169}
+  - {x: 500, y: 0.1, z: -170}
+  - {x: -500, y: 0.1, z: -170}
+  - {x: -500, y: 0.1, z: -171}
+  - {x: 500, y: 0.1, z: -171}
+  - {x: 500, y: 0.1, z: -172}
+  - {x: -500, y: 0.1, z: -172}
+  - {x: -500, y: 0.1, z: -173}
+  - {x: 500, y: 0.1, z: -173}
+  - {x: 500, y: 0.1, z: -174}
+  - {x: -500, y: 0.1, z: -174}
+  - {x: -500, y: 0.1, z: -175}
+  - {x: 500, y: 0.1, z: -175}
+  - {x: 500, y: 0.1, z: -176}
+  - {x: -500, y: 0.1, z: -176}
+  - {x: -500, y: 0.1, z: -177}
+  - {x: 500, y: 0.1, z: -177}
+  - {x: 500, y: 0.1, z: -178}
+  - {x: -500, y: 0.1, z: -178}
+  - {x: -500, y: 0.1, z: -179}
+  - {x: 500, y: 0.1, z: -179}
+  - {x: 500, y: 0.1, z: -180}
+  - {x: -500, y: 0.1, z: -180}
+  - {x: -500, y: 0.1, z: -181}
+  - {x: 500, y: 0.1, z: -181}
+  - {x: 500, y: 0.1, z: -182}
+  - {x: -500, y: 0.1, z: -182}
+  - {x: -500, y: 0.1, z: -183}
+  - {x: 500, y: 0.1, z: -183}
+  - {x: 500, y: 0.1, z: -184}
+  - {x: -500, y: 0.1, z: -184}
+  - {x: -500, y: 0.1, z: -185}
+  - {x: 500, y: 0.1, z: -185}
+  - {x: 500, y: 0.1, z: -186}
+  - {x: -500, y: 0.1, z: -186}
+  - {x: -500, y: 0.1, z: -187}
+  - {x: 500, y: 0.1, z: -187}
+  - {x: 500, y: 0.1, z: -188}
+  - {x: -500, y: 0.1, z: -188}
+  - {x: -500, y: 0.1, z: -189}
+  - {x: 500, y: 0.1, z: -189}
+  - {x: 500, y: 0.1, z: -190}
+  - {x: -500, y: 0.1, z: -190}
+  - {x: -500, y: 0.1, z: -191}
+  - {x: 500, y: 0.1, z: -191}
+  - {x: 500, y: 0.1, z: -192}
+  - {x: -500, y: 0.1, z: -192}
+  - {x: -500, y: 0.1, z: -193}
+  - {x: 500, y: 0.1, z: -193}
+  - {x: 500, y: 0.1, z: -194}
+  - {x: -500, y: 0.1, z: -194}
+  - {x: -500, y: 0.1, z: -195}
+  - {x: 500, y: 0.1, z: -195}
+  - {x: 500, y: 0.1, z: -196}
+  - {x: -500, y: 0.1, z: -196}
+  - {x: -500, y: 0.1, z: -197}
+  - {x: 500, y: 0.1, z: -197}
+  - {x: 500, y: 0.1, z: -198}
+  - {x: -500, y: 0.1, z: -198}
+  - {x: -500, y: 0.1, z: -199}
+  - {x: 500, y: 0.1, z: -199}
+  - {x: 500, y: 0.1, z: -200}
+  - {x: -500, y: 0.1, z: -200}
+  - {x: -500, y: 0.1, z: -201}
+  - {x: 500, y: 0.1, z: -201}
+  - {x: 500, y: 0.1, z: -202}
+  - {x: -500, y: 0.1, z: -202}
+  - {x: -500, y: 0.1, z: -203}
+  - {x: 500, y: 0.1, z: -203}
+  - {x: 500, y: 0.1, z: -204}
+  - {x: -500, y: 0.1, z: -204}
+  - {x: -500, y: 0.1, z: -205}
+  - {x: 500, y: 0.1, z: -205}
+  - {x: 500, y: 0.1, z: -206}
+  - {x: -500, y: 0.1, z: -206}
+  - {x: -500, y: 0.1, z: -207}
+  - {x: 500, y: 0.1, z: -207}
+  - {x: 500, y: 0.1, z: -208}
+  - {x: -500, y: 0.1, z: -208}
+  - {x: -500, y: 0.1, z: -209}
+  - {x: 500, y: 0.1, z: -209}
+  - {x: 500, y: 0.1, z: -210}
+  - {x: -500, y: 0.1, z: -210}
+  - {x: -500, y: 0.1, z: -211}
+  - {x: 500, y: 0.1, z: -211}
+  - {x: 500, y: 0.1, z: -212}
+  - {x: -500, y: 0.1, z: -212}
+  - {x: -500, y: 0.1, z: -213}
+  - {x: 500, y: 0.1, z: -213}
+  - {x: 500, y: 0.1, z: -214}
+  - {x: -500, y: 0.1, z: -214}
+  - {x: -500, y: 0.1, z: -215}
+  - {x: 500, y: 0.1, z: -215}
+  - {x: 500, y: 0.1, z: -216}
+  - {x: -500, y: 0.1, z: -216}
+  - {x: -500, y: 0.1, z: -217}
+  - {x: 500, y: 0.1, z: -217}
+  - {x: 500, y: 0.1, z: -218}
+  - {x: -500, y: 0.1, z: -218}
+  - {x: -500, y: 0.1, z: -219}
+  - {x: 500, y: 0.1, z: -219}
+  - {x: 500, y: 0.1, z: -220}
+  - {x: -500, y: 0.1, z: -220}
+  - {x: -500, y: 0.1, z: -221}
+  - {x: 500, y: 0.1, z: -221}
+  - {x: 500, y: 0.1, z: -222}
+  - {x: -500, y: 0.1, z: -222}
+  - {x: -500, y: 0.1, z: -223}
+  - {x: 500, y: 0.1, z: -223}
+  - {x: 500, y: 0.1, z: -224}
+  - {x: -500, y: 0.1, z: -224}
+  - {x: -500, y: 0.1, z: -225}
+  - {x: 500, y: 0.1, z: -225}
+  - {x: 500, y: 0.1, z: -226}
+  - {x: -500, y: 0.1, z: -226}
+  - {x: -500, y: 0.1, z: -227}
+  - {x: 500, y: 0.1, z: -227}
+  - {x: 500, y: 0.1, z: -228}
+  - {x: -500, y: 0.1, z: -228}
+  - {x: -500, y: 0.1, z: -229}
+  - {x: 500, y: 0.1, z: -229}
+  - {x: 500, y: 0.1, z: -230}
+  - {x: -500, y: 0.1, z: -230}
+  - {x: -500, y: 0.1, z: -231}
+  - {x: 500, y: 0.1, z: -231}
+  - {x: 500, y: 0.1, z: -232}
+  - {x: -500, y: 0.1, z: -232}
+  - {x: -500, y: 0.1, z: -233}
+  - {x: 500, y: 0.1, z: -233}
+  - {x: 500, y: 0.1, z: -234}
+  - {x: -500, y: 0.1, z: -234}
+  - {x: -500, y: 0.1, z: -235}
+  - {x: 500, y: 0.1, z: -235}
+  - {x: 500, y: 0.1, z: -236}
+  - {x: -500, y: 0.1, z: -236}
+  - {x: -500, y: 0.1, z: -237}
+  - {x: 500, y: 0.1, z: -237}
+  - {x: 500, y: 0.1, z: -238}
+  - {x: -500, y: 0.1, z: -238}
+  - {x: -500, y: 0.1, z: -239}
+  - {x: 500, y: 0.1, z: -239}
+  - {x: 500, y: 0.1, z: -240}
+  - {x: -500, y: 0.1, z: -240}
+  - {x: -500, y: 0.1, z: -241}
+  - {x: 500, y: 0.1, z: -241}
+  - {x: 500, y: 0.1, z: -242}
+  - {x: -500, y: 0.1, z: -242}
+  - {x: -500, y: 0.1, z: -243}
+  - {x: 500, y: 0.1, z: -243}
+  - {x: 500, y: 0.1, z: -244}
+  - {x: -500, y: 0.1, z: -244}
+  - {x: -500, y: 0.1, z: -245}
+  - {x: 500, y: 0.1, z: -245}
+  - {x: 500, y: 0.1, z: -246}
+  - {x: -500, y: 0.1, z: -246}
+  - {x: -500, y: 0.1, z: -247}
+  - {x: 500, y: 0.1, z: -247}
+  - {x: 500, y: 0.1, z: -248}
+  - {x: -500, y: 0.1, z: -248}
+  - {x: -500, y: 0.1, z: -249}
+  - {x: 500, y: 0.1, z: -249}
+  - {x: 500, y: 0.1, z: -250}
+  - {x: -500, y: 0.1, z: -250}
+  - {x: -500, y: 0.1, z: -251}
+  - {x: 500, y: 0.1, z: -251}
+  - {x: 500, y: 0.1, z: -252}
+  - {x: -500, y: 0.1, z: -252}
+  - {x: -500, y: 0.1, z: -253}
+  - {x: 500, y: 0.1, z: -253}
+  - {x: 500, y: 0.1, z: -254}
+  - {x: -500, y: 0.1, z: -254}
+  - {x: -500, y: 0.1, z: -255}
+  - {x: 500, y: 0.1, z: -255}
+  - {x: 500, y: 0.1, z: -256}
+  - {x: -500, y: 0.1, z: -256}
+  - {x: -500, y: 0.1, z: -257}
+  - {x: 500, y: 0.1, z: -257}
+  - {x: 500, y: 0.1, z: -258}
+  - {x: -500, y: 0.1, z: -258}
+  - {x: -500, y: 0.1, z: -259}
+  - {x: 500, y: 0.1, z: -259}
+  - {x: 500, y: 0.1, z: -260}
+  - {x: -500, y: 0.1, z: -260}
+  - {x: -500, y: 0.1, z: -261}
+  - {x: 500, y: 0.1, z: -261}
+  - {x: 500, y: 0.1, z: -262}
+  - {x: -500, y: 0.1, z: -262}
+  - {x: -500, y: 0.1, z: -263}
+  - {x: 500, y: 0.1, z: -263}
+  - {x: 500, y: 0.1, z: -264}
+  - {x: -500, y: 0.1, z: -264}
+  - {x: -500, y: 0.1, z: -265}
+  - {x: 500, y: 0.1, z: -265}
+  - {x: 500, y: 0.1, z: -266}
+  - {x: -500, y: 0.1, z: -266}
+  - {x: -500, y: 0.1, z: -267}
+  - {x: 500, y: 0.1, z: -267}
+  - {x: 500, y: 0.1, z: -268}
+  - {x: -500, y: 0.1, z: -268}
+  - {x: -500, y: 0.1, z: -269}
+  - {x: 500, y: 0.1, z: -269}
+  - {x: 500, y: 0.1, z: -270}
+  - {x: -500, y: 0.1, z: -270}
+  - {x: -500, y: 0.1, z: -271}
+  - {x: 500, y: 0.1, z: -271}
+  - {x: 500, y: 0.1, z: -272}
+  - {x: -500, y: 0.1, z: -272}
+  - {x: -500, y: 0.1, z: -273}
+  - {x: 500, y: 0.1, z: -273}
+  - {x: 500, y: 0.1, z: -274}
+  - {x: -500, y: 0.1, z: -274}
+  - {x: -500, y: 0.1, z: -275}
+  - {x: 500, y: 0.1, z: -275}
+  - {x: 500, y: 0.1, z: -276}
+  - {x: -500, y: 0.1, z: -276}
+  - {x: -500, y: 0.1, z: -277}
+  - {x: 500, y: 0.1, z: -277}
+  - {x: 500, y: 0.1, z: -278}
+  - {x: -500, y: 0.1, z: -278}
+  - {x: -500, y: 0.1, z: -279}
+  - {x: 500, y: 0.1, z: -279}
+  - {x: 500, y: 0.1, z: -280}
+  - {x: -500, y: 0.1, z: -280}
+  - {x: -500, y: 0.1, z: -281}
+  - {x: 500, y: 0.1, z: -281}
+  - {x: 500, y: 0.1, z: -282}
+  - {x: -500, y: 0.1, z: -282}
+  - {x: -500, y: 0.1, z: -283}
+  - {x: 500, y: 0.1, z: -283}
+  - {x: 500, y: 0.1, z: -284}
+  - {x: -500, y: 0.1, z: -284}
+  - {x: -500, y: 0.1, z: -285}
+  - {x: 500, y: 0.1, z: -285}
+  - {x: 500, y: 0.1, z: -286}
+  - {x: -500, y: 0.1, z: -286}
+  - {x: -500, y: 0.1, z: -287}
+  - {x: 500, y: 0.1, z: -287}
+  - {x: 500, y: 0.1, z: -288}
+  - {x: -500, y: 0.1, z: -288}
+  - {x: -500, y: 0.1, z: -289}
+  - {x: 500, y: 0.1, z: -289}
+  - {x: 500, y: 0.1, z: -290}
+  - {x: -500, y: 0.1, z: -290}
+  - {x: -500, y: 0.1, z: -291}
+  - {x: 500, y: 0.1, z: -291}
+  - {x: 500, y: 0.1, z: -292}
+  - {x: -500, y: 0.1, z: -292}
+  - {x: -500, y: 0.1, z: -293}
+  - {x: 500, y: 0.1, z: -293}
+  - {x: 500, y: 0.1, z: -294}
+  - {x: -500, y: 0.1, z: -294}
+  - {x: -500, y: 0.1, z: -295}
+  - {x: 500, y: 0.1, z: -295}
+  - {x: 500, y: 0.1, z: -296}
+  - {x: -500, y: 0.1, z: -296}
+  - {x: -500, y: 0.1, z: -297}
+  - {x: 500, y: 0.1, z: -297}
+  - {x: 500, y: 0.1, z: -298}
+  - {x: -500, y: 0.1, z: -298}
+  - {x: -500, y: 0.1, z: -299}
+  - {x: 500, y: 0.1, z: -299}
+  - {x: 500, y: 0.1, z: -300}
+  - {x: -500, y: 0.1, z: -300}
+  - {x: -500, y: 0.1, z: -301}
+  - {x: 500, y: 0.1, z: -301}
+  - {x: 500, y: 0.1, z: -302}
+  - {x: -500, y: 0.1, z: -302}
+  - {x: -500, y: 0.1, z: -303}
+  - {x: 500, y: 0.1, z: -303}
+  - {x: 500, y: 0.1, z: -304}
+  - {x: -500, y: 0.1, z: -304}
+  - {x: -500, y: 0.1, z: -305}
+  - {x: 500, y: 0.1, z: -305}
+  - {x: 500, y: 0.1, z: -306}
+  - {x: -500, y: 0.1, z: -306}
+  - {x: -500, y: 0.1, z: -307}
+  - {x: 500, y: 0.1, z: -307}
+  - {x: 500, y: 0.1, z: -308}
+  - {x: -500, y: 0.1, z: -308}
+  - {x: -500, y: 0.1, z: -309}
+  - {x: 500, y: 0.1, z: -309}
+  - {x: 500, y: 0.1, z: -310}
+  - {x: -500, y: 0.1, z: -310}
+  - {x: -500, y: 0.1, z: -311}
+  - {x: 500, y: 0.1, z: -311}
+  - {x: 500, y: 0.1, z: -312}
+  - {x: -500, y: 0.1, z: -312}
+  - {x: -500, y: 0.1, z: -313}
+  - {x: 500, y: 0.1, z: -313}
+  - {x: 500, y: 0.1, z: -314}
+  - {x: -500, y: 0.1, z: -314}
+  - {x: -500, y: 0.1, z: -315}
+  - {x: 500, y: 0.1, z: -315}
+  - {x: 500, y: 0.1, z: -316}
+  - {x: -500, y: 0.1, z: -316}
+  - {x: -500, y: 0.1, z: -317}
+  - {x: 500, y: 0.1, z: -317}
+  - {x: 500, y: 0.1, z: -318}
+  - {x: -500, y: 0.1, z: -318}
+  - {x: -500, y: 0.1, z: -319}
+  - {x: 500, y: 0.1, z: -319}
+  - {x: 500, y: 0.1, z: -320}
+  - {x: -500, y: 0.1, z: -320}
+  - {x: -500, y: 0.1, z: -321}
+  - {x: 500, y: 0.1, z: -321}
+  - {x: 500, y: 0.1, z: -322}
+  - {x: -500, y: 0.1, z: -322}
+  - {x: -500, y: 0.1, z: -323}
+  - {x: 500, y: 0.1, z: -323}
+  - {x: 500, y: 0.1, z: -324}
+  - {x: -500, y: 0.1, z: -324}
+  - {x: -500, y: 0.1, z: -325}
+  - {x: 500, y: 0.1, z: -325}
+  - {x: 500, y: 0.1, z: -326}
+  - {x: -500, y: 0.1, z: -326}
+  - {x: -500, y: 0.1, z: -327}
+  - {x: 500, y: 0.1, z: -327}
+  - {x: 500, y: 0.1, z: -328}
+  - {x: -500, y: 0.1, z: -328}
+  - {x: -500, y: 0.1, z: -329}
+  - {x: 500, y: 0.1, z: -329}
+  - {x: 500, y: 0.1, z: -330}
+  - {x: -500, y: 0.1, z: -330}
+  - {x: -500, y: 0.1, z: -331}
+  - {x: 500, y: 0.1, z: -331}
+  - {x: 500, y: 0.1, z: -332}
+  - {x: -500, y: 0.1, z: -332}
+  - {x: -500, y: 0.1, z: -333}
+  - {x: 500, y: 0.1, z: -333}
+  - {x: 500, y: 0.1, z: -334}
+  - {x: -500, y: 0.1, z: -334}
+  - {x: -500, y: 0.1, z: -335}
+  - {x: 500, y: 0.1, z: -335}
+  - {x: 500, y: 0.1, z: -336}
+  - {x: -500, y: 0.1, z: -336}
+  - {x: -500, y: 0.1, z: -337}
+  - {x: 500, y: 0.1, z: -337}
+  - {x: 500, y: 0.1, z: -338}
+  - {x: -500, y: 0.1, z: -338}
+  - {x: -500, y: 0.1, z: -339}
+  - {x: 500, y: 0.1, z: -339}
+  - {x: 500, y: 0.1, z: -340}
+  - {x: -500, y: 0.1, z: -340}
+  - {x: -500, y: 0.1, z: -341}
+  - {x: 500, y: 0.1, z: -341}
+  - {x: 500, y: 0.1, z: -342}
+  - {x: -500, y: 0.1, z: -342}
+  - {x: -500, y: 0.1, z: -343}
+  - {x: 500, y: 0.1, z: -343}
+  - {x: 500, y: 0.1, z: -344}
+  - {x: -500, y: 0.1, z: -344}
+  - {x: -500, y: 0.1, z: -345}
+  - {x: 500, y: 0.1, z: -345}
+  - {x: 500, y: 0.1, z: -346}
+  - {x: -500, y: 0.1, z: -346}
+  - {x: -500, y: 0.1, z: -347}
+  - {x: 500, y: 0.1, z: -347}
+  - {x: 500, y: 0.1, z: -348}
+  - {x: -500, y: 0.1, z: -348}
+  - {x: -500, y: 0.1, z: -349}
+  - {x: 500, y: 0.1, z: -349}
+  - {x: 500, y: 0.1, z: -350}
+  - {x: -500, y: 0.1, z: -350}
+  - {x: -500, y: 0.1, z: -351}
+  - {x: 500, y: 0.1, z: -351}
+  - {x: 500, y: 0.1, z: -352}
+  - {x: -500, y: 0.1, z: -352}
+  - {x: -500, y: 0.1, z: -353}
+  - {x: 500, y: 0.1, z: -353}
+  - {x: 500, y: 0.1, z: -354}
+  - {x: -500, y: 0.1, z: -354}
+  - {x: -500, y: 0.1, z: -355}
+  - {x: 500, y: 0.1, z: -355}
+  - {x: 500, y: 0.1, z: -356}
+  - {x: -500, y: 0.1, z: -356}
+  - {x: -500, y: 0.1, z: -357}
+  - {x: 500, y: 0.1, z: -357}
+  - {x: 500, y: 0.1, z: -358}
+  - {x: -500, y: 0.1, z: -358}
+  - {x: -500, y: 0.1, z: -359}
+  - {x: 500, y: 0.1, z: -359}
+  - {x: 500, y: 0.1, z: -360}
+  - {x: -500, y: 0.1, z: -360}
+  - {x: -500, y: 0.1, z: -361}
+  - {x: 500, y: 0.1, z: -361}
+  - {x: 500, y: 0.1, z: -362}
+  - {x: -500, y: 0.1, z: -362}
+  - {x: -500, y: 0.1, z: -363}
+  - {x: 500, y: 0.1, z: -363}
+  - {x: 500, y: 0.1, z: -364}
+  - {x: -500, y: 0.1, z: -364}
+  - {x: -500, y: 0.1, z: -365}
+  - {x: 500, y: 0.1, z: -365}
+  - {x: 500, y: 0.1, z: -366}
+  - {x: -500, y: 0.1, z: -366}
+  - {x: -500, y: 0.1, z: -367}
+  - {x: 500, y: 0.1, z: -367}
+  - {x: 500, y: 0.1, z: -368}
+  - {x: -500, y: 0.1, z: -368}
+  - {x: -500, y: 0.1, z: -369}
+  - {x: 500, y: 0.1, z: -369}
+  - {x: 500, y: 0.1, z: -370}
+  - {x: -500, y: 0.1, z: -370}
+  - {x: -500, y: 0.1, z: -371}
+  - {x: 500, y: 0.1, z: -371}
+  - {x: 500, y: 0.1, z: -372}
+  - {x: -500, y: 0.1, z: -372}
+  - {x: -500, y: 0.1, z: -373}
+  - {x: 500, y: 0.1, z: -373}
+  - {x: 500, y: 0.1, z: -374}
+  - {x: -500, y: 0.1, z: -374}
+  - {x: -500, y: 0.1, z: -375}
+  - {x: 500, y: 0.1, z: -375}
+  - {x: 500, y: 0.1, z: -376}
+  - {x: -500, y: 0.1, z: -376}
+  - {x: -500, y: 0.1, z: -377}
+  - {x: 500, y: 0.1, z: -377}
+  - {x: 500, y: 0.1, z: -378}
+  - {x: -500, y: 0.1, z: -378}
+  - {x: -500, y: 0.1, z: -379}
+  - {x: 500, y: 0.1, z: -379}
+  - {x: 500, y: 0.1, z: -380}
+  - {x: -500, y: 0.1, z: -380}
+  - {x: -500, y: 0.1, z: -381}
+  - {x: 500, y: 0.1, z: -381}
+  - {x: 500, y: 0.1, z: -382}
+  - {x: -500, y: 0.1, z: -382}
+  - {x: -500, y: 0.1, z: -383}
+  - {x: 500, y: 0.1, z: -383}
+  - {x: 500, y: 0.1, z: -384}
+  - {x: -500, y: 0.1, z: -384}
+  - {x: -500, y: 0.1, z: -385}
+  - {x: 500, y: 0.1, z: -385}
+  - {x: 500, y: 0.1, z: -386}
+  - {x: -500, y: 0.1, z: -386}
+  - {x: -500, y: 0.1, z: -387}
+  - {x: 500, y: 0.1, z: -387}
+  - {x: 500, y: 0.1, z: -388}
+  - {x: -500, y: 0.1, z: -388}
+  - {x: -500, y: 0.1, z: -389}
+  - {x: 500, y: 0.1, z: -389}
+  - {x: 500, y: 0.1, z: -390}
+  - {x: -500, y: 0.1, z: -390}
+  - {x: -500, y: 0.1, z: -391}
+  - {x: 500, y: 0.1, z: -391}
+  - {x: 500, y: 0.1, z: -392}
+  - {x: -500, y: 0.1, z: -392}
+  - {x: -500, y: 0.1, z: -393}
+  - {x: 500, y: 0.1, z: -393}
+  - {x: 500, y: 0.1, z: -394}
+  - {x: -500, y: 0.1, z: -394}
+  - {x: -500, y: 0.1, z: -395}
+  - {x: 500, y: 0.1, z: -395}
+  - {x: 500, y: 0.1, z: -396}
+  - {x: -500, y: 0.1, z: -396}
+  - {x: -500, y: 0.1, z: -397}
+  - {x: 500, y: 0.1, z: -397}
+  - {x: 500, y: 0.1, z: -398}
+  - {x: -500, y: 0.1, z: -398}
+  - {x: -500, y: 0.1, z: -399}
+  - {x: 500, y: 0.1, z: -399}
+  - {x: 500, y: 0.1, z: -400}
+  - {x: -500, y: 0.1, z: -400}
+  - {x: -500, y: 0.1, z: -401}
+  - {x: 500, y: 0.1, z: -401}
+  - {x: 500, y: 0.1, z: -402}
+  - {x: -500, y: 0.1, z: -402}
+  - {x: -500, y: 0.1, z: -403}
+  - {x: 500, y: 0.1, z: -403}
+  - {x: 500, y: 0.1, z: -404}
+  - {x: -500, y: 0.1, z: -404}
+  - {x: -500, y: 0.1, z: -405}
+  - {x: 500, y: 0.1, z: -405}
+  - {x: 500, y: 0.1, z: -406}
+  - {x: -500, y: 0.1, z: -406}
+  - {x: -500, y: 0.1, z: -407}
+  - {x: 500, y: 0.1, z: -407}
+  - {x: 500, y: 0.1, z: -408}
+  - {x: -500, y: 0.1, z: -408}
+  - {x: -500, y: 0.1, z: -409}
+  - {x: 500, y: 0.1, z: -409}
+  - {x: 500, y: 0.1, z: -410}
+  - {x: -500, y: 0.1, z: -410}
+  - {x: -500, y: 0.1, z: -411}
+  - {x: 500, y: 0.1, z: -411}
+  - {x: 500, y: 0.1, z: -412}
+  - {x: -500, y: 0.1, z: -412}
+  - {x: -500, y: 0.1, z: -413}
+  - {x: 500, y: 0.1, z: -413}
+  - {x: 500, y: 0.1, z: -414}
+  - {x: -500, y: 0.1, z: -414}
+  - {x: -500, y: 0.1, z: -415}
+  - {x: 500, y: 0.1, z: -415}
+  - {x: 500, y: 0.1, z: -416}
+  - {x: -500, y: 0.1, z: -416}
+  - {x: -500, y: 0.1, z: -417}
+  - {x: 500, y: 0.1, z: -417}
+  - {x: 500, y: 0.1, z: -418}
+  - {x: -500, y: 0.1, z: -418}
+  - {x: -500, y: 0.1, z: -419}
+  - {x: 500, y: 0.1, z: -419}
+  - {x: 500, y: 0.1, z: -420}
+  - {x: -500, y: 0.1, z: -420}
+  - {x: -500, y: 0.1, z: -421}
+  - {x: 500, y: 0.1, z: -421}
+  - {x: 500, y: 0.1, z: -422}
+  - {x: -500, y: 0.1, z: -422}
+  - {x: -500, y: 0.1, z: -423}
+  - {x: 500, y: 0.1, z: -423}
+  - {x: 500, y: 0.1, z: -424}
+  - {x: -500, y: 0.1, z: -424}
+  - {x: -500, y: 0.1, z: -425}
+  - {x: 500, y: 0.1, z: -425}
+  - {x: 500, y: 0.1, z: -426}
+  - {x: -500, y: 0.1, z: -426}
+  - {x: -500, y: 0.1, z: -427}
+  - {x: 500, y: 0.1, z: -427}
+  - {x: 500, y: 0.1, z: -428}
+  - {x: -500, y: 0.1, z: -428}
+  - {x: -500, y: 0.1, z: -429}
+  - {x: 500, y: 0.1, z: -429}
+  - {x: 500, y: 0.1, z: -430}
+  - {x: -500, y: 0.1, z: -430}
+  - {x: -500, y: 0.1, z: -431}
+  - {x: 500, y: 0.1, z: -431}
+  - {x: 500, y: 0.1, z: -432}
+  - {x: -500, y: 0.1, z: -432}
+  - {x: -500, y: 0.1, z: -433}
+  - {x: 500, y: 0.1, z: -433}
+  - {x: 500, y: 0.1, z: -434}
+  - {x: -500, y: 0.1, z: -434}
+  - {x: -500, y: 0.1, z: -435}
+  - {x: 500, y: 0.1, z: -435}
+  - {x: 500, y: 0.1, z: -436}
+  - {x: -500, y: 0.1, z: -436}
+  - {x: -500, y: 0.1, z: -437}
+  - {x: 500, y: 0.1, z: -437}
+  - {x: 500, y: 0.1, z: -438}
+  - {x: -500, y: 0.1, z: -438}
+  - {x: -500, y: 0.1, z: -439}
+  - {x: 500, y: 0.1, z: -439}
+  - {x: 500, y: 0.1, z: -440}
+  - {x: -500, y: 0.1, z: -440}
+  - {x: -500, y: 0.1, z: -441}
+  - {x: 500, y: 0.1, z: -441}
+  - {x: 500, y: 0.1, z: -442}
+  - {x: -500, y: 0.1, z: -442}
+  - {x: -500, y: 0.1, z: -443}
+  - {x: 500, y: 0.1, z: -443}
+  - {x: 500, y: 0.1, z: -444}
+  - {x: -500, y: 0.1, z: -444}
+  - {x: -500, y: 0.1, z: -445}
+  - {x: 500, y: 0.1, z: -445}
+  - {x: 500, y: 0.1, z: -446}
+  - {x: -500, y: 0.1, z: -446}
+  - {x: -500, y: 0.1, z: -447}
+  - {x: 500, y: 0.1, z: -447}
+  - {x: 500, y: 0.1, z: -448}
+  - {x: -500, y: 0.1, z: -448}
+  - {x: -500, y: 0.1, z: -449}
+  - {x: 500, y: 0.1, z: -449}
+  - {x: 500, y: 0.1, z: -450}
+  - {x: -500, y: 0.1, z: -450}
+  - {x: -500, y: 0.1, z: -451}
+  - {x: 500, y: 0.1, z: -451}
+  - {x: 500, y: 0.1, z: -452}
+  - {x: -500, y: 0.1, z: -452}
+  - {x: -500, y: 0.1, z: -453}
+  - {x: 500, y: 0.1, z: -453}
+  - {x: 500, y: 0.1, z: -454}
+  - {x: -500, y: 0.1, z: -454}
+  - {x: -500, y: 0.1, z: -455}
+  - {x: 500, y: 0.1, z: -455}
+  - {x: 500, y: 0.1, z: -456}
+  - {x: -500, y: 0.1, z: -456}
+  - {x: -500, y: 0.1, z: -457}
+  - {x: 500, y: 0.1, z: -457}
+  - {x: 500, y: 0.1, z: -458}
+  - {x: -500, y: 0.1, z: -458}
+  - {x: -500, y: 0.1, z: -459}
+  - {x: 500, y: 0.1, z: -459}
+  - {x: 500, y: 0.1, z: -460}
+  - {x: -500, y: 0.1, z: -460}
+  - {x: -500, y: 0.1, z: -461}
+  - {x: 500, y: 0.1, z: -461}
+  - {x: 500, y: 0.1, z: -462}
+  - {x: -500, y: 0.1, z: -462}
+  - {x: -500, y: 0.1, z: -463}
+  - {x: 500, y: 0.1, z: -463}
+  - {x: 500, y: 0.1, z: -464}
+  - {x: -500, y: 0.1, z: -464}
+  - {x: -500, y: 0.1, z: -465}
+  - {x: 500, y: 0.1, z: -465}
+  - {x: 500, y: 0.1, z: -466}
+  - {x: -500, y: 0.1, z: -466}
+  - {x: -500, y: 0.1, z: -467}
+  - {x: 500, y: 0.1, z: -467}
+  - {x: 500, y: 0.1, z: -468}
+  - {x: -500, y: 0.1, z: -468}
+  - {x: -500, y: 0.1, z: -469}
+  - {x: 500, y: 0.1, z: -469}
+  - {x: 500, y: 0.1, z: -470}
+  - {x: -500, y: 0.1, z: -470}
+  - {x: -500, y: 0.1, z: -471}
+  - {x: 500, y: 0.1, z: -471}
+  - {x: 500, y: 0.1, z: -472}
+  - {x: -500, y: 0.1, z: -472}
+  - {x: -500, y: 0.1, z: -473}
+  - {x: 500, y: 0.1, z: -473}
+  - {x: 500, y: 0.1, z: -474}
+  - {x: -500, y: 0.1, z: -474}
+  - {x: -500, y: 0.1, z: -475}
+  - {x: 500, y: 0.1, z: -475}
+  - {x: 500, y: 0.1, z: -476}
+  - {x: -500, y: 0.1, z: -476}
+  - {x: -500, y: 0.1, z: -477}
+  - {x: 500, y: 0.1, z: -477}
+  - {x: 500, y: 0.1, z: -478}
+  - {x: -500, y: 0.1, z: -478}
+  - {x: -500, y: 0.1, z: -479}
+  - {x: 500, y: 0.1, z: -479}
+  - {x: 500, y: 0.1, z: -480}
+  - {x: -500, y: 0.1, z: -480}
+  - {x: -500, y: 0.1, z: -481}
+  - {x: 500, y: 0.1, z: -481}
+  - {x: 500, y: 0.1, z: -482}
+  - {x: -500, y: 0.1, z: -482}
+  - {x: -500, y: 0.1, z: -483}
+  - {x: 500, y: 0.1, z: -483}
+  - {x: 500, y: 0.1, z: -484}
+  - {x: -500, y: 0.1, z: -484}
+  - {x: -500, y: 0.1, z: -485}
+  - {x: 500, y: 0.1, z: -485}
+  - {x: 500, y: 0.1, z: -486}
+  - {x: -500, y: 0.1, z: -486}
+  - {x: -500, y: 0.1, z: -487}
+  - {x: 500, y: 0.1, z: -487}
+  - {x: 500, y: 0.1, z: -488}
+  - {x: -500, y: 0.1, z: -488}
+  - {x: -500, y: 0.1, z: -489}
+  - {x: 500, y: 0.1, z: -489}
+  - {x: 500, y: 0.1, z: -490}
+  - {x: -500, y: 0.1, z: -490}
+  - {x: -500, y: 0.1, z: -491}
+  - {x: 500, y: 0.1, z: -491}
+  - {x: 500, y: 0.1, z: -492}
+  - {x: -500, y: 0.1, z: -492}
+  - {x: -500, y: 0.1, z: -493}
+  - {x: 500, y: 0.1, z: -493}
+  - {x: 500, y: 0.1, z: -494}
+  - {x: -500, y: 0.1, z: -494}
+  - {x: -500, y: 0.1, z: -495}
+  - {x: 500, y: 0.1, z: -495}
+  - {x: 500, y: 0.1, z: -496}
+  - {x: -500, y: 0.1, z: -496}
+  - {x: -500, y: 0.1, z: -497}
+  - {x: 500, y: 0.1, z: -497}
+  - {x: 500, y: 0.1, z: -498}
+  - {x: -500, y: 0.1, z: -498}
+  - {x: -500, y: 0.1, z: -499}
+  - {x: 500, y: 0.1, z: -499}
+  - {x: 500, y: 0.1, z: -500}
+  - {x: -500, y: 0.1, z: -500}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 0.1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 0.76729554, g: 0.76729554, b: 0.76729554, a: 1}
+      key1: {r: 0.7647059, g: 0.7647059, b: 0.7647059, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    textureScale: {x: 1, y: 1}
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_MaskInteraction: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
+  m_ApplyActiveColorSpace: 1
+--- !u!1 &1733320292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1733320295}
+  - component: {fileID: 1733320294}
+  - component: {fileID: 1733320293}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1733320293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733320292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1733320294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733320292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1733320295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733320292}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1373460620}
+  - {fileID: 869419168}
+  - {fileID: 1733320295}
+  - {fileID: 519420032}
+  - {fileID: 685424551}
