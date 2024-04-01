@@ -5,28 +5,46 @@ using static UnityEngine.GraphicsBuffer;
 
 public class Marker : MonoBehaviour
 {
+    public LineRenderer lineRenderer;
     public SpriteRenderer spriteRenderer;
     public Sprite[] sprites = new Sprite[8];
-    public Transform[] anchor = new Transform[8];
-
+    public Transform[] anchors = new Transform[8];
+    public Transform secondAnchor; //2번째 포인트
+    public Transform selectAnchor;
     public float angle;
 
     public void AnchorActive(int num)
     {
-        for (int i = 0; i < anchor.Length; i++)
+        for (int i = 0; i < anchors.Length; i++)
         {
-            anchor[i].gameObject.SetActive(false);
+            anchors[i].gameObject.SetActive(false);
         }
-        anchor[num].gameObject.SetActive(true);
+        anchors[num].gameObject.SetActive(true);
+        selectAnchor = anchors[num];
         spriteRenderer.sprite = sprites[num];
     }
 
-    public void DirectionCalc(Vector3 targetPos, Vector3 currentPos)
+    void Update()
+    {
+        if(selectAnchor != null)
+        {
+            lineRenderer.SetPosition(0, selectAnchor.position);
+            lineRenderer.SetPosition(1, secondAnchor.position);
+        }
+    }
+
+    public void DirectionCalc(Vector3 targetPos, Vector3 currentPos, bool advanced)
     {
         Vector3 mouse = Camera.main.ScreenToWorldPoint(currentPos);
         //float angle = Mathf.Atan2(targetPos.z - mouse.z, targetPos.x - mouse.x) * Mathf.Rad2Deg;
         angle = Vector3.SignedAngle(transform.up, targetPos - mouse, transform.forward);
         //Debug.Log("Angle: " + angle);
+
+        if (advanced)
+        {
+            secondAnchor.transform.position = mouse;
+        }
+
 
         if((angle >= 157.5f && angle <= 180) || (angle >= -180 && angle <= -157.5f))
         {

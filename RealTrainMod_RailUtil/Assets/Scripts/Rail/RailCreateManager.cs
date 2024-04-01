@@ -15,8 +15,13 @@ public class RailCreateManager : Singleton<RailCreateManager>
     public TMP_InputField zInput;
 
     public TextMeshProUGUI myPosition;
-    public Marker testMarker;
     public Transform mousePosCube;
+
+    public Marker prefebMarker;
+    public RailLine prefebRail;
+
+    Marker sp;
+    Marker ep;
 
     float moveUnit = 1f; // 이동 단위
 
@@ -52,13 +57,18 @@ public class RailCreateManager : Singleton<RailCreateManager>
 
 
     Vector3 currentMousePosition;
+    bool selectChange = false;
+    bool advancedSettingMode = false;
+
     // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.F3))
-        {
             railCreateMode = !railCreateMode;
-        }
+        if(Input.GetKeyDown(KeyCode.LeftShift))
+            selectChange = !selectChange;
+        if(Input.GetKeyDown(KeyCode.LeftControl))
+            advancedSettingMode = !advancedSettingMode;
 
         if (railCreateMode)
         {
@@ -66,12 +76,30 @@ public class RailCreateManager : Singleton<RailCreateManager>
             {
                 currentMousePosition = Camera.main.ScreenToWorldPoint(
                 new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.y));
+
+                if(sp == null && ep == null)
+                {
+                    sp = Instantiate(prefebMarker);
+                    sp.transform.position = mousePosCube.position;
+                }
+                else if(sp != null && ep == null)
+                {
+                    ep = Instantiate(prefebMarker);
+                    ep.transform.position = mousePosCube.position;
+                }
             }
             else if (Input.GetMouseButton(0))
             {
                 TargetPosUpdate(mousePosCube, currentMousePosition);
 
-                testMarker.DirectionCalc(mousePosCube.position, new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.y));
+                if((sp != null && ep == null)|| selectChange)
+                {
+                    sp.DirectionCalc(sp.transform.position, new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.y), advancedSettingMode);
+                }
+                else if(ep != null && !selectChange)
+                {
+                    ep.DirectionCalc(ep.transform.position, new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.y), advancedSettingMode);
+                }
             }
             else
             {

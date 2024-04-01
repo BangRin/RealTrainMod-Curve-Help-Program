@@ -21,7 +21,7 @@ public class DragCamera : MonoBehaviour
 
         if(RailCreateManager.Instance.railCreateMode.Equals(true))
         {
-            if(Input.GetMouseButtonDown(1))
+            if(Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(1))
             {
                 isDragging = true;
                 dragOrigin = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.y));

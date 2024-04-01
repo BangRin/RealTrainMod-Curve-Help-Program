@@ -17,6 +17,9 @@ public class RailLine : MonoBehaviour
 
     public GameObject testBall;
 
+    public Marker startMarker;
+    public Marker endMarker;
+
     public int numPoints;
     public List<Vector3> points = new List<Vector3>();
 
@@ -26,6 +29,10 @@ public class RailLine : MonoBehaviour
 
     public float fixedSphereTValue;
 
+    public bool isSplit;
+
+
+    //레일을 자르고 새로운 곡선을 생성할때 사용
     public void SetRailLine(Vector3[] positions)
     {
         for (int i = 0; i < positions.Length; i++)
@@ -37,14 +44,26 @@ public class RailLine : MonoBehaviour
 
     public Vector3[] GetControlPoints()
     {
-        Vector3[] vector3s= new Vector3[transforms.Length];
-        for (int i = 0; i < transforms.Length; i++)
+        Vector3[] vector3s = new Vector3[transforms.Length];
+        if (isSplit)
         {
-            vector3s[i] = transforms[i].position;
+            for (int i = 0; i < transforms.Length; i++)
+            {
+                vector3s[i] = transforms[i].position;
+            }
+        }
+        else
+        {
+            vector3s[0] = startMarker.selectAnchor.position;
+            vector3s[1] = startMarker.secondAnchor.position;
+            vector3s[2] = endMarker.secondAnchor.position;
+            vector3s[3] = endMarker.selectAnchor.position;
         }
         return vector3s;
     }
 
+
+    //마커 시스템이 선의 중앙 혹은 끝에만 설치가 가능하니 0.5 혹은 0만 걸러주는 시스템
     bool IsCloseToHalfOrZero(float value)
     {
         float fractionalPart = value % 1; // 소수부 추출
@@ -55,63 +74,69 @@ public class RailLine : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log(Vector3.Distance(transforms[0].position, transforms[1].position));
+        //Debug.Log(Vector3.Distance(transforms[0].position, transforms[1].position));
 
-        DrawHelpers();
+        //DrawHelpers();
     }
 
     void Update()
     {
-        if (RailCreateManager.Instance.railCreateMode.Equals(false)) return;
+        //if (RailCreateManager.Instance.railCreateMode.Equals(false)) return;
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            RaycastHit clickhit;
-            Ray clickray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    RaycastHit clickhit;
+        //    Ray clickray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
 
-            if (Physics.Raycast(clickray, out clickhit))
-            {
-                Debug.Log(clickhit.collider.gameObject.name);
-                Debug.Log(clickhit.point);
+        //    if (Physics.Raycast(clickray, out clickhit))
+        //    {
+        //        Debug.Log(clickhit.collider.gameObject.name);
+        //        Debug.Log(clickhit.point);
 
-                for (int i = 0; i < transforms.Length; i++)
-                {
-                    if (clickhit.transform == transforms[i])
-                    {
-                        selectedTransform = transforms[i];
-                        screenSpace = Camera.main.WorldToScreenPoint(selectedTransform.position);
-                        offset = selectedTransform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenSpace.z));
-                        return;
-                    }
-                }
-            }
-        }
-        if (Input.GetMouseButtonUp(0))
-        {
-            if (selectedTransform != null)
-            {
-                selectedTransform = null; 
-            }
-        }
+        //        for (int i = 0; i < transforms.Length; i++)
+        //        {
+        //            if (clickhit.transform == transforms[i])
+        //            {
+        //                selectedTransform = transforms[i];
+        //                screenSpace = Camera.main.WorldToScreenPoint(selectedTransform.position);
+        //                offset = selectedTransform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenSpace.z));
+        //                return;
+        //            }
+        //        }
+        //    }
+        //}
+        //if (Input.GetMouseButtonUp(0))
+        //{
+        //    if (selectedTransform != null)
+        //    {
+        //        selectedTransform = null; 
+        //    }
+        //}
 
-        if (selectedTransform != null && Input.GetMouseButton(0))
-        {
-            var curScreenSpace = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenSpace.z);
-            var curPosition = Camera.main.ScreenToWorldPoint(curScreenSpace) + offset;
-            selectedTransform.position = curPosition;
-        }
+        //if (selectedTransform != null && Input.GetMouseButton(0))
+        //{
+        //    var curScreenSpace = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenSpace.z);
+        //    var curPosition = Camera.main.ScreenToWorldPoint(curScreenSpace) + offset;
+        //    selectedTransform.position = curPosition;
+        //}
 
-        DrawHelpers();
+        //DrawHelpers();
     }
 
-    void DrawHelpers()
+    public void DrawHelpers()
     {
-        lineStartRenderer.SetPosition(0, transforms[0].position);
-        lineStartRenderer.SetPosition(1, transforms[1].position);
 
-        lineEndRenderer.SetPosition(0, transforms[3].position);
-        lineEndRenderer.SetPosition(1, transforms[2].position);
+        if(isSplit)
+        {
+            lineStartRenderer.SetPosition(0, transforms[0].position);
+            lineStartRenderer.SetPosition(1, transforms[1].position);
+
+            lineEndRenderer.SetPosition(0, transforms[3].position);
+            lineEndRenderer.SetPosition(1, transforms[2].position);
+        }
+        
+        
 
         DrawBezierCurve();
     }
@@ -123,7 +148,9 @@ public class RailLine : MonoBehaviour
         for (int i = 0; i <= numPoints; i++)
         {
             float t = i / (float)numPoints;
-            Vector3 point = CalculateBezierPoint(t, transforms[0].position, transforms[1].position, transforms[2].position, transforms[3].position);
+            Vector3 point = isSplit ? 
+                CalculateBezierPoint(t, transforms[0].position, transforms[1].position, transforms[2].position, transforms[3].position) : 
+                CalculateBezierPoint(t, startMarker.selectAnchor.position, startMarker.secondAnchor.position, endMarker.secondAnchor.position, endMarker.selectAnchor.position);
             points.Add(point);
         }
 

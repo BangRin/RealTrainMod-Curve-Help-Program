@@ -29,6 +29,7 @@ public class BezierCurveGenerator : Singleton<BezierCurveGenerator>
 
             // 첫 번째 반을 기반으로 새 RailLine 생성
             RailLine newRail = Instantiate(railPrefab);
+            newRail.isSplit = true;
             newRail.SetRailLine(firstHalf); // 새로운 세그먼트의 제어점 설정
             rails.Add(newRail); // 리스트에 추가
 
